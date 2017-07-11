@@ -1,5 +1,5 @@
 # party-time
-Convert party abbreviations to full names and back again.
+Convert Indian party abbreviations to full names and back again.
 
 ## Installation
 
