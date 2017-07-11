@@ -3,8 +3,6 @@
 var expect = require("chai").expect;
 var pc = require("../lib/party-time.js");
 
-console.log(pc);
-
 describe("#partyConverter", function(){
 
 	it("should convert an acronym to a party greedily", function(){
@@ -40,6 +38,11 @@ describe("#partyConverter", function(){
 	it("should return variations", function(){
 		var a = pc.convert("Communist Party of India (Marxist)", false);
 		expect(a.variations.abbr[0]).to.equal("CPM");
+	});
+
+	it("should find variations", function(){
+		var a = pc.convert("All India Majlis-E-Ittehadul Muslimeen");
+		expect(a).to.equal("AIMIM");
 	});
 	
 });
