@@ -44,5 +44,10 @@ describe("#partyConverter", function(){
 		var a = pc.convert("All India Majlis-E-Ittehadul Muslimeen");
 		expect(a).to.equal("AIMIM");
 	});
+
+	it("should return the party if there are no matches", function(){
+		var a = pc.convert("Test");
+		expect(a).to.equal("Test");
+	});
 	
 });

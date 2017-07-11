@@ -28,7 +28,7 @@ var pt = require("party-time");
 
 <a name="convert" href="#convert">#</a> pt.<b>convert</b>(<i>party</i>[, <i>greedy</i>, <i>type</i>])
 
-Converts a party abbreviation to its full name or vice versa. 
+Converts a party abbreviation to its full name or vice versa. If the party entered is not in the library, returns the party entered.
 
 Arguments:
 1. *string* of the party abbreviation or name.
@@ -62,6 +62,9 @@ pt.convert("Communist Party of India (Marxist)", false);
 	}
 }
 */
+
+pt.convert("Not a real party"); // "Not a real party"
+
 ```
 
 ## Tests
