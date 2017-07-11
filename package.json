@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HindustanTimesLabs/party-converter.git"
+    "url": "git+https://github.com/HindustanTimesLabs/party-time.git"
   },
   "keywords": [
     "India",
@@ -20,9 +20,9 @@
   "author": "Harry Stevens <harryjosephstevens@gmail.com> (http://harryjstevens.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HindustanTimesLabs/party-converter/issues"
+    "url": "https://github.com/HindustanTimesLabs/party-time/issues"
   },
-  "homepage": "https://github.com/HindustanTimesLabs/party-converter#readme",
+  "homepage": "https://github.com/HindustanTimesLabs/party-time#readme",
   "engines": {
     "node": ">=4.2.4"
   },
