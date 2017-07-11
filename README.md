@@ -40,19 +40,19 @@ Arguments:
 ## Examples
 
 ```js
-pc.convert("BJP"); // "Bharatiya Janata Party"
-pc.convert("BJP", true); // "Bharatiya Janata Party"
+pt.convert("BJP"); // "Bharatiya Janata Party"
+pt.convert("BJP", true); // "Bharatiya Janata Party"
 
-pc.convert("BJP", false); // {abbr: "BJP", name: "Bharatiya Janata Party"}
+pt.convert("BJP", false); // {abbr: "BJP", name: "Bharatiya Janata Party"}
 
-pc.convert("Indian National Congress"); // "INC"
+pt.convert("Indian National Congress"); // "INC"
 
-pc.convert("Indian National Congress", false); // {abbr: "INC", "Indian National Congress"}
+pt.convert("Indian National Congress", false); // {abbr: "INC", "Indian National Congress"}
 
-pc.convert("bjp", true, "abbr"); // "Bharatiya Janata Party"
-pc.convert("bjp", null, "abbr"); // "Bharatiya Janata Party"
+pt.convert("bjp", true, "abbr"); // "Bharatiya Janata Party"
+pt.convert("bjp", null, "abbr"); // "Bharatiya Janata Party"
 
-pc.convert("Communist Party of India (Marxist)", false); 
+pt.convert("Communist Party of India (Marxist)", false); 
 /*
 {
 	abbr: "CPI(M)",
