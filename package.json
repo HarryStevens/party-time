@@ -2,10 +2,10 @@
   "name": "party-time",
   "version": "1.0.1",
   "description": "Convert party abbreviations to full names and back again.",
-  "main": "index.js",
+  "main": "lib/party-time.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "minify": "uglifyjs lib/party-converter.js -c -m -o lib/party-converter.min.js"
+    "minify": "uglifyjs lib/party-time.js -c -m -o lib/party-time.min.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,7 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "dependencies": {
-    "fsz": "^1.0.0",
-    "jeezy": "^1.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2"

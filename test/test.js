@@ -1,7 +1,9 @@
 "use strict";
 
 var expect = require("chai").expect;
-var pc = require("../index");
+var pc = require("../lib/party-time.js");
+
+console.log(pc);
 
 describe("#partyConverter", function(){
 
