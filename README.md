@@ -3,6 +3,19 @@ Convert party abbreviations to full names and back again.
 
 ## Installation
 
+### Web browser
+
+You can use the latest release from the unpkg CDN.
+```html
+<script src="https://unpkg.com/party-time/lib/party-time.js"></script>
+<script src="https://unpkg.com/party-time/lib/party-time.min.js"></script>
+```
+If you prefer to host the file yourself, download it from the [`lib` directory](https://github.com/HindustanTimesLabs/party-time/tree/master/lib).
+```html
+<script src="path/to/party-time.js"></script>
+<script src="path/to/party-time.min.js"></script>
+```
+
 ### npm
 ```bash
 npm i party-time -s
