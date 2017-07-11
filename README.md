@@ -9,6 +9,7 @@ npm i party-time -s
 ```
 ```js
 var pt = require("party-time");
+```
 
 ## Usage
 
