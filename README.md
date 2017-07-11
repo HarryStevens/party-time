@@ -18,7 +18,7 @@ If you prefer to host the file yourself, download it from the [`lib` directory](
 
 ### npm
 ```bash
-npm i party-time -s
+npm i party-time -S
 ```
 ```js
 var pt = require("party-time");
