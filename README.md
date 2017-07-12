@@ -34,7 +34,7 @@ Arguments:
 1. *string* of the party abbreviation or name.
 2. *boolean* to determine whether the function should be greedy or not. 
 	* If it's greedy, it will guess whether the party string is an abbreviation or the full name, and return the converted version.
-	* If it's not greedy, it will return an object with the properties `abbr`, `name`, `founded`, `type`, `location`, `symbol`, and, sometimes, `variations`.
+	* If it's not greedy, it will return an object with the properties `abbr`, `name` and, sometimes, `variations`.
 3. *string* to specify the type of the party string. If every letter in the string is a capital letter, the function will assume it's an abbreviation. If this isn't the case, you can specify either "abbr" or "name".
 
 ## Examples
@@ -52,20 +52,7 @@ pt.convert("Indian National Congress", false); // {abbr: "INC", "Indian National
 pt.convert("bjp", true, "abbr"); // "Bharatiya Janata Party"
 pt.convert("bjp", null, "abbr"); // "Bharatiya Janata Party"
 
-pt.convert("Communist Party of India (Marxist)", false); 
-/*
-{ 
-	name: "Communist Party of India (Marxist)",
-  abbr: "CPI(M)",
-  founded: 1964,
-  type: "national",
-  location: "India",
-  symbol: "Hammer sickle and star",
-  variations: { 
-  	abbr: [ "CPM" ] 
-  } 
-}
-*/
+pt.convert("Communist Party of India (Marxist)", false); // { name: "Communist Party of India (Marxist)", abbr: "CPI(M)", variations: { abbr: [ "CPM" ] } }
 
 pt.convert("Not a real party"); // "Not a real party"
 

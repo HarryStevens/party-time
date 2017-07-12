@@ -3,8 +3,6 @@
 var expect = require("chai").expect;
 var pt = require("../lib/party-time.js");
 
-console.log(pt.convert("Communist Party of India (Marxist)", false)); 
-
 describe("#partyConverter", function(){
 
 	it("should convert an acronym to a party greedily", function(){

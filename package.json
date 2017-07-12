@@ -5,7 +5,7 @@
   "main": "lib/party-time.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "minify": "uglifyjs lib/party-time.js -c -m -o lib/party-time.min.js"
+    "minify": "uglifyjs lib/party-time.js --comments -c -m -o lib/party-time.min.js"
   },
   "repository": {
     "type": "git",
