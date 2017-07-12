@@ -39,7 +39,7 @@ var pt = require("party-time");
 
 Converts a party abbreviation to its full name or vice versa. If the party entered is not found in the library, returns the party entered.
 
-### Arguments
+#### Arguments
 1. *string* of the party abbreviation or name.
 2. *object* containing options for customizing the output. This is optional.
 
