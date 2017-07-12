@@ -43,13 +43,13 @@ Converts a party abbreviation to its full name or vice versa. If the party enter
 1. *string* of the party abbreviation or name.
 2. *object* containing options for customizing the output. This is optional.
 
-### Options
+#### Options
 | Option | Data Type | Default | Description                                                                                                                                                                                                                                                                 |
 |--------|-----------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | greedy | boolean   | `true`  | If `true`, the function does the conversion automatically and returns a string. If there is no match in the library, it will return the original string.  If `false`, the function returns an object with the properties `abbr`, `name` and, when applicable, `variations`. |
 | type   | string    | `null`  | By default, the function will guess the type of the party string by matching it against the party names and abbreviations in the library. You can override this behavior and explicitly specify the type of party string by passing `"abbr"` or `"name"`.                   |
 
-### Examples
+#### Examples
 ```js
 pt.convert("BJP"); // "Bharatiya Janata Party"
 pt.convert("BJP", { greedy: false }); // { abbr: "BJP", name: "Bharatiya Janata Party" }
@@ -67,11 +67,11 @@ pt.convert("narp", { greedy: false, type: "name" }); // { name: "narp", warning:
 
 Gets information about a party. If the party entered is not found in the library, returns an object containing the party name and a warning.
 
-### Arguments
+#### Arguments
 1. *string* of the party abbreviation or name.
 2. *string* of the party type. This is optional.
 
-### Examples
+#### Examples
 ```js
 pt.getInfo("BJP");
 //{ 
