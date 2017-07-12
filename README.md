@@ -1,10 +1,7 @@
 # party-time
 Convert Indian party abbreviations to full names and back again.
 
-```js
-pt.convert("BJP"); // "Bharatiya Janata Party"
-pt.convert("Indian National Congress"); // "INC"
-```
+![alt text](https://github.com/HindustanTimesLabs/party-time/blob/master/img/demo.gif "require('party-time')")
 
 ## Installation
 
