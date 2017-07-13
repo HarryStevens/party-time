@@ -62,6 +62,7 @@ describe("#partyConverter", function(){
 		var h = pt.convert("NARP");
 		var i = pt.convert("narp", { type: "abbr" });
 		var j = pt.convert("narp", { greedy: false, type: "name" });
+		var k = pt.convert("SHS");
 		
 		expect(a.name).to.equal("Bharatiya Janata Party");
 		expect(a.abbr).to.equal("BJP");
@@ -75,8 +76,7 @@ describe("#partyConverter", function(){
 		expect(i).to.equal("NARP");
 		expect(j.name).to.equal("narp");
 		expect(j.warning).to.equal("No match in library");
-		
+		expect(k).to.equal("Shivsena");
 	});
-
 	
 });
