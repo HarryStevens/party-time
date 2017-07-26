@@ -7,7 +7,7 @@ describe("#partyConverter", function(){
 
 	it("should return meta information", function(){
 		var meta = pt.meta;
-		expect(meta.version).to.equal("2.0.3");
+		expect(Object.keys(meta).length).to.equal(3);
 	});
 
 	it("should guess the type of a party", function(){
