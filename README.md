@@ -66,29 +66,40 @@ Gets information about a party. If the party entered is not found in the library
 
 #### Arguments
 1. *string* of the party abbreviation or name.
-2. *string* of the party type. This is optional.
+2. *string* of the party type, either `"abbr"` or `"name"`. This is argument is optional. party-time usually can determine the type out by itself, but you can declare it explicitly, just in case.
 
 #### Examples
 ```js
 pt.getInfo("BJP");
 //{ 
-//	name: 'Bharatiya Janata Party',
-//  abbr: 'BJP',
+//  name: "Bharatiya Janata Party",
+//  abbr: "BJP",
 //  founded: 1980,
-//  type: 'national',
-//  location: 'India',
-//  symbol: 'Lotus' 
+//  type: "national",
+//  location: "India",
+//  symbol: "Lotus" 
 //}
 
 pt.getInfo("Indian National Congress");
 //{ 
-//	name: 'Indian National Congress',
-//  abbr: 'INC',
+//  name: "Indian National Congress",
+//  abbr: "INC",
 //  founded: 1885,
-//  type: 'national',
-//  location: 'India',
-//  symbol: 'Hand' 
+//  type: "national",
+//  location: "India",
+//  symbol: "Hand"
 //}
+
+pt.getInfo("cpm");
+//{ 
+//  name: "Communist Party of India (Marxist)",
+//  abbr: "CPI(M)",
+//  founded: 1964,
+//  type: "national",
+//  location: "India",
+//  symbol: "Hammer sickle and star",
+//  variations: { abbr: [ "CPM" ] } 
+// }
 
 pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match in library' }
 ```
@@ -96,6 +107,10 @@ pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match
 <a name="getType" href="#getType">#</a> pt.<b>getType</b>(<i>party</i>)
 
 Guesses whether the party string entered is an abbreviation or the full name. Returns `"abbr"` or `"name"`.
+
+<a name="meta" href="#meta">#</a> pt.meta
+
+Returns an object with the number of parties, version number, and date of last update.
 
 ## Tests
 ```bash
