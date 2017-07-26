@@ -110,7 +110,7 @@ Guesses whether the party string entered is an abbreviation or the full name. Re
 
 <a name="meta" href="#meta">#</a> pt.meta
 
-Returns an object with the number of parties, version number, and date of last update.
+Returns an object with the number of parties, version number, and the date that the parties were last updated.
 
 ## Tests
 ```bash
