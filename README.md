@@ -66,7 +66,7 @@ Gets information about a party. If the party entered is not found in the library
 
 #### Arguments
 1. *string* of the party abbreviation or name.
-2. *string* of the party type, either `"abbr"` or `"name"`. This is argument is optional. party-time usually can determine the type out by itself, but you can declare it explicitly, just in case.
+2. *string* of the party type, either `"abbr"` or `"name"`. This is argument is optional. party-time usually can determine the type by itself, but you can declare it explicitly, just in case.
 
 #### Examples
 ```js
