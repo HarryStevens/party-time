@@ -8,15 +8,15 @@
 
 ## convert
 
-[lib/party-time.js:555-588](https://github.com/HindustanTimesLabs/party-time/blob/1d144454a155764252d6cb04c71b32a2c5dc4208/lib/party-time.js#L555-L588 "Source code on GitHub")
+[lib/party-time.js:555-588](https://github.com/HindustanTimesLabs/party-time/blob/5e6261fe370238341caee92ab5fd1c1a454600f4/lib/party-time.js#L555-L588 "Source code on GitHub")
 
 Converts a party abbreviation to its full name or vice versa. If the party entered is not found in the library, returns the party entered.
 
 **Parameters**
 
 -   `party` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The party, either a full name or an abbrevation, to convert.
--   `options` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** An Object specifying options for the conversion. (optional, default `{greedy:TRUE}`)
-    -   `options.greedy` **[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** If `true`, the function does the conversion automatically and returns a string. If there is no match in the library, it will return the original string. If `false`, the function returns an object with the properties `abbr`, `name` and, when applicable, `variations`. (optional, default `TRUE`)
+-   `options` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** An object specifying options for the conversion. (optional, default `{greedy:TRUE}`)
+    -   `options.greedy` **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** If `true`, the function does the conversion automatically and returns a string. If there is no match in the library, it will return the original string. If `false`, the function returns an object with the properties `abbr`, `name` and, when applicable, `variations`. (optional, default `TRUE`)
     -   `options.type` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** By default, the function will guess the type of the party string by matching it against the party names and abbreviations in the library. You can override this behavior and explicitly specify the type of party string by passing `"abbr"` or `"name"`. (optional, default `null`)
 
 **Examples**
@@ -34,18 +34,18 @@ pt.convert("narp", { type: "abbr" }); // "NARP"
 pt.convert("narp", { greedy: false, type: "name" }); // { name: "narp", warning: "No match in libary" }
 ```
 
-Returns **([string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object))** A string with the converted party or, if the conversion is not set to greedy, an Object with information about the party.
+Returns **([string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object))** A string with the converted party or, if the conversion is not set to greedy, an Object with information about the party.
 
 ## getInfo
 
-[lib/party-time.js:630-649](https://github.com/HindustanTimesLabs/party-time/blob/1d144454a155764252d6cb04c71b32a2c5dc4208/lib/party-time.js#L630-L649 "Source code on GitHub")
+[lib/party-time.js:630-649](https://github.com/HindustanTimesLabs/party-time/blob/5e6261fe370238341caee92ab5fd1c1a454600f4/lib/party-time.js#L630-L649 "Source code on GitHub")
 
 Gets information about the party. If you do not specify a type in the second argument, it will guess the type.
 
 **Parameters**
 
 -   `party` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The party, either a full name or an abbrevation, to get information about.
--   `type` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** A type, which can be either "abbr" or "name". This is argument is optional. `party-time` usually can determine the type by itself, but you can declare it explicitly, just in case. (optional, default `null`)
+-   `type` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** A type, which can be either "abbr" or "name". This argument is optional. `party-time` usually can determine the type by itself, but you can declare it explicitly, just in case. (optional, default `null`)
 
 **Examples**
 
@@ -84,11 +84,11 @@ pt.getInfo("cpm");
 pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match in library' }
 ```
 
-Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** An object with information about the party. If the party entered is not found in the library, returns an object containing the party name and a warning.
+Returns **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** An object with information about the party. If the party entered is not found in the library, returns an object containing the party name and a warning.
 
 ## getType
 
-[lib/party-time.js:656-665](https://github.com/HindustanTimesLabs/party-time/blob/1d144454a155764252d6cb04c71b32a2c5dc4208/lib/party-time.js#L656-L665 "Source code on GitHub")
+[lib/party-time.js:656-665](https://github.com/HindustanTimesLabs/party-time/blob/5e6261fe370238341caee92ab5fd1c1a454600f4/lib/party-time.js#L656-L665 "Source code on GitHub")
 
 Guesses whether the party string entered is an abbreviation or the full name.
 
