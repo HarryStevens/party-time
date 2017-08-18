@@ -7,7 +7,7 @@
     "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "minify": "uglifyjs lib/party-time.js --comments -c -m -o lib/party-time.min.js",
-    "dox": "documentation build lib/party-time.js -f md > API.md"
+    "dox": "documentation build lib/party-time.js -g -f md > API.md"
   },
   "repository": {
     "type": "git",
