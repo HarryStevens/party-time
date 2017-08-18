@@ -8,7 +8,7 @@
 
 ## convert
 
-[lib/party-time.js:508-541](https://github.com/HindustanTimesLabs/party-time/blob/e45c36add40a6b0ac2eecd8f1159dad1a29d357c/lib/party-time.js#L508-L541 "Source code on GitHub")
+[lib/party-time.js:508-541](https://github.com/HindustanTimesLabs/party-time/blob/2ab98db87c2b816a3e755b719f33a7b2fe5ebb62/lib/party-time.js#L508-L541 "Source code on GitHub")
 
 Converts a party abbreviation to its full name or vice versa. If the party entered is not found in the library, returns the party entered.
 
@@ -34,11 +34,11 @@ pt.convert("narp", { type: "abbr" }); // "NARP"
 pt.convert("narp", { greedy: false, type: "name" }); // { name: "narp", warning: "No match in libary" }
 ```
 
-Returns **([string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object))** A string with the converted party or, if the conversion is not set to greedy, an Object with information about the party
+Returns **([string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object))** A string with the converted party or, if the conversion is not set to greedy, an Object with information about the party.
 
 ## getInfo
 
-[lib/party-time.js:583-602](https://github.com/HindustanTimesLabs/party-time/blob/e45c36add40a6b0ac2eecd8f1159dad1a29d357c/lib/party-time.js#L583-L602 "Source code on GitHub")
+[lib/party-time.js:583-602](https://github.com/HindustanTimesLabs/party-time/blob/2ab98db87c2b816a3e755b719f33a7b2fe5ebb62/lib/party-time.js#L583-L602 "Source code on GitHub")
 
 Gets information about the party. If you do not specify a type in the second argument, it will guess the type.
 
@@ -88,7 +88,7 @@ Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## getType
 
-[lib/party-time.js:609-618](https://github.com/HindustanTimesLabs/party-time/blob/e45c36add40a6b0ac2eecd8f1159dad1a29d357c/lib/party-time.js#L609-L618 "Source code on GitHub")
+[lib/party-time.js:609-618](https://github.com/HindustanTimesLabs/party-time/blob/2ab98db87c2b816a3e755b719f33a7b2fe5ebb62/lib/party-time.js#L609-L618 "Source code on GitHub")
 
 Guesses whether the party string entered is an abbreviation or the full name.
 
