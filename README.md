@@ -3,6 +3,10 @@ Convert Indian party abbreviations to full names and back again.
 
 ![alt text](https://github.com/HindustanTimesLabs/party-time/blob/master/img/demo.gif "require('party-time')")
 
+## Resources
+* [API Reference](https://github.com/HindustanTimesLabs/party-time/blob/master/API.md)
+* [Introduction](https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca)
+
 ## Installation
 
 ### Web browser
@@ -26,9 +30,6 @@ npm i party-time -S
 ```js
 var pt = require("party-time");
 ```
-
-## Usage
-[RTFM](https://github.com/HindustanTimesLabs/party-time/blob/master/API.md)
 
 ## Tests
 ```bash
