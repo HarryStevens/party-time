@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 2.2.1. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.0. Copyright 2017 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1323,7 +1323,7 @@ function convert(party, options){
 
 }
 
-var version = "2.2.1";
+var version = "3.0.0";
 
 var meta = {
   parties_count: json.length,
