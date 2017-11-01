@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.0. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.1. Copyright 2017 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -20,7 +20,7 @@ var json = [{
   "symbol": "Broom"
 }, {
   "name": "Adarsh Political Party",
-  "abr": "APP",
+  "abbr": "APP",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -43,7 +43,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Akhil Bharat Hindu Mahasabha",
-  "abr": "ABHM",
+  "abbr": "ABHM",
   "type": "unrecognised",
   "location": "India",
   "variations": {
@@ -57,7 +57,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Akhil Bharatiya Hindu Mahasabha",
-  "abr": "HMS",
+  "abbr": "HMS",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -175,7 +175,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Bharatiya Bahujan Party",
-  "abr": "BHBP",
+  "abbr": "BHBP",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -308,7 +308,7 @@ var json = [{
   "symbol": "Nagara"
 }, {
   "name": "Doordarshi Party",
-  "abr": "DDP",
+  "abbr": "DDP",
   "founded": 1980,
   "type": "unrecognised",
   "location": "India"
@@ -387,17 +387,17 @@ var json = [{
   }
 }, {
   "name": "Himachal Kranti Party",
-  "abr": "HKP",
+  "abbr": "HKP",
   "type": "unrecognised",
   "location": "Himachal Pradesh"
 }, {
   "name": "Himachal Lokhit Party",
-  "abr": "HLP",
+  "abbr": "HLP",
   "type": "unrecognised",
   "location": "Himachal Pradesh"
 }, {
   "name": "Himachal Swabhiman Party",
-  "abr": "HiSP",
+  "abbr": "HiSP",
   "founded": "",
   "type": "unrecognised",
   "location": "Himachal Pradesh",
@@ -407,7 +407,7 @@ var json = [{
   }
 }, {
   "name": "Himachal Vikas Congress",
-  "abr": "HVC",
+  "abbr": "HVC",
   "type": "state",
   "location": "Himachal Pradesh"
 }, {
@@ -418,7 +418,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Hindusthan Nirman Dal",
-  "abr": "HND",
+  "abbr": "HND",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -426,18 +426,18 @@ var json = [{
   "abbr": "IND"
 }, {
   "name": "Indian Congress (Socialist)",
-  "abr": "ICS",
+  "abbr": "ICS",
   "type": "unrecognised",
   "location": "India"
 }, {
   "name": "Indian Congress (Socialist-Sarat Chandra Sinha)",
-  "abr": "ICS(SCS)",
+  "abbr": "ICS(SCS)",
   "founded": 1984,
   "type": "national",
   "location": "India"
 }, {
   "name": "Indian Justice Party",
-  "abr": "IJP",
+  "abbr": "IJP",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -626,7 +626,7 @@ var json = [{
   "symbol": "Stool"
 }, {
   "name": "Lok Dal",
-  "abr": "LKD",
+  "abbr": "LKD",
   "founded": 1980,
   "type": "national",
   "location": "India"
@@ -638,7 +638,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Lok Jan Shakti Party",
-  "abr": "LJNSP",
+  "abbr": "LJNSP",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -659,7 +659,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Lok Raj Party Himachal Pradesh",
-  "abr": "LRP",
+  "abbr": "LRP",
   "type": "unrecognised",
   "location": "Himachal Pradesh"
 }, {
@@ -670,7 +670,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Loktantrik Morcha Himachal Pradesh",
-  "abr": "LMHP",
+  "abbr": "LMHP",
   "type": "unrecognised",
   "location": "Himachal Pradesh"
 }, {
@@ -843,7 +843,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Pruutist Bloc India",
-  "abr": "PBI",
+  "abbr": "PBI",
   "type": "unrecognised",
   "location": "India",
   "variations": {
@@ -857,7 +857,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Rashtriya Garib Dal",
-  "abr": "RGD",
+  "abbr": "RGD",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -944,7 +944,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Republican Janata Party",
-  "abr": "RJP",
+  "abbr": "RJP",
   "type": "unrecognised",
   "location": "India"
 }, {
@@ -996,7 +996,7 @@ var json = [{
   "symbol": "Spade and stoker"
 }, {
   "name": "Samajwadi Janata Party (Rashtriya)",
-  "abr": "SJP(R)",
+  "abbr": "SJP(R)",
   "type": "state",
   "location": "Himachal Pradesh"
 }, {
@@ -1020,7 +1020,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Samyukta Socialist Party",
-  "abr": "SOP",
+  "abbr": "SOP",
   "founded": 1964,
   "type": "national",
   "location": "India",
@@ -1030,7 +1030,7 @@ var json = [{
   }
 }, {
   "name": "Sanghata Socialist Party",
-  "abr": "SSP",
+  "abbr": "SSP",
   "type": "national",
   "location": "India"
 }, {
@@ -1323,7 +1323,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.0";
+var version = "3.0.1";
 
 var meta = {
   parties_count: json.length,
