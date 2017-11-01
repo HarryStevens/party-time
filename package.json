@@ -2,12 +2,14 @@
   "name": "party-time",
   "version": "2.2.1",
   "description": "Convert party abbreviations to full names and back again.",
-  "main": "lib/party-time.js",
+  "main": "build/party-time.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
-    "minify": "uglifyjs lib/party-time.js --comments -c -m -o lib/party-time.min.js",
-    "dox": "documentation build lib/party-time.js -g -f md > API.md"
+    "minify": "uglifyjs build/party-time.js --preamble \"$(preamble)\" -c -m -o build/party-time.min.js",
+    "dox": "documentation build build/party-time.js -g -f md > API.md",
+    "rollup": "rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
+    "build": "npm run rollup && npm run minify && npm run dox"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,11 @@
     "political",
     "parties"
   ],
-  "author": "Harry Stevens <harryjosephstevens@gmail.com> (http://harryjstevens.com/)",
-  "license": "ISC",
+  "author": {
+    "name": "Hindustan Times",
+    "url": "https://github.com/HindustanTimesLabs/"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/HindustanTimesLabs/party-time/issues"
   },
@@ -34,6 +39,9 @@
     "coveralls": "^2.13.1",
     "documentation": "^5.2.1",
     "istanbul": "^0.4.5",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "package-preamble": "^0.1.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-json": "^2.3.0"
   }
 }
