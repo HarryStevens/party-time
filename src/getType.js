@@ -10,9 +10,9 @@ export default function getType(party){
 
   var match = json.filter(function(d){
 
-    return d.abbr == party.toUpperCase() || (d.variations && d.variations.abbr && d.variations.abbr.indexOf(party.toUpperCase()) !== -1)
+    return d.abbr.toLowerCase() == party.toLowerCase() || (d.variations && d.variations.abbr && (d.variations.abbr.indexOf(party.toUpperCase()) !== -1 || d.variations.abbr.indexOf(party) !== -1))
 
   }).length > 0;
 
-  return isAllCaps(party) || (party.indexOf(" ") == -1 && party.length < 4) || match ? "abbr" : "name";
+  return isAllCaps(party) || match ? "abbr" : "name";
 }

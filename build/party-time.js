@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.1. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.2. Copyright 2017 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -679,7 +679,8 @@ var json = [{
   "type": "unrecognised",
   "location": "",
   "variations": {
-    "name": ["Loktantrik Rashtravadi Party"]
+    "name": ["Loktantrik Rashtravadi Party"],
+    "abbr": ["LORP"]
   }
 }, {
   "name": "Loktantrik Samajwadi Party",
@@ -1202,11 +1203,11 @@ function getType(party){
 
   var match = json.filter(function(d){
 
-    return d.abbr == party.toUpperCase() || (d.variations && d.variations.abbr && d.variations.abbr.indexOf(party.toUpperCase()) !== -1)
+    return d.abbr.toLowerCase() == party.toLowerCase() || (d.variations && d.variations.abbr && (d.variations.abbr.indexOf(party.toUpperCase()) !== -1 || d.variations.abbr.indexOf(party) !== -1))
 
   }).length > 0;
 
-  return isAllCaps(party) || (party.indexOf(" ") == -1 && party.length < 4) || match ? "abbr" : "name";
+  return isAllCaps(party) || match ? "abbr" : "name";
 }
 
 /**
@@ -1323,7 +1324,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.1";
+var version = "3.0.2";
 
 var meta = {
   parties_count: json.length,
