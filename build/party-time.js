@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.2. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.3. Copyright 2017 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -53,8 +53,7 @@ var json = [{
   "name": "Akhil Bharatiya Congress Dal (Ambedkar)",
   "abbr": "ABCD(A)",
   "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "symbol": "Candles,Kite"
 }, {
   "name": "Akhil Bharatiya Hindu Mahasabha",
   "abbr": "HMS",
@@ -103,6 +102,13 @@ var json = [{
   "location": "West Bengal",
   "symbol": "Lion"
 }, {
+  "name": "All India Manavadhikar Rajnaitik Dal",
+  "abbr": "AIMRD",
+  "type": "unrecognised",
+  "location": "Uttar Pradesh, Himachal Pradesh",
+  "symbol": "Road Roller"
+},
+{
   "name": "All India Majlis-e-Ittehadul Muslimeen",
   "abbr": "AIMIM",
   "founded": 1927,
@@ -161,6 +167,15 @@ var json = [{
   "location": "Assam",
   "symbol": "Elephant"
 }, {
+  "name": "Bahujan Mukti Party",
+  "abbr": "BMUP",
+  "founded": 2012,
+  "type": "unrecognised",
+  "variations": {
+    "abbr": ["BMP"]
+  },
+  "symbol": "Air Conditioner,Cart,Cot"
+}, {
   "name": "Bahujan Samaj Party",
   "abbr": "BSP",
   "founded": 1984,
@@ -186,6 +201,11 @@ var json = [{
   "variations": {
     "abbr": ["BHDC"]
   }
+}, {
+  "name": "Bhartiya Himachal Jan Vikas Party",
+  "abbr": "BHJVP",
+  "symbol": "Boat with Man and Sail",
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Jan Shakti",
   "abbr": "BJSH",
@@ -573,6 +593,11 @@ var json = [{
   "location": "",
   "variations": ""
 }, {
+  "name": "Janral Samaj Party",
+  "abbr": "JanSP",
+  "symbol": "Sewing Machine",
+  "type": "unrecognised"
+}, {
   "name": "Janta Party",
   "abbr": "JNP",
   "founded": 1977,
@@ -636,6 +661,11 @@ var json = [{
   "type": "national",
   "location": "India",
   "variations": ""
+}, {
+  "name": "Lok Gathbandhan Party",
+  "abbr": "LGP",
+  "symbol": "",
+  "type": "unrecognised"
 }, {
   "name": "Lok Jan Shakti Party",
   "abbr": "LJNSP",
@@ -770,6 +800,10 @@ var json = [{
   "location": "India",
   "symbol": "Clock"
 }, {
+  "name": "Navbharat Ekta Dal",
+  "abbr": "NED",
+  "type": "unrecognised"
+}, {
   "name": "Navin Bharat Nirman",
   "abbr": "NBN",
   "type": "unrecognised",
@@ -834,14 +868,11 @@ var json = [{
   "abbr": "PSP",
   "founded": "1952",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Prajatantra Aadhaar Party",
   "abbr": "PAP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Pruutist Bloc India",
   "abbr": "PBI",
@@ -853,9 +884,15 @@ var json = [{
 }, {
   "name": "Ram Rajya Parishad",
   "abbr": "RRP",
-  "type": "",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
+}, {
+  "name": "Rashtravadi Pratap Sena",
+  "abbr": "RPS",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Azad Manch",
+  "abbr": "RAM",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Garib Dal",
   "abbr": "RGD",
@@ -996,6 +1033,10 @@ var json = [{
   "location": "Kerala, West Bengal",
   "symbol": "Spade and stoker"
 }, {
+  "name": "Samaj Adhikar Kalyan Party",
+  "abbr": "SAKP",
+  "type": "unrecognised"
+}, {
   "name": "Samajwadi Janata Party (Rashtriya)",
   "abbr": "SJP(R)",
   "type": "state",
@@ -1003,9 +1044,7 @@ var json = [{
 }, {
   "name": "Samajwadi Janata Party (Rashtriya)",
   "abbr": "SJP(R)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Samajwadi Party",
   "abbr": "SP",
@@ -1086,10 +1125,7 @@ var json = [{
   "variations": ""
 }, {
   "name": "Socialist",
-  "abbr": "SOC",
-  "type": "",
-  "location": "",
-  "variations": ""
+  "abbr": "SOC"
 }, {
   "name": "Socialist League of India",
   "abbr": "SOLI",
@@ -1116,6 +1152,10 @@ var json = [{
   "variations": {
     "abbr": ["SUCI"]
   }
+}, {
+  "name": "Swabhiman Party",
+  "abbr": "SwP",
+  "warning": "Unofficial abbreviation"
 }, {
   "name": "Swatantra Party",
   "abbr": "SWA",
@@ -1324,12 +1364,12 @@ function convert(party, options){
 
 }
 
-var version = "3.0.2";
+var version = "3.0.3";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "November 1, 2017"
+  last_updated: "November 2, 2017"
 };
 
 exports.getType = getType;
