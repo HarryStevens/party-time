@@ -297,7 +297,8 @@
   "location": "India",
   "symbol": "Hammer sickle and star",
   "variations": {
-    "abbr": ["CPM"]
+    "abbr": ["CPM"],
+    "name": ["Communist Party of India  (Marxist)"]
   }
 }, {
   "name": "Communist Party of India (Marxist-Leninist) (Liberation)",
