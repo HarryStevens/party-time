@@ -1,9 +1,7 @@
 [{
   "name": "Aadivasi Sena Party",
   "abbr": "ADSP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Aam Aadmi Party",
   "abbr": "AAP",
@@ -19,21 +17,15 @@
 }, {
   "name": "Adivasi Jan Kalyan Party",
   "abbr": "AJKP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Ajeya Bharat Party",
   "abbr": "AJBP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bartiya Manav Seva Dal",
   "abbr": "ABMSD",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bharat Hindu Mahasabha",
   "abbr": "ABHM",
@@ -55,14 +47,11 @@
 }, {
   "name": "Akhil Bharatiya Jan Sangh",
   "abbr": "ABJS",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bharatiya Ram Rajya Parishad (Prem Ballabh Vyas)",
   "abbr": "ABRRP(P)",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["ABRRP(P )"]
   }
@@ -70,7 +59,6 @@
   "name": "Akhil Bharatiya Ram Rajya Parishad (Prem Ballabh Vyas)",
   "abbr": "ABRRP(P)",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["ABRRP (P)", "ABRRP( P )"]
   }
@@ -84,9 +72,7 @@
 }, {
   "name": "All India Dalit Muslim Minorities Suraksha Mahasangh",
   "abbr": "DMM",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "All India Forward Bloc",
   "abbr": "AIFB",
@@ -100,8 +86,7 @@
   "type": "unrecognised",
   "location": "Uttar Pradesh, Himachal Pradesh",
   "symbol": "Road Roller"
-},
-{
+}, {
   "name": "All India Majlis-e-Ittehadul Muslimeen",
   "abbr": "AIMIM",
   "founded": 1927,
@@ -121,10 +106,8 @@
 }, {
   "name": "All India Rashtriya Janata Party",
   "abbr": "AIRJP",
-  "founded": "",
   "type": "state",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "All India Trinamool Congress",
   "abbr": "AITC",
@@ -149,9 +132,7 @@
 }, {
   "name": "Ambedkar Samaj Party",
   "abbr": "ASP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
@@ -178,9 +159,7 @@
 }, {
   "name": "Bahujan Suraksha Dal",
   "abbr": "BSDL",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Bahujan Party",
   "abbr": "BHBP",
@@ -190,7 +169,6 @@
   "name": "Bharatiya Dalit Congress",
   "abbr": "BhDC",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["BHDC"]
   }
@@ -202,9 +180,7 @@
 }, {
   "name": "Bharatiya Jan Shakti",
   "abbr": "BJSH",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Jana Sangh",
   "abbr": "BJS",
@@ -216,7 +192,6 @@
   "name": "Bharatiya Janata Dal",
   "abbr": "BhJD",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["BHJD"]
   }
@@ -230,40 +205,30 @@
 }, {
   "name": "Bharatiya Jankranti Party",
   "abbr": "BJNKP",
-  "founded": "",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "Bharatiya Krishi Udyog Sangh",
   "abbr": "BKUS",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Lok Dal",
   "abbr": "BLD",
   "founded": "1974",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Bharatiya Minorities Suraksha Mahasangh",
   "abbr": "BMSM",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya National Janata Dal",
   "abbr": "BNJD",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Navshakti Party",
   "abbr": "BNP",
   "type": "unrecognised",
-  "location": "",
   "variations": "Bharatiya Navshakti party"
 }, {
   "name": "Biju Janata Dal",
@@ -310,9 +275,7 @@
 }, {
   "name": "Democratic Bharatiya Samaj Party",
   "abbr": "DBSP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Desiya Murpokku Dravida Kazhagam",
   "abbr": "DMDK",
@@ -336,9 +299,7 @@
 }, {
   "name": "Gareebjan Samaj Party",
   "abbr": "GSP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Goa Forward Party",
   "abbr": "GFP",
@@ -349,21 +310,17 @@
 }, {
   "name": "Gondvana Gantantra Party",
   "abbr": "GGP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Gujarat Janata Parishad",
   "abbr": "GJP",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "variations": ""
+  "location": "Gujarat"
 }, {
   "name": "Gujarat League",
   "abbr": "GJL",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "variations": ""
+  "location": "Gujarat"
 }, {
   "name": "Gujarat Parivartan Party",
   "abbr": "GPP",
@@ -374,9 +331,7 @@
 }, {
   "name": "Gujarat Yuva Vikas Party",
   "abbr": "GYVP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Haryana Janhit Congress (BL)",
   "abbr": "HJC(BL)",
@@ -412,10 +367,8 @@
 }, {
   "name": "Himachal Swabhiman Party",
   "abbr": "HiSP",
-  "founded": "",
   "type": "unrecognised",
   "location": "Himachal Pradesh",
-  "symbol": "",
   "variations": {
     "abbr": ["HISP"]
   }
@@ -427,9 +380,7 @@
 }, {
   "name": "Hindu Swaraj Sanghathan",
   "abbr": "HSS",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Hindusthan Nirman Dal",
   "abbr": "HND",
@@ -464,23 +415,19 @@
 }, {
   "name": "Indian National Congress (I)",
   "abbr": "INC(I)",
-  "founded": "",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Indian National Congress (Organisation)",
   "abbr": "NCO",
   "founded": "1969",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Indian National Congress (U)",
   "abbr": "INC(U)",
   "type": "national",
-  "location": "india",
-  "variations": ""
+  "location": "india"
 }, {
   "name": "Indian National Lok Dal",
   "abbr": "INLD",
@@ -492,7 +439,6 @@
   "name": "Indian Peoples Front",
   "abbr": "IPF",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "name": ["Indian People's Front", "Indian People’s Front"]
   }
@@ -506,9 +452,7 @@
 }, {
   "name": "Indians Front",
   "abbr": "IF",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Jammu & Kashmir National Conference",
   "abbr": "JKNC",
@@ -535,10 +479,7 @@
   }
 }, {
   "name": "Jan Sangh",
-  "abbr": "JS",
-  "type": "",
-  "location": "",
-  "variations": ""
+  "abbr": "JS"
 }, {
   "name": "Janata Dal",
   "abbr": "JD",
@@ -563,29 +504,22 @@
 }, {
   "name": "Janata Party (JP)",
   "abbr": "JNP(JP)",
-  "founded": "",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Janata Party (Secular) - Ch. Charan Singh",
   "abbr": "JNP(SC)",
-  "founded": "",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Janata Party (Secular) Raj Narain",
   "abbr": "JNP(SR)",
   "type": "national",
-  "location": "india",
-  "variations": ""
+  "location": "india"
 }, {
   "name": "Janmangal Paksh",
   "abbr": "JMP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Janral Samaj Party",
   "abbr": "JanSP",
@@ -632,10 +566,8 @@
 }, {
   "name": "Kisan Mazdoor Lok Paksha",
   "abbr": "KLP",
-  "founded": "",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "Kisan Party Of India",
   "abbr": "KPI",
@@ -653,12 +585,10 @@
   "name": "Lok Dal (B)",
   "abbr": "LKD(B)",
   "type": "national",
-  "location": "India",
-  "variations": ""
+  "location": "India"
 }, {
   "name": "Lok Gathbandhan Party",
   "abbr": "LGP",
-  "symbol": "",
   "type": "unrecognised"
 }, {
   "name": "Lok Jan Shakti Party",
@@ -678,9 +608,7 @@
 }, {
   "name": "Lok Paritran",
   "abbr": "LKPT",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Lok Raj Party Himachal Pradesh",
   "abbr": "LRP",
@@ -689,9 +617,7 @@
 }, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Loktantrik Morcha Himachal Pradesh",
   "abbr": "LMHP",
@@ -701,7 +627,6 @@
   "name": "Loktantrik Rashrtavadi Party",
   "abbr": "LoRP",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "name": ["Loktantrik Rashtravadi Party"],
     "abbr": ["LORP"]
@@ -709,9 +634,7 @@
 }, {
   "name": "Loktantrik Samajwadi Party",
   "abbr": "LSWP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Maharashtra Navnirman Sena",
   "abbr": "MNS",
@@ -733,7 +656,6 @@
   "name": "Manavadhikar Janshakti Party",
   "abbr": "MaJP",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["MAJP"]
   }
@@ -767,9 +689,7 @@
 }, {
   "name": "National Loktantrik Party",
   "abbr": "NLP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "National People's Party",
   "abbr": "NPP",
@@ -783,9 +703,7 @@
 }, {
   "name": "National Secular Party",
   "abbr": "NSCP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Nationalist Congress Party",
   "abbr": "NCP",
@@ -800,28 +718,20 @@
 }, {
   "name": "Navin Bharat Nirman",
   "abbr": "NBN",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "New Socialist Movement",
   "abbr": "NSM",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "New Socialist Movement Party",
   "abbr": "NSMP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Nutan Maha Gujarat Janta Parishad",
   "abbr": "NJP",
   "founded": "1960",
-  "type": "",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "Pattali Makkal Katchi",
   "abbr": "PMK",
@@ -832,7 +742,6 @@
 }, {
   "name": "People's Democratic Alliance",
   "abbr": "PDA",
-  "founded": "",
   "type": "state",
   "location": "Manipur",
   "symbol": "Crown",
@@ -853,7 +762,6 @@
   "name": "Peoples Republican Party",
   "abbr": "PRBP",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "name": ["People's Republican Party", "People’s Republican Party"]
   }
@@ -902,15 +810,11 @@
 }, {
   "name": "Rashtriya Komi Ekta Party",
   "abbr": "RKEP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Krantikari Samajwadi Party",
   "abbr": "RKSP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Lok Dal",
   "abbr": "RLD",
@@ -928,52 +832,35 @@
 }, {
   "name": "Rashtriya Majdoor Paksha",
   "abbr": "RMP",
-  "founded": "",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "Rashtriya Pragtisheel Morcha",
   "abbr": "RPM",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Samaj Paksha",
   "abbr": "RSPS",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Samajwadi Party (Secular)",
   "abbr": "RSP(S)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Sindhi Congress",
   "abbr": "RSDC",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Surajya Parishad",
   "abbr": "RSRP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Rastriya Gurujan Party",
   "abbr": "RGJP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Republican",
-  "abbr": "REP",
-  "type": "",
-  "location": "",
-  "variations": ""
+  "abbr": "REP"
 }, {
   "name": "Republican Janata Party",
   "abbr": "RJP",
@@ -982,40 +869,27 @@
 }, {
   "name": "Republican Party of India",
   "abbr": "RPI",
-  "founded": 1956,
-  "type": "",
-  "location": "",
-  "symbol": ""
+  "founded": 1956
 }, {
   "name": "Republican Party of India (A)",
   "abbr": "RPI(A)",
-  "founded": 1999,
-  "type": "",
-  "location": "",
-  "symbol": ""
+  "founded": 1999
 }, {
   "name": "Republican Party of India (Balakrishnan)",
   "abbr": "RPI(B)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Republican Party of India (Democratic)",
   "abbr": "RPI(D)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Republican Party of India (Khobragade)",
   "abbr": "RPK",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Republican Party of India (Khobragade)",
   "abbr": "RPI(K)",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["RPI(KH)"]
   }
@@ -1050,15 +924,13 @@
   "name": "Samata Partu",
   "abbr": "SAP",
   "type": "national",
-  "location": "India",
-  "variations": ""
+  "location": "India"
 }, {
   "name": "Samyukta Socialist Party",
   "abbr": "SOP",
   "founded": 1964,
   "type": "national",
   "location": "India",
-  "symbol": "",
   "variations": {
     "name": ["Samyukta Socialist Party/Socialist Party"]
   }
@@ -1070,15 +942,11 @@
 }, {
   "name": "Sardar Patel Congress Party",
   "abbr": "SPCP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Sardar Vallabhbhai Patel Party",
   "abbr": "SVPP",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Shiromani Akali Dal",
   "abbr": "SAD",
@@ -1114,30 +982,22 @@
 }, {
   "name": "Social Party (India)",
   "abbr": "SP(I)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Socialist",
   "abbr": "SOC"
 }, {
   "name": "Socialist League of India",
   "abbr": "SOLI",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Socialist Party (Lohia)",
   "abbr": "SOP(L)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Socialist Party (Ramakant Pandey)",
   "abbr": "SOP(P)",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Socialist Unity Centre of India (Communist)",
   "abbr": "SUCI(C)",
@@ -1155,8 +1015,7 @@
   "abbr": "SWA",
   "founded": "1959",
   "type": "national",
-  "location": "India",
-  "symbol": ""
+  "location": "India"
 }, {
   "name": "Telangana Rashtra Samithi",
   "abbr": "TRS",
@@ -1181,24 +1040,19 @@
 }, {
   "name": "Vishva Hindustani Sangathan",
   "abbr": "VHS",
-  "type": "unrecognised",
-  "location": "",
-  "variations": ""
+  "type": "unrecognised"
 }, {
   "name": "Yuva Sarkar",
   "abbr": "YuS",
   "type": "unrecognised",
-  "location": "",
   "variations": {
     "abbr": ["YUS"]
   }
 }, {
   "name": "Yuva Vikas Party",
   "abbr": "YVP",
-  "founded": "",
   "type": "unrecognised",
-  "location": "Gujarat",
-  "symbol": ""
+  "location": "Gujarat"
 }, {
   "name": "Yuvajana Sramika Rythu Congress Party",
   "abbr": "YSRCP",
