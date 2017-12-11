@@ -270,14 +270,15 @@ var json = [{
   "symbol": "Hammer sickle and star",
   "variations": {
     "abbr": ["CPM"],
-    "name": ["Communist Party of India  (Marxist)"]
+    "name": ["Communist Party of India  (Marxist)", "Communist Party of India  (Marxist)"]
   }
 }, {
   "name": "Communist Party of India (Marxist-Leninist) (Liberation)",
   "abbr": "CPI(ML)(L)",
   "founded": 1974,
   "variations": {
-    "abbr": ["CPI(ML)( L)"]
+    "abbr": ["CPI(ML)( L)"],
+    "name": ["Communist Party of India  (Marxist-Leninist)  (Liberation)"]
   }
 }, {
   "name": "Democratic Bharatiya Samaj Party",
@@ -500,14 +501,20 @@ var json = [{
   "founded": 1999,
   "type": "state",
   "location": "Karnataka, Kerala",
-  "symbol": "Lady farmer carrying paddy on her head"
+  "symbol": "Lady farmer carrying paddy on her head",
+  "variations": {
+    "name": ["Janata Dal  (Secular)"]
+  }
 }, {
   "name": "Janata Dal (United)",
   "abbr": "JD(U)",
   "founded": 1999,
   "type": "state",
   "location": "Bihar",
-  "symbol": "Arrow"
+  "symbol": "Arrow",
+  "variations": {
+    "name": ["Janata Dal  (United)"]
+  }
 }, {
   "name": "Janata Party (JP)",
   "abbr": "JNP(JP)",
@@ -1011,7 +1018,8 @@ var json = [{
   "type": "unrecognised",
   "location": "India",
   "variations": {
-    "abbr": ["SUCI"]
+    "abbr": ["SUCI"],
+    "name": ["SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)"]
   }
 }, {
   "name": "Swabhiman Party",
