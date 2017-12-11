@@ -852,7 +852,10 @@
 }, {
   "name": "Rashtriya Samajwadi Party (Secular)",
   "abbr": "RSP(S)",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "name": ["Rashtriya Samajwadi Party  (Secular)"]
+  }
 }, {
   "name": "Rashtriya Sindhi Congress",
   "abbr": "RSDC",

@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.4. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.5. Copyright 2017 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -859,7 +859,10 @@ var json = [{
 }, {
   "name": "Rashtriya Samajwadi Party (Secular)",
   "abbr": "RSP(S)",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "name": ["Rashtriya Samajwadi Party  (Secular)"]
+  }
 }, {
   "name": "Rashtriya Sindhi Congress",
   "abbr": "RSDC",
@@ -1227,7 +1230,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.4";
+var version = "3.0.5";
 
 var meta = {
   parties_count: json.length,
