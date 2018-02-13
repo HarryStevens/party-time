@@ -23,7 +23,6 @@ If you prefer to host the file yourself, download it from the [`build` directory
 ```
 
 ### npm
-
 ```bash
 npm i party-time -S
 ```
@@ -34,6 +33,11 @@ var pt = require("party-time");
 ## Tests
 ```bash
 npm test
+```
+
+## Building
+```bash
+npm run build
 ```
 
 ## Contributing

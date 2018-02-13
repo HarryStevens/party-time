@@ -134,6 +134,10 @@
   "abbr": "ASP",
   "type": "unrecognised"
 }, {
+  "name": "Amra Bengali",
+  "abbr": "AMB",
+  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand"
+}, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
   "founded": 1985,
@@ -454,6 +458,13 @@
   "name": "Indians Front",
   "abbr": "IF",
   "type": "unrecognised"
+}, {
+  "name": "Indigenous People's Front of Tripura",
+  "abbr": "IPFT",
+  "location": "Tripura",
+  "variations": {
+    "name": ["Indigenous People’s Front of Tripura", "Indigenous Peoples Front of Tripura"]
+  }
 }, {
   "name": "Jammu & Kashmir National Conference",
   "abbr": "JKNC",
@@ -1024,7 +1035,7 @@
 }, {
   "name": "Swatantra Party",
   "abbr": "SWA",
-  "founded": "1959",
+  "founded": 1959,
   "type": "national",
   "location": "India"
 }, {
@@ -1041,6 +1052,19 @@
   "type": "state",
   "location": "Andhra Pradesh, Telangana",
   "symbol": "Bicycle"
+}, {
+  "name": "Tipraland State Party",
+  "abbr": "TSP",
+  "location": "Tripura"
+},
+{
+  "name": "Tripura People's Party",
+  "abbr": "TPP",
+  "location": "Tripura",
+  "abbr": "TPP",
+  "variations": {
+    "name": ["Tripura People’s Party", "Tripura Peoples Party"]
+  }
 }, {
   "name": "United Democratic Party",
   "abbr": "UDP",

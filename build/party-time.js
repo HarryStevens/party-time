@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.5. Copyright 2017 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.6. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -140,6 +140,10 @@ var json = [{
   "name": "Ambedkar Samaj Party",
   "abbr": "ASP",
   "type": "unrecognised"
+}, {
+  "name": "Amra Bengali",
+  "abbr": "AMB",
+  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand"
 }, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
@@ -461,6 +465,13 @@ var json = [{
   "name": "Indians Front",
   "abbr": "IF",
   "type": "unrecognised"
+}, {
+  "name": "Indigenous People's Front of Tripura",
+  "abbr": "IPFT",
+  "location": "Tripura",
+  "variations": {
+    "name": ["Indigenous People’s Front of Tripura", "Indigenous Peoples Front of Tripura"]
+  }
 }, {
   "name": "Jammu & Kashmir National Conference",
   "abbr": "JKNC",
@@ -1031,7 +1042,7 @@ var json = [{
 }, {
   "name": "Swatantra Party",
   "abbr": "SWA",
-  "founded": "1959",
+  "founded": 1959,
   "type": "national",
   "location": "India"
 }, {
@@ -1048,6 +1059,19 @@ var json = [{
   "type": "state",
   "location": "Andhra Pradesh, Telangana",
   "symbol": "Bicycle"
+}, {
+  "name": "Tipraland State Party",
+  "abbr": "TSP",
+  "location": "Tripura"
+},
+{
+  "name": "Tripura People's Party",
+  "abbr": "TPP",
+  "location": "Tripura",
+  "abbr": "TPP",
+  "variations": {
+    "name": ["Tripura People’s Party", "Tripura Peoples Party"]
+  }
 }, {
   "name": "United Democratic Party",
   "abbr": "UDP",
@@ -1230,7 +1254,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.5";
+var version = "3.0.6";
 
 var meta = {
   parties_count: json.length,
