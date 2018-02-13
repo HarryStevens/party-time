@@ -8,7 +8,7 @@
 
 ## getType
 
-[build/party-time.js:1132-1141](https://github.com/HindustanTimesLabs/party-time/blob/bf0675ebc44322db3905f085a9ed1af0f2f4b0fb/build/party-time.js#L1132-L1141 "Source code on GitHub")
+[build/party-time.js:1146-1155](https://github.com/HindustanTimesLabs/party-time/blob/6edc509242c98761d78629a39aeb2425fdb01032/build/party-time.js#L1146-L1155 "Source code on GitHub")
 
 Guesses whether the party string entered is an abbreviation or the full name.
 
@@ -20,7 +20,7 @@ Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## getInfo
 
-[build/party-time.js:1182-1201](https://github.com/HindustanTimesLabs/party-time/blob/bf0675ebc44322db3905f085a9ed1af0f2f4b0fb/build/party-time.js#L1182-L1201 "Source code on GitHub")
+[build/party-time.js:1196-1215](https://github.com/HindustanTimesLabs/party-time/blob/6edc509242c98761d78629a39aeb2425fdb01032/build/party-time.js#L1196-L1215 "Source code on GitHub")
 
 Gets information about the party. If you do not specify a type in the second argument, it will guess the type.
 
@@ -70,7 +70,7 @@ Returns **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## convert
 
-[build/party-time.js:1222-1255](https://github.com/HindustanTimesLabs/party-time/blob/bf0675ebc44322db3905f085a9ed1af0f2f4b0fb/build/party-time.js#L1222-L1255 "Source code on GitHub")
+[build/party-time.js:1236-1269](https://github.com/HindustanTimesLabs/party-time/blob/6edc509242c98761d78629a39aeb2425fdb01032/build/party-time.js#L1236-L1269 "Source code on GitHub")
 
 Converts a party abbreviation to its full name or vice versa. If the party entered is not found in the library, returns the party entered.
 

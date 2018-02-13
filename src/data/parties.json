@@ -136,7 +136,10 @@
 }, {
   "name": "Amra Bengali",
   "abbr": "AMB",
-  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand"
+  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand",
+  "variations": {
+    "name": ["Amra Bangalee"]
+  }
 }, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
@@ -459,6 +462,12 @@
   "abbr": "IF",
   "type": "unrecognised"
 }, {
+  "name": "Indigenous Nationalist Party of Twipra",
+  "abbr": "INPT",
+  "founded": 2002,
+  "location": "Tripura"
+},
+{
   "name": "Indigenous People's Front of Tripura",
   "abbr": "IPFT",
   "location": "Tripura",
@@ -745,6 +754,11 @@
   "name": "New Socialist Movement Party",
   "abbr": "NSMP",
   "type": "unrecognised"
+}, {
+  "name": "North East India Development Party",
+  "abbr": "NEIDP",
+  "founded": 2015,
+  "location": "Manipur, Tripura"
 }, {
   "name": "Nutan Maha Gujarat Janta Parishad",
   "abbr": "NJP",

@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.6. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.7. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -143,7 +143,10 @@ var json = [{
 }, {
   "name": "Amra Bengali",
   "abbr": "AMB",
-  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand"
+  "location": "Tripura, Bihar, Odisha, Assam, Jharkhand",
+  "variations": {
+    "name": ["Amra Bangalee"]
+  }
 }, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
@@ -466,6 +469,12 @@ var json = [{
   "abbr": "IF",
   "type": "unrecognised"
 }, {
+  "name": "Indigenous Nationalist Party of Twipra",
+  "abbr": "INPT",
+  "founded": 2002,
+  "location": "Tripura"
+},
+{
   "name": "Indigenous People's Front of Tripura",
   "abbr": "IPFT",
   "location": "Tripura",
@@ -752,6 +761,11 @@ var json = [{
   "name": "New Socialist Movement Party",
   "abbr": "NSMP",
   "type": "unrecognised"
+}, {
+  "name": "North East India Development Party",
+  "abbr": "NEIDP",
+  "founded": 2015,
+  "location": "Manipur, Tripura"
 }, {
   "name": "Nutan Maha Gujarat Janta Parishad",
   "abbr": "NJP",
@@ -1254,7 +1268,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.6";
+var version = "3.0.7";
 
 var meta = {
   parties_count: json.length,
