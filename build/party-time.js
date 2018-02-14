@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.7. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.8. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -772,6 +772,11 @@ var json = [{
   "founded": "1960",
   "location": "Gujarat"
 }, {
+  "name": "Party for Democratic Socialism",
+  "abbr": "PDS",
+  "type": "unrecognised",
+  "location": "West Bengal, Tripura"
+}, {
   "name": "Pattali Makkal Katchi",
   "abbr": "PMK",
   "founded": 1989,
@@ -1268,7 +1273,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.7";
+var version = "3.0.8";
 
 var meta = {
   parties_count: json.length,
