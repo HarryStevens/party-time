@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.8. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.9. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1099,6 +1099,10 @@ var json = [{
   "location": "Meghalaya",
   "symbol": "Drum"
 }, {
+  "name": "United Naga Democratic Party",
+  "abbr": "UNDP",
+  "location": "Nagaland"
+}, {
   "name": "Vishva Hindustani Sangathan",
   "abbr": "VHS",
   "type": "unrecognised"
@@ -1273,7 +1277,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.8";
+var version = "3.0.9";
 
 var meta = {
   parties_count: json.length,

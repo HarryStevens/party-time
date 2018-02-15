@@ -1092,6 +1092,10 @@
   "location": "Meghalaya",
   "symbol": "Drum"
 }, {
+  "name": "United Naga Democratic Party",
+  "abbr": "UNDP",
+  "location": "Nagaland"
+}, {
   "name": "Vishva Hindustani Sangathan",
   "abbr": "VHS",
   "type": "unrecognised"
