@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.13. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.14. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -81,7 +81,10 @@ var json = [{
   "founded": 1972,
   "type": "state",
   "location": "Tamil Nadu, Puducherry",
-  "symbol": "Two leaves"
+  "symbol": "Two leaves",
+  "variations": {
+    "abbr": ["ADMK"]
+  }
 }, {
   "name": "All India Dalit Muslim Minorities Suraksha Mahasangh",
   "abbr": "DMM",
@@ -142,6 +145,9 @@ var json = [{
   "type": "state",
   "location": "Jharkhand",
   "symbol": "Banana"
+}, {
+  "name": "Ambedkar National Congress",
+  "abbr": "ANC"
 }, {
   "name": "Ambedkar Samaj Party",
   "abbr": "ASP",
@@ -259,6 +265,9 @@ var json = [{
   "abbr": "BNP",
   "type": "unrecognised",
   "variations": "Bharatiya Navshakti party"
+}, {
+  "name": "Bharatiya Praja Paksha",
+  "abbr": "BPJP"
 }, {
   "name": "Bharatiya Prajatantrik Shudh Gandhiwadi Krishak Dal",
   "abbr": "BPSGKD"
@@ -414,6 +423,9 @@ var json = [{
   "variations": {
     "abbr": ["HJC"]
   }
+}, {
+  "name": "Indian National League",
+  "abbr": "INL"
 }, {
   "name": "Hill State People's Democratic Party",
   "abbr": "HSPDP",
@@ -643,6 +655,12 @@ var json = [{
   "location": "Jharkhand",
   "symbol": "Comb"
 }, {
+  "name": "Kannada Chalavali Vatal Paksha",
+  "abbr": "KCVP"
+}, {
+  "name": "Kannada Paksha",
+  "abbr": "KP"
+}, {
   "name": "Karnataka Janata Paksha",
   "abbr": "KJP",
   "founded": 2012,
@@ -781,6 +799,9 @@ var json = [{
   "variations": {
     "name": ["Mizoram Peoples Conference", "Mizoram People’s Conference"]
   }
+}, {
+  "name": "National Development Party",
+  "abbr": "NDEP"
 }, {
   "name": "Naga People's Front",
   "abbr": "NPF",
@@ -929,6 +950,9 @@ var json = [{
 }, {
   "name": "Rashtriya Gondvana Party",
   "abbr": "RGOP"
+}, {
+  "name": "Rashtriya Hindustan Sena Karnataka",
+  "abbr": "RAHS"
 }, {
   "name": "Rashtriya Janata Dal",
   "abbr": "RJD",
@@ -1083,6 +1107,9 @@ var json = [{
   "abbr": "SVPP",
   "type": "unrecognised"
 }, {
+  "name": "Sarvodaya Karnataka Paksha",
+  "abbr": "SKP"
+}, {
   "name": "Shiromani Akali Dal",
   "abbr": "SAD",
   "founded": 1920,
@@ -1151,6 +1178,9 @@ var json = [{
   "abbr": "SwP",
   "warning": "Unofficial abbreviation"
 }, {
+  "name": "Swarna Yuga Party",
+  "abbr": "SUP"
+}, {
   "name": "Swatantra Party",
   "abbr": "SWA",
   "founded": 1959,
@@ -1171,11 +1201,13 @@ var json = [{
   "location": "Andhra Pradesh, Telangana",
   "symbol": "Bicycle"
 }, {
+  "name": "Tippu Sultan National Republic Party",
+  "abbr": "TSNRP"
+}, {
   "name": "Tipraland State Party",
   "abbr": "TSP",
   "location": "Tripura"
-},
-{
+}, {
   "name": "Tripura People's Party",
   "abbr": "TPP",
   "location": "Tripura",
@@ -1369,7 +1401,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.13";
+var version = "3.0.14";
 
 var meta = {
   parties_count: json.length,

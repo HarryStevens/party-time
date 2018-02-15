@@ -74,7 +74,10 @@
   "founded": 1972,
   "type": "state",
   "location": "Tamil Nadu, Puducherry",
-  "symbol": "Two leaves"
+  "symbol": "Two leaves",
+  "variations": {
+    "abbr": ["ADMK"]
+  }
 }, {
   "name": "All India Dalit Muslim Minorities Suraksha Mahasangh",
   "abbr": "DMM",
@@ -135,6 +138,9 @@
   "type": "state",
   "location": "Jharkhand",
   "symbol": "Banana"
+}, {
+  "name": "Ambedkar National Congress",
+  "abbr": "ANC"
 }, {
   "name": "Ambedkar Samaj Party",
   "abbr": "ASP",
@@ -252,6 +258,9 @@
   "abbr": "BNP",
   "type": "unrecognised",
   "variations": "Bharatiya Navshakti party"
+}, {
+  "name": "Bharatiya Praja Paksha",
+  "abbr": "BPJP"
 }, {
   "name": "Bharatiya Prajatantrik Shudh Gandhiwadi Krishak Dal",
   "abbr": "BPSGKD"
@@ -407,6 +416,9 @@
   "variations": {
     "abbr": ["HJC"]
   }
+}, {
+  "name": "Indian National League",
+  "abbr": "INL"
 }, {
   "name": "Hill State People's Democratic Party",
   "abbr": "HSPDP",
@@ -636,6 +648,12 @@
   "location": "Jharkhand",
   "symbol": "Comb"
 }, {
+  "name": "Kannada Chalavali Vatal Paksha",
+  "abbr": "KCVP"
+}, {
+  "name": "Kannada Paksha",
+  "abbr": "KP"
+}, {
   "name": "Karnataka Janata Paksha",
   "abbr": "KJP",
   "founded": 2012,
@@ -774,6 +792,9 @@
   "variations": {
     "name": ["Mizoram Peoples Conference", "Mizoram People’s Conference"]
   }
+}, {
+  "name": "National Development Party",
+  "abbr": "NDEP"
 }, {
   "name": "Naga People's Front",
   "abbr": "NPF",
@@ -922,6 +943,9 @@
 }, {
   "name": "Rashtriya Gondvana Party",
   "abbr": "RGOP"
+}, {
+  "name": "Rashtriya Hindustan Sena Karnataka",
+  "abbr": "RAHS"
 }, {
   "name": "Rashtriya Janata Dal",
   "abbr": "RJD",
@@ -1076,6 +1100,9 @@
   "abbr": "SVPP",
   "type": "unrecognised"
 }, {
+  "name": "Sarvodaya Karnataka Paksha",
+  "abbr": "SKP"
+}, {
   "name": "Shiromani Akali Dal",
   "abbr": "SAD",
   "founded": 1920,
@@ -1144,6 +1171,9 @@
   "abbr": "SwP",
   "warning": "Unofficial abbreviation"
 }, {
+  "name": "Swarna Yuga Party",
+  "abbr": "SUP"
+}, {
   "name": "Swatantra Party",
   "abbr": "SWA",
   "founded": 1959,
@@ -1164,11 +1194,13 @@
   "location": "Andhra Pradesh, Telangana",
   "symbol": "Bicycle"
 }, {
+  "name": "Tippu Sultan National Republic Party",
+  "abbr": "TSNRP"
+}, {
   "name": "Tipraland State Party",
   "abbr": "TSP",
   "location": "Tripura"
-},
-{
+}, {
   "name": "Tripura People's Party",
   "abbr": "TPP",
   "location": "Tripura",
