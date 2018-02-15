@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.11. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.12. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -148,12 +148,23 @@ var json = [{
     "name": ["Amra Bangalee"]
   }
 }, {
+  "name": "Apna Dal",
+  "abbr": "AD",
+  "founded": 1995,
+  "type": "state",
+  "symbol": "Cup and Saucer"
+}, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
   "founded": 1985,
   "type": "state",
   "location": "Assam",
   "symbol": "Elephant"
+}, {
+  "name": "Azad Janata Party",
+  "abbr": "AJP",
+  "location": "Chhattisgarh",
+  "type": "unrecognised"
 }, {
   "name": "Bahujan Mukti Party",
   "abbr": "BMUP",
@@ -262,6 +273,22 @@ var json = [{
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
 }, {
+  "name": "Chhattisgarh Mukti Morcha",
+  "abbr": "CMM",
+  "founded": 1982,
+  "location": "Chhattisgarh"
+}, {
+  "name": "Chhattisgarh Swabhiman Manch",
+  "abbr": "CSM",
+  "location": "Chhattisgarh",
+  "variations": {
+    "name": ["Chattisgarh Swabhiman Manch"]
+  }
+}, {
+  "name": "Chhattisgarhi Samaj Party",
+  "abbr": "CSP",
+  "location": "Chhattisgarh"
+}, {
   "name": "Communist Party of India",
   "abbr": "CPI",
   "founded": 1925,
@@ -284,7 +311,7 @@ var json = [{
   "abbr": "CPI(ML)(L)",
   "founded": 1974,
   "variations": {
-    "abbr": ["CPI(ML)( L)"],
+    "abbr": ["CPI(ML)( L)", "CPI(ML)"],
     "name": ["Communist Party of India  (Marxist-Leninist)  (Liberation)"]
   }
 }, {
@@ -1077,6 +1104,10 @@ var json = [{
     "name": ["SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)"]
   }
 }, {
+  "name": "Sunder Samaj Party",
+  "abbr": "SUSP",
+  "location": "Chhattisgarh"
+}, {
   "name": "Swabhiman Party",
   "abbr": "SwP",
   "warning": "Unofficial abbreviation"
@@ -1299,12 +1330,12 @@ function convert(party, options){
 
 }
 
-var version = "3.0.11";
+var version = "3.0.12";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "November 2, 2017"
+  last_updated: "February 15, 2018"
 };
 
 exports.getType = getType;

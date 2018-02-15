@@ -141,12 +141,23 @@
     "name": ["Amra Bangalee"]
   }
 }, {
+  "name": "Apna Dal",
+  "abbr": "AD",
+  "founded": 1995,
+  "type": "state",
+  "symbol": "Cup and Saucer"
+}, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
   "founded": 1985,
   "type": "state",
   "location": "Assam",
   "symbol": "Elephant"
+}, {
+  "name": "Azad Janata Party",
+  "abbr": "AJP",
+  "location": "Chhattisgarh",
+  "type": "unrecognised"
 }, {
   "name": "Bahujan Mukti Party",
   "abbr": "BMUP",
@@ -255,6 +266,22 @@
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
 }, {
+  "name": "Chhattisgarh Mukti Morcha",
+  "abbr": "CMM",
+  "founded": 1982,
+  "location": "Chhattisgarh"
+}, {
+  "name": "Chhattisgarh Swabhiman Manch",
+  "abbr": "CSM",
+  "location": "Chhattisgarh",
+  "variations": {
+    "name": ["Chattisgarh Swabhiman Manch"]
+  }
+}, {
+  "name": "Chhattisgarhi Samaj Party",
+  "abbr": "CSP",
+  "location": "Chhattisgarh"
+}, {
   "name": "Communist Party of India",
   "abbr": "CPI",
   "founded": 1925,
@@ -277,7 +304,7 @@
   "abbr": "CPI(ML)(L)",
   "founded": 1974,
   "variations": {
-    "abbr": ["CPI(ML)( L)"],
+    "abbr": ["CPI(ML)( L)", "CPI(ML)"],
     "name": ["Communist Party of India  (Marxist-Leninist)  (Liberation)"]
   }
 }, {
@@ -1069,6 +1096,10 @@
     "abbr": ["SUCI"],
     "name": ["SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)"]
   }
+}, {
+  "name": "Sunder Samaj Party",
+  "abbr": "SUSP",
+  "location": "Chhattisgarh"
 }, {
   "name": "Swabhiman Party",
   "abbr": "SwP",
