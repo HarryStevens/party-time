@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.14. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.15. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -178,6 +178,12 @@ var json = [{
   "location": "Chhattisgarh",
   "type": "unrecognised"
 }, {
+  "name": "Badavara Shramikara Raitara Congress Party",
+  "abbr": "BSRC",
+  "variations": {
+    "abbr": ["BSRCP"]
+  }
+}, {
   "name": "Bahujan Mukti Party",
   "abbr": "BMUP",
   "founded": 2012,
@@ -266,6 +272,13 @@ var json = [{
   "type": "unrecognised",
   "variations": "Bharatiya Navshakti party"
 }, {
+  "name": "Bharatiya Peoples Party",
+  "abbr": "BPP",
+  "variations": {
+    "name": ["Bharatiya People's Party", "Bharatiya People’s Party"],
+    "abbr": ["BHPP"]
+  }
+}, {
   "name": "Bharatiya Praja Paksha",
   "abbr": "BPJP"
 }, {
@@ -344,6 +357,9 @@ var json = [{
     "abbr": ["CPI(ML)( L)", "CPI(ML)"],
     "name": ["Communist Party of India  (Marxist-Leninist)  (Liberation)"]
   }
+}, {
+  "name": "Communist Party of India (Marxist-Leninist) Red Star",
+  "abbr": "CPI(ML) Red Star"
 }, {
   "name": "Democratic Bharatiya Samaj Party",
   "abbr": "DBSP",
@@ -465,6 +481,9 @@ var json = [{
   "abbr": "HSS",
   "type": "unrecognised"
 }, {
+  "name": "Hindustan Janta Party",
+  "abbr": "HJP"
+}, {
   "name": "Hindusthan Nirman Dal",
   "abbr": "HND",
   "type": "unrecognised",
@@ -552,6 +571,9 @@ var json = [{
 }, {
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
+}, {
+  "name": "Jai Vijaya Bharathi Party",
+  "abbr": "JVBP"
 }, {
   "name": "Jammu & Kashmir National Conference",
   "abbr": "JKNC",
@@ -655,8 +677,14 @@ var json = [{
   "location": "Jharkhand",
   "symbol": "Comb"
 }, {
+  "name": "Kamarajar Deseeya Congress",
+  "abbr": "KDC"
+}, {
   "name": "Kannada Chalavali Vatal Paksha",
-  "abbr": "KCVP"
+  "abbr": "KCVP",
+  "variations": {
+    "abbr": ["KCP"]
+  }
 }, {
   "name": "Kannada Paksha",
   "abbr": "KP"
@@ -667,6 +695,18 @@ var json = [{
   "type": "state",
   "location": "Karnataka",
   "symbol": "symbol not decided yet"
+}, {
+  "name": "Karnataka Makkala Paksha",
+  "abbr": "KMP"
+}, {
+  "name": "Karnataka Rajya Ryota Sangha",
+  "abbr": "KRRS"
+}, {
+  "name": "Karnataka Swarajya Party",
+  "abbr": "KSP",
+  "variations": {
+    "abbr": ["KaSP"]
+  }
 }, {
   "name": "Kerala Congress (M)",
   "abbr": "KC(M)",
@@ -733,6 +773,9 @@ var json = [{
   "type": "unrecognised",
   "location": "Himachal Pradesh"
 }, {
+  "name": "Lok Satta Party",
+  "abbr": "LSP"
+}, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
   "type": "unrecognised"
@@ -771,6 +814,12 @@ var json = [{
     "name": ["Maharashtrawadi Gomantak"]
   }
 }, {
+  "name": "Mahila Pradhana Paksha",
+  "abbr": "MPP",
+  "variations": {
+    "abbr": ["MPHP"]
+  }
+}, {
   "name": "Manavadhikar Janshakti Party",
   "abbr": "MaJP",
   "type": "unrecognised",
@@ -801,7 +850,10 @@ var json = [{
   }
 }, {
   "name": "National Development Party",
-  "abbr": "NDEP"
+  "abbr": "NDEP",
+  "variations": {
+    "abbr": ["NDP"]
+  }
 }, {
   "name": "Naga People's Front",
   "abbr": "NPF",
@@ -903,6 +955,13 @@ var json = [{
     "name": ["Peoples Party of Arunachal", "People’s Party of Arunachal"]
   }
 }, {
+  "name": "People's Party of India (Secular)",
+  "abbr": "PPIS",
+  "variations": {
+    "name": ["People's Party of India(secular)", "People’s Party of India (Secular)", "Peoples Party of India (Secular)"],
+    "abbr": ["PPI(S)"]
+  }
+}, {
   "name": "Peoples Republican Party",
   "abbr": "PRBP",
   "type": "unrecognised",
@@ -934,6 +993,12 @@ var json = [{
   "name": "Ram Rajya Parishad",
   "abbr": "RRP",
   "type": "unrecognised"
+}, {
+  "name": "Rani Chennamma Party",
+  "abbr": "RCP",
+  "variations": {
+    "abbr": ["RCMP"]
+  }
 }, {
   "name": "Rashtravadi Pratap Sena",
   "abbr": "RPS",
@@ -1064,21 +1129,24 @@ var json = [{
   "abbr": "SAKP",
   "type": "unrecognised"
 }, {
-  "name": "Samajwadi Janata Party (Rashtriya)",
-  "abbr": "SJP(R)",
-  "type": "state",
-  "location": "Himachal Pradesh"
-}, {
-  "name": "Samajwadi Janata Party (Rashtriya)",
-  "abbr": "SJP(R)",
-  "type": "unrecognised"
-}, {
   "name": "Samajwadi Party",
   "abbr": "SP",
   "founded": 1992,
   "type": "state",
   "location": "Uttar Pradesh",
   "symbol": "Bicycle"
+}, {
+  "name": "Samajwadi Janata Party (Karnataka)",
+  "abbr": "SJP(K)",
+  "variations": {
+    "name": ["Samajwadi Janata Party(Karnataka)"],
+    "abbr": ["SAJP"]
+  }
+}, {
+  "name": "Samajwadi Janata Party (Rashtriya)",
+  "abbr": "SJP(R)",
+  "type": "state",
+  "location": "Himachal Pradesh"
 }, {
   "name": "Samata Partu",
   "abbr": "SAP",
@@ -1107,6 +1175,13 @@ var json = [{
   "abbr": "SVPP",
   "type": "unrecognised"
 }, {
+  "name": "Sarva Janata Party",
+  "abbr": "SJP",
+  "variations": {
+    "name": ["Sarva Janata Paksha"],
+    "abbr": ["SJPA"]
+  }
+}, {
   "name": "Sarvodaya Karnataka Paksha",
   "abbr": "SKP"
 }, {
@@ -1128,6 +1203,9 @@ var json = [{
     "abbr": ["SHS"]
   }
 }, {
+  "name": "Shubha Karnataka",
+  "abbr": "SK"
+}, {
   "name": "Sikkim Democratic Front",
   "abbr": "SDF",
   "founded": 1993,
@@ -1141,6 +1219,12 @@ var json = [{
   "type": "state",
   "location": "Sikkim",
   "symbol": "Table lamp"
+}, {
+  "name": "Social Democratic Party of India",
+  "abbr": "SDPI",
+  "variations": {
+    "name": ["SOCIAL DEMOCRATIC PARTY OF INDIA"]
+  }
 }, {
   "name": "Social Party (India)",
   "abbr": "SP(I)",
@@ -1227,9 +1311,19 @@ var json = [{
   "abbr": "UNDP",
   "location": "Nagaland"
 }, {
+  "name": "Vichara Jagruthi Congress Paksha",
+  "abbr": "VJCP"
+}, {
   "name": "Vishva Hindustani Sangathan",
   "abbr": "VHS",
   "type": "unrecognised"
+}, {
+  "name": "Welfare Party of India",
+  "abbr": "WPI",
+  "variations": {
+    "name": ["Welfare Party Of India"],
+    "abbr": ["WPOI"]
+  }
 }, {
   "name": "Yuva Sarkar",
   "abbr": "YuS",
@@ -1401,7 +1495,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.14";
+var version = "3.0.15";
 
 var meta = {
   parties_count: json.length,
