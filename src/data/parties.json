@@ -364,7 +364,8 @@
   "location": "Meghalaya",
   "symbol": "Lion",
   "variations": {
-    "name": ["Hill State Peoples Democratic Party", "Hill State People’s Democratic Party"]
+    "name": ["Hill State Peoples Democratic Party", "Hill State People’s Democratic Party"],
+    "abbr": ["HPDP"]
   }
 }, {
   "name": "Himachal Kranti Party",

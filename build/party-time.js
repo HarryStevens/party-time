@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.10. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.11. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -371,7 +371,8 @@ var json = [{
   "location": "Meghalaya",
   "symbol": "Lion",
   "variations": {
-    "name": ["Hill State Peoples Democratic Party", "Hill State People’s Democratic Party"]
+    "name": ["Hill State Peoples Democratic Party", "Hill State People’s Democratic Party"],
+    "abbr": ["HPDP"]
   }
 }, {
   "name": "Himachal Kranti Party",
@@ -1298,7 +1299,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.10";
+var version = "3.0.11";
 
 var meta = {
   parties_count: json.length,
