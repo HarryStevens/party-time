@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.12. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.13. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -56,6 +56,9 @@ var json = [{
   "abbr": "ABJS",
   "type": "unrecognised"
 }, {
+  "name": "Akhil Bharatiya Manav Adhikar Dal",
+  "abbr": "ABMAD"
+}, {
   "name": "Akhil Bharatiya Ram Rajya Parishad (Prem Ballabh Vyas)",
   "abbr": "ABRRP(P)",
   "type": "unrecognised",
@@ -69,6 +72,9 @@ var json = [{
   "variations": {
     "abbr": ["ABRRP (P)", "ABRRP( P )"]
   }
+}, {
+  "name": "Akhil Bhartiya Sindhu Samajwadi Party",
+  "abbr": "ABSSP"
 }, {
   "name": "All India Anna Dravida Munnetra Kazhagam",
   "abbr": "AIADMK",
@@ -186,6 +192,9 @@ var json = [{
   "abbr": "BSDL",
   "type": "unrecognised"
 }, {
+  "name": "Bharatiya Backward Party",
+  "abbr": "BBP"
+}, {
   "name": "Bharatiya Bahujan Party",
   "abbr": "BHBP",
   "type": "unrecognised",
@@ -197,11 +206,6 @@ var json = [{
   "variations": {
     "abbr": ["BHDC"]
   }
-}, {
-  "name": "Bhartiya Himachal Jan Vikas Party",
-  "abbr": "BHJVP",
-  "symbol": "Boat with Man and Sail",
-  "type": "unrecognised"
 }, {
   "name": "Bharatiya Jan Shakti",
   "abbr": "BJSH",
@@ -256,6 +260,17 @@ var json = [{
   "type": "unrecognised",
   "variations": "Bharatiya Navshakti party"
 }, {
+  "name": "Bharatiya Prajatantrik Shudh Gandhiwadi Krishak Dal",
+  "abbr": "BPSGKD"
+}, {
+  "name": "Bharatiya Sadbhawna Samaj Party",
+  "abbr": "BSSP"
+}, {
+  "name": "Bhartiya Himachal Jan Vikas Party",
+  "abbr": "BHJVP",
+  "symbol": "Boat with Man and Sail",
+  "type": "unrecognised"
+}, {
   "name": "Biju Janata Dal",
   "abbr": "BJD",
   "founded": 1997,
@@ -273,6 +288,9 @@ var json = [{
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
 }, {
+  "name": "Chandigarh Vikas Party",
+  "abbr": "CVKP"
+}, {
   "name": "Chhattisgarh Mukti Morcha",
   "abbr": "CMM",
   "founded": 1982,
@@ -284,6 +302,9 @@ var json = [{
   "variations": {
     "name": ["Chattisgarh Swabhiman Manch"]
   }
+}, {
+  "name": "Chhattisgarh Vikas Party",
+  "abbr": "CGVP"
 }, {
   "name": "Chhattisgarhi Samaj Party",
   "abbr": "CSP",
@@ -357,6 +378,9 @@ var json = [{
   "name": "Gondvana Gantantra Party",
   "abbr": "GGP",
   "type": "unrecognised"
+}, {
+  "name": "Gondwana Mukti Sena",
+  "abbr": "GMS"
 }, {
   "name": "Gujarat Janata Parishad",
   "abbr": "GJP",
@@ -514,6 +538,9 @@ var json = [{
     "name": ["Indigenous People’s Front of Tripura", "Indigenous Peoples Front of Tripura"]
   }
 }, {
+  "name": "Jai Chhattisgarh Party",
+  "abbr": "JCGP"
+}, {
   "name": "Jammu & Kashmir National Conference",
   "abbr": "JKNC",
   "founded": 1932,
@@ -645,6 +672,9 @@ var json = [{
   "type": "state",
   "location": "BIHAR",
   "symbol": "Stool"
+}, {
+  "name": "Kranti Kari Jai Hind Sena",
+  "abbr": "KKJHS"
 }, {
   "name": "Lok Dal",
   "abbr": "LKD",
@@ -869,6 +899,9 @@ var json = [{
   "abbr": "PAP",
   "type": "unrecognised"
 }, {
+  "name": "Prithak Bastar Rajya Party",
+  "abbr": "PBRP"
+}, {
   "name": "Pruutist Bloc India",
   "abbr": "PBI",
   "type": "unrecognised",
@@ -893,6 +926,9 @@ var json = [{
   "abbr": "RGD",
   "type": "unrecognised",
   "location": "India"
+}, {
+  "name": "Rashtriya Gondvana Party",
+  "abbr": "RGOP"
 }, {
   "name": "Rashtriya Janata Dal",
   "abbr": "RJD",
@@ -962,6 +998,9 @@ var json = [{
   "abbr": "RJP",
   "type": "unrecognised",
   "location": "India"
+}, {
+  "name": "Republican Paksha (Khoripa)",
+  "abbr": "RP(K)"
 }, {
   "name": "Republican Party of India",
   "abbr": "RPI",
@@ -1330,7 +1369,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.12";
+var version = "3.0.13";
 
 var meta = {
   parties_count: json.length,
