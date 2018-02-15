@@ -309,6 +309,10 @@
   "abbr": "GSP",
   "type": "unrecognised"
 }, {
+  "name": "Garo National Council",
+  "abbr": "GNC",
+  "location": "Meghalaya"
+}, {
   "name": "Goa Forward Party",
   "abbr": "GFP",
   "founded": 2016,
@@ -591,6 +595,10 @@
   "location": "Kerala",
   "symbol": "Two leaves"
 }, {
+  "name": "Khun Hynniewtrep National Awakening Movement",
+  "abbr": "KHNAM",
+  "location": "Meghalaya"
+},{
   "name": "Kisan Mazdoor Lok Paksha",
   "abbr": "KLP",
   "type": "unrecognised",
@@ -687,6 +695,11 @@
     "abbr": ["MAJP"]
   }
 }, {
+  "name": "Meghalaya Democratic Party",
+  "abbr": "MDP",
+  "location": "Meghalay",
+  "symbol": "Bridge"
+}, {
   "name": "Mizo National Front",
   "abbr": "MNF",
   "founded": 1959,
@@ -759,6 +772,14 @@
   "abbr": "NEIDP",
   "founded": 2015,
   "location": "Manipur, Tripura"
+}, {
+  "name": "North East Social Democratic Party",
+  "abbr": "NESDP",
+  "founded": 2013,
+  "location": "Meghalaya",
+  "variations": {
+    "abbr": ["NeSDP"]
+  }
 }, {
   "name": "Nutan Maha Gujarat Janta Parishad",
   "abbr": "NJP",

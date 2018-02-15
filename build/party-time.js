@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.9. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.10. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -316,6 +316,10 @@ var json = [{
   "abbr": "GSP",
   "type": "unrecognised"
 }, {
+  "name": "Garo National Council",
+  "abbr": "GNC",
+  "location": "Meghalaya"
+}, {
   "name": "Goa Forward Party",
   "abbr": "GFP",
   "founded": 2016,
@@ -598,6 +602,10 @@ var json = [{
   "location": "Kerala",
   "symbol": "Two leaves"
 }, {
+  "name": "Khun Hynniewtrep National Awakening Movement",
+  "abbr": "KHNAM",
+  "location": "Meghalaya"
+},{
   "name": "Kisan Mazdoor Lok Paksha",
   "abbr": "KLP",
   "type": "unrecognised",
@@ -694,6 +702,11 @@ var json = [{
     "abbr": ["MAJP"]
   }
 }, {
+  "name": "Meghalaya Democratic Party",
+  "abbr": "MDP",
+  "location": "Meghalay",
+  "symbol": "Bridge"
+}, {
   "name": "Mizo National Front",
   "abbr": "MNF",
   "founded": 1959,
@@ -766,6 +779,14 @@ var json = [{
   "abbr": "NEIDP",
   "founded": 2015,
   "location": "Manipur, Tripura"
+}, {
+  "name": "North East Social Democratic Party",
+  "abbr": "NESDP",
+  "founded": 2013,
+  "location": "Meghalaya",
+  "variations": {
+    "abbr": ["NeSDP"]
+  }
 }, {
   "name": "Nutan Maha Gujarat Janta Parishad",
   "abbr": "NJP",
@@ -1277,7 +1298,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.9";
+var version = "3.0.10";
 
 var meta = {
   parties_count: json.length,
