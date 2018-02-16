@@ -6,7 +6,14 @@
 <body>
 	<script src="../build/party-time.js"></script>
 	<script>
-		document.write(pt.convert("RPI(Khobragade)"))
+		document.write(JSON.stringify(pt.getInfo("NARP")))
+
+		var g = pt.getInfo("narp");
+		var h = pt.getInfo("narp", "abbr");
+
+		document.write(JSON.stringify(g))
+		document.write(JSON.stringify(h))
+
 	</script>
 </body>
 </html>

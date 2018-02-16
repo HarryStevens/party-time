@@ -53,7 +53,7 @@ describe("#partyConverter", function(){
 		expect(g.abbr).to.equal(undefined);
 		expect(h.warning).to.equal("No match in library");
 		expect(h.name).to.equal(undefined);
-		expect(h.abbr).to.equal("NARP");
+		expect(h.abbr).to.equal("narp");
 	});
 
 	it("should convert acronyms and parties greedily or not greedily", function(){
@@ -78,7 +78,7 @@ describe("#partyConverter", function(){
 		expect(f).to.equal("INC");
 		expect(g).to.equal("Not a real party");
 		expect(h).to.equal("NARP");
-		expect(i).to.equal("NARP");
+		expect(i).to.equal("narp");
 		expect(j.name).to.equal("narp");
 		expect(j.warning).to.equal("No match in library");
 		expect(k).to.equal("Shivsena");
