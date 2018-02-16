@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.15. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.16. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -72,6 +72,10 @@ var json = [{
   "variations": {
     "abbr": ["ABRRP (P)", "ABRRP( P )"]
   }
+}, {
+  "name": "Akhil Bhartiya Gondwana Party",
+  "abbr": "ABGP",
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bhartiya Sindhu Samajwadi Party",
   "abbr": "ABSSP"
@@ -1495,7 +1499,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.15";
+var version = "3.0.16";
 
 var meta = {
   parties_count: json.length,
