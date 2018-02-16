@@ -1235,7 +1235,7 @@
   "abbr": "RPI(K)",
   "type": "unrecognised",
   "variations": {
-    "abbr": ["RPI(KH)"]
+    "abbr": ["RPI(KH)", "RPI(Khobragade)"]
   }
 }, {
   "name": "Revolutionary Socialist Party",
@@ -1472,6 +1472,9 @@
   "abbr": "YVP",
   "type": "unrecognised",
   "location": "Gujarat"
+}, {
+  "name": "YSR Bahujana Party",
+  "abbr": "YBP"
 }, {
   "name": "Yuvajana Sramika Rythu Congress Party",
   "abbr": "YSRCP",

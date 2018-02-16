@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.19. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.20. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1242,7 +1242,7 @@ var json = [{
   "abbr": "RPI(K)",
   "type": "unrecognised",
   "variations": {
-    "abbr": ["RPI(KH)"]
+    "abbr": ["RPI(KH)", "RPI(Khobragade)"]
   }
 }, {
   "name": "Revolutionary Socialist Party",
@@ -1480,6 +1480,9 @@ var json = [{
   "type": "unrecognised",
   "location": "Gujarat"
 }, {
+  "name": "YSR Bahujana Party",
+  "abbr": "YBP"
+}, {
   "name": "Yuvajana Sramika Rythu Congress Party",
   "abbr": "YSRCP",
   "founded": 2011,
@@ -1638,7 +1641,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.19";
+var version = "3.0.20";
 
 var meta = {
   parties_count: json.length,
