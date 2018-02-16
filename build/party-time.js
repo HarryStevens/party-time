@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.23. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.0. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1050,7 +1050,10 @@ var json = [{
 }, {
   "name": "Praja Rajyam Party",
   "abbr": "PRAP",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "abbr": ["PRP"]
+  }
 }, {
   "name": "Praja Shanthi Party",
   "abbr": "PRSHP",
@@ -1635,7 +1638,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.23";
+var version = "3.1.0";
 
 var meta = {
   parties_count: json.length,

@@ -1043,7 +1043,10 @@
 }, {
   "name": "Praja Rajyam Party",
   "abbr": "PRAP",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "abbr": ["PRP"]
+  }
 }, {
   "name": "Praja Shanthi Party",
   "abbr": "PRSHP",
