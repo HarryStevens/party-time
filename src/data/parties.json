@@ -1,4 +1,8 @@
 [{
+  "name": "Aadijan Mukti Sena",
+  "abbr": "AMS",
+  "type": "unrecognised"
+}, {
   "name": "Aadivasi Sena Party",
   "abbr": "ADSP",
   "type": "unrecognised"
@@ -17,6 +21,10 @@
 }, {
   "name": "Adivasi Jan Kalyan Party",
   "abbr": "AJKP",
+  "type": "unrecognised"
+}, {
+  "name": "Advait Ishwasyam Congress",
+  "abbr": "AIC",
   "type": "unrecognised"
 }, {
   "name": "Ajeya Bharat Party",
@@ -68,6 +76,10 @@
 }, {
   "name": "Akhil Bhartiya Gondwana Party",
   "abbr": "ABGP",
+  "type": "unrecognised"
+}, {
+  "name": "Akhil Bhartiya Hind Kranti Party",
+  "abbr": "ABKP",
   "type": "unrecognised"
 }, {
   "name": "Akhil Bhartiya Sindhu Samajwadi Party",
@@ -290,6 +302,14 @@
   "symbol": "Boat with Man and Sail",
   "type": "unrecognised"
 }, {
+  "name": "Bhartiya Satya Sangharsh Party",
+  "abbr": "BHSSP",
+  "type": "unrecognised"
+}, {
+  "name": "Bhartiya Vikas Party",
+  "abbr": "BRVP",
+  "type": "unrecognised"
+}, {
   "name": "Biju Janata Dal",
   "abbr": "BJD",
   "founded": 1997,
@@ -306,6 +326,10 @@
   "variations": {
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
+}, {
+  "name": "Bundelkhand Akikrit Party",
+  "abbr": "BAP",
+  "type": "unrecognised"
 }, {
   "name": "Chandigarh Vikas Party",
   "abbr": "CVKP"
@@ -566,6 +590,10 @@
     "name": ["Indigenous People’s Front of Tripura", "Indigenous Peoples Front of Tripura"]
   }
 }, {
+  "name": "Inqalab Vikas Dal",
+  "abbr": "IVD",
+  "type": "unrecognised"
+}, {
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
 }, {
@@ -666,6 +694,10 @@
   "type": "state",
   "location": "Jharkhand",
   "symbol": "Bow and arrow"
+}, {
+  "name": "Jharkhand Mukti Morcha (Ulgulan)",
+  "abbr": "JMM(U)",
+  "type": "unrecognised"
 }, {
   "name": "Jharkhand Vikas Morcha (Prajatantrik)",
   "abbr": "JVM(P)",
@@ -976,6 +1008,10 @@
   "abbr": "PAP",
   "type": "unrecognised"
 }, {
+  "name": "Prajatantrik Samadhan Party",
+  "abbr": "PRSP",
+  "type": "unrecognised"
+}, {
   "name": "Prithak Bastar Rajya Party",
   "abbr": "PBRP"
 }, {
@@ -1001,6 +1037,10 @@
   "abbr": "RPS",
   "type": "unrecognised"
 }, {
+  "name": "Rashtriya Dharmanirpeksha Nava Bharat Party",
+  "abbr": "RDNBP",
+  "type": "unrecognised"
+}, {
   "name": "Rashtriya Azad Manch",
   "abbr": "RAM",
   "type": "unrecognised"
@@ -1009,6 +1049,10 @@
   "abbr": "RGD",
   "type": "unrecognised",
   "location": "India"
+}, {
+  "name": "Rashtriya Garima Party",
+  "abbr": "RSGP",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Gondvana Party",
   "abbr": "RGOP"
@@ -1025,6 +1069,10 @@
 }, {
   "name": "Rashtriya Komi Ekta Party",
   "abbr": "RKEP",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Kranti Party",
+  "abbr": "RTKP",
   "type": "unrecognised"
 }, {
   "name": "Rashtriya Krantikari Samajwadi Party",
@@ -1064,6 +1112,14 @@
   "variations": {
     "name": ["Rashtriya Samajwadi Party  (Secular)"]
   }
+}, {
+  "name": "Rashtriya Samanta Dal",
+  "abbr": "RSMD",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Sawarn Dal",
+  "abbr": "RSD",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Sindhi Congress",
   "abbr": "RSDC",
@@ -1126,6 +1182,10 @@
   "abbr": "SAKP",
   "type": "unrecognised"
 }, {
+  "name": "Samajwadi Jan Parishad",
+  "abbr": "SWJP",
+  "type": "unrecognised"
+}, {
   "name": "Samajwadi Party",
   "abbr": "SP",
   "founded": 1992,
@@ -1181,6 +1241,10 @@
 }, {
   "name": "Sarvodaya Karnataka Paksha",
   "abbr": "SKP"
+}, {
+  "name": "Savarn Samaj Party",
+  "abbr": "SVSP",
+  "type": "unrecognised"
 }, {
   "name": "Shiromani Akali Dal",
   "abbr": "SAD",

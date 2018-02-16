@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.16. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.17. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -6,6 +6,10 @@
 }(this, (function (exports) { 'use strict';
 
 var json = [{
+  "name": "Aadijan Mukti Sena",
+  "abbr": "AMS",
+  "type": "unrecognised"
+}, {
   "name": "Aadivasi Sena Party",
   "abbr": "ADSP",
   "type": "unrecognised"
@@ -24,6 +28,10 @@ var json = [{
 }, {
   "name": "Adivasi Jan Kalyan Party",
   "abbr": "AJKP",
+  "type": "unrecognised"
+}, {
+  "name": "Advait Ishwasyam Congress",
+  "abbr": "AIC",
   "type": "unrecognised"
 }, {
   "name": "Ajeya Bharat Party",
@@ -75,6 +83,10 @@ var json = [{
 }, {
   "name": "Akhil Bhartiya Gondwana Party",
   "abbr": "ABGP",
+  "type": "unrecognised"
+}, {
+  "name": "Akhil Bhartiya Hind Kranti Party",
+  "abbr": "ABKP",
   "type": "unrecognised"
 }, {
   "name": "Akhil Bhartiya Sindhu Samajwadi Party",
@@ -297,6 +309,14 @@ var json = [{
   "symbol": "Boat with Man and Sail",
   "type": "unrecognised"
 }, {
+  "name": "Bhartiya Satya Sangharsh Party",
+  "abbr": "BHSSP",
+  "type": "unrecognised"
+}, {
+  "name": "Bhartiya Vikas Party",
+  "abbr": "BRVP",
+  "type": "unrecognised"
+}, {
   "name": "Biju Janata Dal",
   "abbr": "BJD",
   "founded": 1997,
@@ -313,6 +333,10 @@ var json = [{
   "variations": {
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
+}, {
+  "name": "Bundelkhand Akikrit Party",
+  "abbr": "BAP",
+  "type": "unrecognised"
 }, {
   "name": "Chandigarh Vikas Party",
   "abbr": "CVKP"
@@ -573,6 +597,10 @@ var json = [{
     "name": ["Indigenous People’s Front of Tripura", "Indigenous Peoples Front of Tripura"]
   }
 }, {
+  "name": "Inqalab Vikas Dal",
+  "abbr": "IVD",
+  "type": "unrecognised"
+}, {
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
 }, {
@@ -673,6 +701,10 @@ var json = [{
   "type": "state",
   "location": "Jharkhand",
   "symbol": "Bow and arrow"
+}, {
+  "name": "Jharkhand Mukti Morcha (Ulgulan)",
+  "abbr": "JMM(U)",
+  "type": "unrecognised"
 }, {
   "name": "Jharkhand Vikas Morcha (Prajatantrik)",
   "abbr": "JVM(P)",
@@ -983,6 +1015,10 @@ var json = [{
   "abbr": "PAP",
   "type": "unrecognised"
 }, {
+  "name": "Prajatantrik Samadhan Party",
+  "abbr": "PRSP",
+  "type": "unrecognised"
+}, {
   "name": "Prithak Bastar Rajya Party",
   "abbr": "PBRP"
 }, {
@@ -1008,6 +1044,10 @@ var json = [{
   "abbr": "RPS",
   "type": "unrecognised"
 }, {
+  "name": "Rashtriya Dharmanirpeksha Nava Bharat Party",
+  "abbr": "RDNBP",
+  "type": "unrecognised"
+}, {
   "name": "Rashtriya Azad Manch",
   "abbr": "RAM",
   "type": "unrecognised"
@@ -1016,6 +1056,10 @@ var json = [{
   "abbr": "RGD",
   "type": "unrecognised",
   "location": "India"
+}, {
+  "name": "Rashtriya Garima Party",
+  "abbr": "RSGP",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Gondvana Party",
   "abbr": "RGOP"
@@ -1032,6 +1076,10 @@ var json = [{
 }, {
   "name": "Rashtriya Komi Ekta Party",
   "abbr": "RKEP",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Kranti Party",
+  "abbr": "RTKP",
   "type": "unrecognised"
 }, {
   "name": "Rashtriya Krantikari Samajwadi Party",
@@ -1071,6 +1119,14 @@ var json = [{
   "variations": {
     "name": ["Rashtriya Samajwadi Party  (Secular)"]
   }
+}, {
+  "name": "Rashtriya Samanta Dal",
+  "abbr": "RSMD",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Sawarn Dal",
+  "abbr": "RSD",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Sindhi Congress",
   "abbr": "RSDC",
@@ -1133,6 +1189,10 @@ var json = [{
   "abbr": "SAKP",
   "type": "unrecognised"
 }, {
+  "name": "Samajwadi Jan Parishad",
+  "abbr": "SWJP",
+  "type": "unrecognised"
+}, {
   "name": "Samajwadi Party",
   "abbr": "SP",
   "founded": 1992,
@@ -1188,6 +1248,10 @@ var json = [{
 }, {
   "name": "Sarvodaya Karnataka Paksha",
   "abbr": "SKP"
+}, {
+  "name": "Savarn Samaj Party",
+  "abbr": "SVSP",
+  "type": "unrecognised"
 }, {
   "name": "Shiromani Akali Dal",
   "abbr": "SAD",
@@ -1499,12 +1563,12 @@ function convert(party, options){
 
 }
 
-var version = "3.0.16";
+var version = "3.0.17";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "February 15, 2018"
+  last_updated: "February 16, 2018"
 };
 
 exports.getType = getType;
