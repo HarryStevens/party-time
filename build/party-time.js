@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.20. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.21. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1235,14 +1235,10 @@ var json = [{
   "type": "unrecognised"
 }, {
   "name": "Republican Party of India (Khobragade)",
-  "abbr": "RPK",
-  "type": "unrecognised"
-}, {
-  "name": "Republican Party of India (Khobragade)",
   "abbr": "RPI(K)",
   "type": "unrecognised",
   "variations": {
-    "abbr": ["RPI(KH)", "RPI(Khobragade)"]
+    "abbr": ["RPI(KH)", "RPI(Khobragade)", "RPK"]
   }
 }, {
   "name": "Revolutionary Socialist Party",
@@ -1641,7 +1637,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.20";
+var version = "3.0.21";
 
 var meta = {
   parties_count: json.length,

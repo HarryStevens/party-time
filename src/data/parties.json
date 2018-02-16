@@ -1228,14 +1228,10 @@
   "type": "unrecognised"
 }, {
   "name": "Republican Party of India (Khobragade)",
-  "abbr": "RPK",
-  "type": "unrecognised"
-}, {
-  "name": "Republican Party of India (Khobragade)",
   "abbr": "RPI(K)",
   "type": "unrecognised",
   "variations": {
-    "abbr": ["RPI(KH)", "RPI(Khobragade)"]
+    "abbr": ["RPI(KH)", "RPI(Khobragade)", "RPK"]
   }
 }, {
   "name": "Revolutionary Socialist Party",
