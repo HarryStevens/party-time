@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.21. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.22. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1566,8 +1566,6 @@ function getInfo(party, type){
   
   type = type ? type : getType(party);
 
-  party = type == "abbr" ? party.toUpperCase() : party;
-
   var out = json.filter(function(d){
     return d[type] == party || (d.variations && d.variations[type] && d.variations[type].indexOf(party) != -1);
   });
@@ -1637,7 +1635,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.21";
+var version = "3.0.22";
 
 var meta = {
   parties_count: json.length,

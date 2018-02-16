@@ -44,8 +44,6 @@ export default function getInfo(party, type){
   
   type = type ? type : getType(party);
 
-  party = type == "abbr" ? party.toUpperCase() : party;
-
   var out = json.filter(function(d){
     return d[type] == party || (d.variations && d.variations[type] && d.variations[type].indexOf(party) != -1);
   });
