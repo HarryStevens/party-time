@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.17. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.0.18. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -49,6 +49,10 @@ var json = [{
   "variations": {
     "name": ["Hindu Mahasabha"]
   }
+}, {
+  "name": "Bharatheeya Sadharma Samsthapana Party",
+  "abbr": "BHSASP",
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bharatiya Congress Dal (Ambedkar)",
   "abbr": "ABCD(A)",
@@ -215,6 +219,13 @@ var json = [{
   "type": "national",
   "location": "India",
   "symbol": "Elephant (except in Assam)"
+}, {
+  "name": "Bahujan Samaj Party (Ambedkar-Phule)",
+  "abbr": "BSP(AP)",
+  "type": "unrecognised",
+  "variations": {
+    "name": ["Bahujan Samaj Party(Ambedkar-Phule)"]
+  }
 }, {
   "name": "Bahujan Suraksha Dal",
   "abbr": "BSDL",
@@ -389,6 +400,10 @@ var json = [{
   "name": "Communist Party of India (Marxist-Leninist) Red Star",
   "abbr": "CPI(ML) Red Star"
 }, {
+  "name": "Dalita Bahujana Party",
+  "abbr": "DABAP",
+  "type": "unrecognised"
+}, {
   "name": "Democratic Bharatiya Samaj Party",
   "abbr": "DBSP",
   "type": "unrecognised"
@@ -434,6 +449,10 @@ var json = [{
 }, {
   "name": "Gondwana Mukti Sena",
   "abbr": "GMS"
+}, {
+  "name": "Great India Party",
+  "abbr": "GRIP",
+  "type": "unrecognised"
 }, {
   "name": "Gujarat Janata Parishad",
   "abbr": "GJP",
@@ -603,6 +622,10 @@ var json = [{
 }, {
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
+}, {
+  "name": "Jai Maha Bharath Party",
+  "abbr": "JMBP",
+  "type": "unrecognised"
 }, {
   "name": "Jai Vijaya Bharathi Party",
   "abbr": "JVBP"
@@ -856,12 +879,24 @@ var json = [{
     "abbr": ["MPHP"]
   }
 }, {
+  "name": "Majlis Bachao Tahreek",
+  "abbr": "MBT",
+  "type": "unrecognised"
+}, {
+  "name": "Mana Party",
+  "abbr": "MANP",
+  "type": "unrecognised"
+}, {
   "name": "Manavadhikar Janshakti Party",
   "abbr": "MaJP",
   "type": "unrecognised",
   "variations": {
     "abbr": ["MAJP"]
   }
+}, {
+  "name": "Marxist Communist Party of India (S.S. Srivastava)",
+  "abbr": "MCPI(S)",
+  "type": "unrecognised"
 }, {
   "name": "Meghalaya Democratic Party",
   "abbr": "MDP",
@@ -1005,9 +1040,25 @@ var json = [{
     "name": ["People's Republican Party", "People’s Republican Party"]
   }
 }, {
+  "name": "Praja Bharath Party",
+  "abbr": "PBHP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Party",
+  "abbr": "PP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Rajyam Party",
+  "abbr": "PRP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Shanthi Party",
+  "abbr": "PRSHP",
+  "type": "unrecognised"
+}, {
   "name": "Praja Socialist Party",
   "abbr": "PSP",
-  "founded": "1952",
+  "founded": 1952,
   "type": "national",
   "location": "India"
 }, {
@@ -1029,6 +1080,18 @@ var json = [{
   "variations": {
     "name": ["Proutist Bloc India", "Proutist Bloc, India"]
   }
+}, {
+  "name": "Pyramid Party of India",
+  "abbr": "PPOI",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Praja Congress (Secular)",
+  "abbr": "RPC(S)",
+  "type": "unrecognised"
+}, {
+  "name": "Rajyadhikara Party",
+  "abbr": "RDHP",
+  "type": "unrecognised"
 }, {
   "name": "Ram Rajya Parishad",
   "abbr": "RRP",
@@ -1138,6 +1201,10 @@ var json = [{
 }, {
   "name": "Rastriya Gurujan Party",
   "abbr": "RGJP",
+  "type": "unrecognised"
+}, {
+  "name": "Rayalaseema Rashtra Samithi",
+  "abbr": "RRS",
   "type": "unrecognised"
 }, {
   "name": "Republican",
@@ -1360,6 +1427,10 @@ var json = [{
   "abbr": "TSP",
   "location": "Tripura"
 }, {
+  "name": "Trilinga Praja Pragati Party",
+  "abbr": "TPPP",
+  "type": "unrecognised"
+}, {
   "name": "Tripura People's Party",
   "abbr": "TPP",
   "location": "Tripura",
@@ -1378,6 +1449,10 @@ var json = [{
   "name": "United Naga Democratic Party",
   "abbr": "UNDP",
   "location": "Nagaland"
+}, {
+  "name": "United Women Front",
+  "abbr": "UWF",
+  "type": "unrecognised"
 }, {
   "name": "Vichara Jagruthi Congress Paksha",
   "abbr": "VJCP"
@@ -1563,7 +1638,7 @@ function convert(party, options){
 
 }
 
-var version = "3.0.17";
+var version = "3.0.18";
 
 var meta = {
   parties_count: json.length,

@@ -43,6 +43,10 @@
     "name": ["Hindu Mahasabha"]
   }
 }, {
+  "name": "Bharatheeya Sadharma Samsthapana Party",
+  "abbr": "BHSASP",
+  "type": "unrecognised"
+}, {
   "name": "Akhil Bharatiya Congress Dal (Ambedkar)",
   "abbr": "ABCD(A)",
   "type": "unrecognised",
@@ -208,6 +212,13 @@
   "type": "national",
   "location": "India",
   "symbol": "Elephant (except in Assam)"
+}, {
+  "name": "Bahujan Samaj Party (Ambedkar-Phule)",
+  "abbr": "BSP(AP)",
+  "type": "unrecognised",
+  "variations": {
+    "name": ["Bahujan Samaj Party(Ambedkar-Phule)"]
+  }
 }, {
   "name": "Bahujan Suraksha Dal",
   "abbr": "BSDL",
@@ -382,6 +393,10 @@
   "name": "Communist Party of India (Marxist-Leninist) Red Star",
   "abbr": "CPI(ML) Red Star"
 }, {
+  "name": "Dalita Bahujana Party",
+  "abbr": "DABAP",
+  "type": "unrecognised"
+}, {
   "name": "Democratic Bharatiya Samaj Party",
   "abbr": "DBSP",
   "type": "unrecognised"
@@ -427,6 +442,10 @@
 }, {
   "name": "Gondwana Mukti Sena",
   "abbr": "GMS"
+}, {
+  "name": "Great India Party",
+  "abbr": "GRIP",
+  "type": "unrecognised"
 }, {
   "name": "Gujarat Janata Parishad",
   "abbr": "GJP",
@@ -596,6 +615,10 @@
 }, {
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
+}, {
+  "name": "Jai Maha Bharath Party",
+  "abbr": "JMBP",
+  "type": "unrecognised"
 }, {
   "name": "Jai Vijaya Bharathi Party",
   "abbr": "JVBP"
@@ -849,12 +872,24 @@
     "abbr": ["MPHP"]
   }
 }, {
+  "name": "Majlis Bachao Tahreek",
+  "abbr": "MBT",
+  "type": "unrecognised"
+}, {
+  "name": "Mana Party",
+  "abbr": "MANP",
+  "type": "unrecognised"
+}, {
   "name": "Manavadhikar Janshakti Party",
   "abbr": "MaJP",
   "type": "unrecognised",
   "variations": {
     "abbr": ["MAJP"]
   }
+}, {
+  "name": "Marxist Communist Party of India (S.S. Srivastava)",
+  "abbr": "MCPI(S)",
+  "type": "unrecognised"
 }, {
   "name": "Meghalaya Democratic Party",
   "abbr": "MDP",
@@ -998,9 +1033,25 @@
     "name": ["People's Republican Party", "People’s Republican Party"]
   }
 }, {
+  "name": "Praja Bharath Party",
+  "abbr": "PBHP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Party",
+  "abbr": "PP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Rajyam Party",
+  "abbr": "PRP",
+  "type": "unrecognised"
+}, {
+  "name": "Praja Shanthi Party",
+  "abbr": "PRSHP",
+  "type": "unrecognised"
+}, {
   "name": "Praja Socialist Party",
   "abbr": "PSP",
-  "founded": "1952",
+  "founded": 1952,
   "type": "national",
   "location": "India"
 }, {
@@ -1022,6 +1073,18 @@
   "variations": {
     "name": ["Proutist Bloc India", "Proutist Bloc, India"]
   }
+}, {
+  "name": "Pyramid Party of India",
+  "abbr": "PPOI",
+  "type": "unrecognised"
+}, {
+  "name": "Rashtriya Praja Congress (Secular)",
+  "abbr": "RPC(S)",
+  "type": "unrecognised"
+}, {
+  "name": "Rajyadhikara Party",
+  "abbr": "RDHP",
+  "type": "unrecognised"
 }, {
   "name": "Ram Rajya Parishad",
   "abbr": "RRP",
@@ -1131,6 +1194,10 @@
 }, {
   "name": "Rastriya Gurujan Party",
   "abbr": "RGJP",
+  "type": "unrecognised"
+}, {
+  "name": "Rayalaseema Rashtra Samithi",
+  "abbr": "RRS",
   "type": "unrecognised"
 }, {
   "name": "Republican",
@@ -1353,6 +1420,10 @@
   "abbr": "TSP",
   "location": "Tripura"
 }, {
+  "name": "Trilinga Praja Pragati Party",
+  "abbr": "TPPP",
+  "type": "unrecognised"
+}, {
   "name": "Tripura People's Party",
   "abbr": "TPP",
   "location": "Tripura",
@@ -1371,6 +1442,10 @@
   "name": "United Naga Democratic Party",
   "abbr": "UNDP",
   "location": "Nagaland"
+}, {
+  "name": "United Women Front",
+  "abbr": "UWF",
+  "type": "unrecognised"
 }, {
   "name": "Vichara Jagruthi Congress Paksha",
   "abbr": "VJCP"
