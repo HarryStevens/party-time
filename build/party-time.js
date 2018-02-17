@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.3. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.4. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1627,7 +1627,7 @@ function getInfo(party, type){
 * pt.convert("Indian National Congress"); // "INC"
 * pt.convert("Not a real party"); // "Not a real party"
 * pt.convert("NARP"); // "NARP"
-* pt.convert("narp", { type: "abbr" }); // "NARP"
+* pt.convert("narp", { type: "abbr" }); // "narp"
 * pt.convert("narp", { greedy: false, type: "name" }); // { name: "narp", warning: "No match in libary" }
 */
 function convert(party, options){
@@ -1665,7 +1665,7 @@ function convert(party, options){
 
 }
 
-var version = "3.1.3";
+var version = "3.1.4";
 
 var meta = {
   parties_count: json.length,

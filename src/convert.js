@@ -17,7 +17,7 @@ import getInfo from "./getInfo"
 * pt.convert("Indian National Congress"); // "INC"
 * pt.convert("Not a real party"); // "Not a real party"
 * pt.convert("NARP"); // "NARP"
-* pt.convert("narp", { type: "abbr" }); // "NARP"
+* pt.convert("narp", { type: "abbr" }); // "narp"
 * pt.convert("narp", { greedy: false, type: "name" }); // { name: "narp", warning: "No match in libary" }
 */
 export default function convert(party, options){
