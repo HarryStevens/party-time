@@ -179,6 +179,12 @@
   "type": "state",
   "symbol": "Cup and Saucer"
 }, {
+  "name": "Arunachal Congress",
+  "abbr": "AC",
+  "founded": 1996,
+  "type": "state",
+  "location": "Arunachal Pradesh"
+}, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
   "founded": 1985,
@@ -674,7 +680,8 @@
   "location": "Bihar",
   "symbol": "Arrow",
   "variations": {
-    "name": ["Janata Dal  (United)"]
+    "name": ["Janata Dal  (United)"],
+    "abbr": ["JD (U)"]
   }
 }, {
   "name": "Janata Party (JP)",

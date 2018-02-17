@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.0. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.1. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -185,6 +185,12 @@ var json = [{
   "founded": 1995,
   "type": "state",
   "symbol": "Cup and Saucer"
+}, {
+  "name": "Arunachal Congress",
+  "abbr": "AC",
+  "founded": 1996,
+  "type": "state",
+  "location": "Arunachal Pradesh"
 }, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
@@ -681,7 +687,8 @@ var json = [{
   "location": "Bihar",
   "symbol": "Arrow",
   "variations": {
-    "name": ["Janata Dal  (United)"]
+    "name": ["Janata Dal  (United)"],
+    "abbr": ["JD (U)"]
   }
 }, {
   "name": "Janata Party (JP)",
@@ -1638,7 +1645,7 @@ function convert(party, options){
 
 }
 
-var version = "3.1.0";
+var version = "3.1.1";
 
 var meta = {
   parties_count: json.length,
