@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.1. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.2. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -49,6 +49,11 @@ var json = [{
   "variations": {
     "name": ["Hindu Mahasabha"]
   }
+}, {
+  "name": "Assam United Democratic Front",
+  "abbr": "AUDF",
+  "type": "unrecognised",
+  "location": "Assam"
 }, {
   "name": "Bharatheeya Sadharma Samsthapana Party",
   "abbr": "BHSASP",
@@ -842,6 +847,10 @@ var json = [{
   "name": "Lok Satta Party",
   "abbr": "LSP"
 }, {
+  "name": "Loko Sanmilon",
+  "abbr": "LKS",
+  "type": "unrecognised"
+}, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
   "type": "unrecognised"
@@ -1437,6 +1446,10 @@ var json = [{
   "abbr": "TPPP",
   "type": "unrecognised"
 }, {
+  "name": "Trinamool Gana Parishad",
+  "abbr": "TNGP",
+  "type": "unrecognised"
+}, {
   "name": "Tripura People's Party",
   "abbr": "TPP",
   "location": "Tripura",
@@ -1645,7 +1658,7 @@ function convert(party, options){
 
 }
 
-var version = "3.1.1";
+var version = "3.1.2";
 
 var meta = {
   parties_count: json.length,

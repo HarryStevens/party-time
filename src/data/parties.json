@@ -43,6 +43,11 @@
     "name": ["Hindu Mahasabha"]
   }
 }, {
+  "name": "Assam United Democratic Front",
+  "abbr": "AUDF",
+  "type": "unrecognised",
+  "location": "Assam"
+}, {
   "name": "Bharatheeya Sadharma Samsthapana Party",
   "abbr": "BHSASP",
   "type": "unrecognised"
@@ -835,6 +840,10 @@
   "name": "Lok Satta Party",
   "abbr": "LSP"
 }, {
+  "name": "Loko Sanmilon",
+  "abbr": "LKS",
+  "type": "unrecognised"
+}, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
   "type": "unrecognised"
@@ -1428,6 +1437,10 @@
 }, {
   "name": "Trilinga Praja Pragati Party",
   "abbr": "TPPP",
+  "type": "unrecognised"
+}, {
+  "name": "Trinamool Gana Parishad",
+  "abbr": "TNGP",
   "type": "unrecognised"
 }, {
   "name": "Tripura People's Party",
