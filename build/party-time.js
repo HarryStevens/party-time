@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.2. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.3. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -805,6 +805,10 @@ var json = [{
   "name": "Kranti Kari Jai Hind Sena",
   "abbr": "KKJHS"
 }, {
+  "name": "Lok Bharati",
+  "abbr": "LB",
+  "type": "unrecognised"
+}, {
   "name": "Lok Dal",
   "abbr": "LKD",
   "founded": 1980,
@@ -849,7 +853,10 @@ var json = [{
 }, {
   "name": "Loko Sanmilon",
   "abbr": "LKS",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "abbr": ["LS"]
+  }
 }, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
@@ -1658,7 +1665,7 @@ function convert(party, options){
 
 }
 
-var version = "3.1.2";
+var version = "3.1.3";
 
 var meta = {
   parties_count: json.length,

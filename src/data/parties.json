@@ -798,6 +798,10 @@
   "name": "Kranti Kari Jai Hind Sena",
   "abbr": "KKJHS"
 }, {
+  "name": "Lok Bharati",
+  "abbr": "LB",
+  "type": "unrecognised"
+}, {
   "name": "Lok Dal",
   "abbr": "LKD",
   "founded": 1980,
@@ -842,7 +846,10 @@
 }, {
   "name": "Loko Sanmilon",
   "abbr": "LKS",
-  "type": "unrecognised"
+  "type": "unrecognised",
+  "variations": {
+    "abbr": ["LS"]
+  }
 }, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
