@@ -8,7 +8,8 @@
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "minify": "uglifyjs build/party-time.js --preamble \"$(preamble)\" -c -m -o build/party-time.min.js",
     "dox": "documentation build build/party-time.js -g -f md > API.md",
-    "rollup": "rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
+    "rollup": "npm run sort && rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
+    "sort": "node sort",
     "build": "npm run rollup && npm run minify && npm run dox"
   },
   "repository": {
@@ -38,7 +39,9 @@
     "chai": "^4.0.2",
     "coveralls": "^2.13.1",
     "documentation": "^5.2.1",
+    "indian-ocean": "^3.0.2",
     "istanbul": "^0.4.5",
+    "jeezy": "^1.12.14",
     "mocha": "^3.4.2",
     "package-preamble": "^0.1.0",
     "rollup": "^0.50.0",
