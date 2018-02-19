@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.0. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.1. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1567,6 +1567,11 @@ var json = [
     "location": "Puducherry"
   },
   {
+    "name": "Puratchi Bharatham",
+    "abbr": "PB",
+    "type": "unrecognised"
+  },
+  {
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
@@ -2297,7 +2302,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.0";
+var version = "3.2.1";
 
 var meta = {
   parties_count: json.length,
