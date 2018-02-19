@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.1.5. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.0. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -98,7 +98,8 @@ var json = [
     "type": "unrecognised",
     "variations": {
       "abbr": [
-        "ABRRP(P )"
+        "ABRRP (P)",
+        "ABRRP( P )"
       ]
     }
   },
@@ -108,8 +109,7 @@ var json = [
     "type": "unrecognised",
     "variations": {
       "abbr": [
-        "ABRRP (P)",
-        "ABRRP( P )"
+        "ABRRP(P )"
       ]
     }
   },
@@ -1286,6 +1286,11 @@ var json = [
     }
   },
   {
+    "name": "Marumalarchi Dravida Munnetra Kazhagam",
+    "abbr": "MDMK",
+    "type": "state"
+  },
+  {
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
     "abbr": "MCPI(S)",
     "type": "unrecognised"
@@ -1554,6 +1559,12 @@ var json = [
         "Proutist Bloc, India"
       ]
     }
+  },
+  {
+    "name": "Pudhucherry Munnetra Congress",
+    "abbr": "PMC",
+    "type": "unrecognised",
+    "location": "Puducherry"
   },
   {
     "name": "Pyramid Party of India",
@@ -2286,7 +2297,7 @@ function convert(party, options){
 
 }
 
-var version = "3.1.5";
+var version = "3.2.0";
 
 var meta = {
   parties_count: json.length,

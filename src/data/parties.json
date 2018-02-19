@@ -91,7 +91,8 @@
     "type": "unrecognised",
     "variations": {
       "abbr": [
-        "ABRRP(P )"
+        "ABRRP (P)",
+        "ABRRP( P )"
       ]
     }
   },
@@ -101,8 +102,7 @@
     "type": "unrecognised",
     "variations": {
       "abbr": [
-        "ABRRP (P)",
-        "ABRRP( P )"
+        "ABRRP(P )"
       ]
     }
   },
@@ -1279,6 +1279,11 @@
     }
   },
   {
+    "name": "Marumalarchi Dravida Munnetra Kazhagam",
+    "abbr": "MDMK",
+    "type": "state"
+  },
+  {
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
     "abbr": "MCPI(S)",
     "type": "unrecognised"
@@ -1547,6 +1552,12 @@
         "Proutist Bloc, India"
       ]
     }
+  },
+  {
+    "name": "Pudhucherry Munnetra Congress",
+    "abbr": "PMC",
+    "type": "unrecognised",
+    "location": "Puducherry"
   },
   {
     "name": "Pyramid Party of India",
