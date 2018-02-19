@@ -50,19 +50,18 @@ var json = [{
     "name": ["Hindu Mahasabha"]
   }
 }, {
-  "name": "Assam United Democratic Front",
-  "abbr": "AUDF",
-  "type": "unrecognised",
-  "location": "Assam"
-}, {
-  "name": "Bharatheeya Sadharma Samsthapana Party",
-  "abbr": "BHSASP",
+  "name": "Akhil Bharatiya Ashok Sena",
+  "abbr": "ABAS",
   "type": "unrecognised"
 }, {
   "name": "Akhil Bharatiya Congress Dal (Ambedkar)",
   "abbr": "ABCD(A)",
   "type": "unrecognised",
   "symbol": "Candles,Kite"
+}, {
+  "name": "Akhil Bharatiya Desh Bhakt Morcha",
+  "abbr": "ABDBM",
+  "type": "unrecognised"
 }, {
   "name": "Akhil Bharatiya Hindu Mahasabha",
   "abbr": "HMS",
@@ -100,6 +99,10 @@ var json = [{
 }, {
   "name": "Akhil Bhartiya Sindhu Samajwadi Party",
   "abbr": "ABSSP"
+}, {
+  "name": "Akhil Jan Vikas Dal",
+  "abbr": "AJVD",
+  "type": "unrecognised"
 }, {
   "name": "All India Anna Dravida Munnetra Kazhagam",
   "abbr": "AIADMK",
@@ -197,12 +200,21 @@ var json = [{
   "type": "state",
   "location": "Arunachal Pradesh"
 }, {
+  "name": "Assam United Democratic Front",
+  "abbr": "AUDF",
+  "type": "unrecognised",
+  "location": "Assam"
+}, {
   "name": "Asom Gana Parishad",
   "abbr": "AGP",
   "founded": 1985,
   "type": "state",
   "location": "Assam",
   "symbol": "Elephant"
+}, {
+  "name": "Awami Party",
+  "abbr": "AP",
+  "type": "unrecognised"
 }, {
   "name": "Azad Janata Party",
   "abbr": "AJP",
@@ -242,6 +254,14 @@ var json = [{
   "abbr": "BSDL",
   "type": "unrecognised"
 }, {
+  "name": "Bajjikanchal Vikas Party",
+  "abbr": "BJKVP",
+  "type": "unrecognised"
+}, {
+  "name": "Bharatheeya Sadharma Samsthapana Party",
+  "abbr": "BHSASP",
+  "type": "unrecognised"
+}, {
   "name": "Bharatiya Backward Party",
   "abbr": "BBP"
 }, {
@@ -256,6 +276,10 @@ var json = [{
   "variations": {
     "abbr": ["BHDC"]
   }
+}, {
+  "name": "Bharatiya Ekta Dal",
+  "abbr": "BED",
+  "type": "unrecognised"
 }, {
   "name": "Bharatiya Jan Shakti",
   "abbr": "BJSH",
@@ -299,6 +323,10 @@ var json = [{
 }, {
   "name": "Bharatiya Minorities Suraksha Mahasangh",
   "abbr": "BMSM",
+  "type": "unrecognised"
+}, {
+  "name": "Bharatiya Momin Front",
+  "abbr": "BMF",
   "type": "unrecognised"
 }, {
   "name": "Bharatiya National Janata Dal",
@@ -355,6 +383,10 @@ var json = [{
   "variations": {
     "name": ["Bodoland Peoples Front", "Bodoland People’s Front"]
   }
+}, {
+  "name": "Buddhiviveki Vikas Party",
+  "abbr": "BVVP",
+  "type": "unrecognised"
 }, {
   "name": "Bundelkhand Akikrit Party",
   "abbr": "BAP",
@@ -634,8 +666,23 @@ var json = [{
   "name": "Jai Chhattisgarh Party",
   "abbr": "JCGP"
 }, {
+  "name": "Jai Hind Party",
+  "abbr": "JHP",
+  "type": "unrecognised"
+}, {
+  "name": "Jai Jawan Jai Kisan Mazdoor Congress",
+  "abbr": "JJJKMC",
+  "type": "unrecognised",
+  "variations": {
+    "name": ["Jai Jawan Jai Kisan Mazdoor Congess"]
+  }
+}, {
   "name": "Jai Maha Bharath Party",
   "abbr": "JMBP",
+  "type": "unrecognised"
+}, {
+  "name": "Jai Prakash Janata Dal",
+  "abbr": "JPJD",
   "type": "unrecognised"
 }, {
   "name": "Jai Vijaya Bharathi Party",
@@ -730,6 +777,14 @@ var json = [{
     "abbr": ["JP"]
   }
 }, {
+  "name": "Jawan Kisan Morcha",
+  "abbr": "JKM",
+  "type": "unrecognised"
+}, {
+  "name": "Jharkhand Disom Party",
+  "abbr": "JDP",
+  "type": "unrecognised"
+}, {
   "name": "Jharkhand Mukti Morcha",
   "abbr": "JMM",
   "founded": 1972,
@@ -802,8 +857,16 @@ var json = [{
   "location": "BIHAR",
   "symbol": "Stool"
 }, {
+  "name": "Kosi Vikas Party",
+  "abbr": "KVSP",
+  "type": "unrecognised"
+}, {
   "name": "Kranti Kari Jai Hind Sena",
   "abbr": "KKJHS"
+}, {
+  "name": "Krantikari Samyavadi Party",
+  "abbr": "KSVP",
+  "type": "unrecognised"
 }, {
   "name": "Lok Bharati",
   "abbr": "LB",
@@ -813,7 +876,10 @@ var json = [{
   "abbr": "LKD",
   "founded": 1980,
   "type": "national",
-  "location": "India"
+  "location": "India",
+  "variations": {
+    "abbr": ["LD"]
+  }
 }, {
   "name": "Lok Dal (B)",
   "abbr": "LKD(B)",
@@ -857,6 +923,10 @@ var json = [{
   "variations": {
     "abbr": ["LS"]
   }
+}, {
+  "name": "Lok Sewa Dal",
+  "abbr": "LSD",
+  "type": "unrecognised"
 }, {
   "name": "Lokpriya Samaj Party",
   "abbr": "LPSP",
@@ -942,6 +1012,10 @@ var json = [{
   "variations": {
     "name": ["Mizoram Peoples Conference", "Mizoram People’s Conference"]
   }
+}, {
+  "name": "Muslim League Kerala State Committee",
+  "abbr": "MUL",
+  "type": "state"
 }, {
   "name": "National Development Party",
   "abbr": "NDEP",
@@ -1063,6 +1137,10 @@ var json = [{
     "name": ["People's Republican Party", "People’s Republican Party"]
   }
 }, {
+  "name": "Pragatisheel Manav Samaj Party",
+  "abbr": "PMSP",
+  "type": "unrecognised"
+}, {
   "name": "Praja Bharath Party",
   "abbr": "PBHP",
   "type": "unrecognised"
@@ -1099,6 +1177,10 @@ var json = [{
   "name": "Prithak Bastar Rajya Party",
   "abbr": "PBRP"
 }, {
+  "name": "Proutist Sarva Samaj Party",
+  "abbr": "PTSS",
+  "type": "unrecognised"
+}, {
   "name": "Pruutist Bloc India",
   "abbr": "PBI",
   "type": "unrecognised",
@@ -1128,6 +1210,10 @@ var json = [{
   "variations": {
     "abbr": ["RCMP"]
   }
+}, {
+  "name": "Rashtravadi Janata Party",
+  "abbr": "RVNP",
+  "type": "unrecognised"
 }, {
   "name": "Rashtravadi Pratap Sena",
   "abbr": "RPS",
@@ -1162,6 +1248,10 @@ var json = [{
   "type": "state",
   "location": "Bihar, Jharkhand",
   "symbol": "Hurricane Lamp"
+}, {
+  "name": "Rashtriya Kamjor Varg Party",
+  "abbr": "RKVP",
+  "type": "unrecognised"
 }, {
   "name": "Rashtriya Komi Ekta Party",
   "abbr": "RKEP",
@@ -1278,6 +1368,10 @@ var json = [{
   "abbr": "SAKP",
   "type": "unrecognised"
 }, {
+  "name": "Samajik Jantantrik Party",
+  "abbr": "SJTP",
+  "type": "unrecognised"
+}, {
   "name": "Samajwadi Jan Parishad",
   "abbr": "SWJP",
   "type": "unrecognised"
@@ -1360,6 +1454,10 @@ var json = [{
     "abbr": ["SHS"]
   }
 }, {
+  "name": "Shoshit Samaj Dal",
+  "abbr": "SSD",
+  "type": "unrecognised"
+}, {
   "name": "Shubha Karnataka",
   "abbr": "SK"
 }, {
@@ -1410,6 +1508,10 @@ var json = [{
     "abbr": ["SUCI"],
     "name": ["SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)"]
   }
+}, {
+  "name": "Suheldev Bhartiya Samaj Party",
+  "abbr": "SBSP",
+  "type": "unrecognised"
 }, {
   "name": "Sunder Samaj Party",
   "abbr": "SUSP",
