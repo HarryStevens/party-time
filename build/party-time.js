@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.2. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.3. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -681,6 +681,10 @@ var json = [
     "symbol": "Coconut"
   },
   {
+    "name": "Goa Su-Raj Party",
+    "abbr": "GSRP"
+  },
+  {
     "name": "Gondvana Gantantra Party",
     "abbr": "GGP",
     "type": "unrecognised"
@@ -1304,6 +1308,11 @@ var json = [
     "type": "state",
     "location": "Maharashtra",
     "symbol": "Railway engine"
+  },
+  {
+    "name": "Maharashtrawadi Gomantak",
+    "abbr": "MAG",
+    "type": "state"
   },
   {
     "name": "Maharashtrawadi Gomantak Party",
@@ -2039,6 +2048,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Save Goa Front",
+    "abbr": "SGF"
+  },
+  {
     "name": "Shiromani Akali Dal",
     "abbr": "SAD",
     "founded": 1920,
@@ -2227,6 +2240,11 @@ var json = [
     "type": "state",
     "location": "Meghalaya",
     "symbol": "Drum"
+  },
+  {
+    "name": "United Goans Democratic Party",
+    "abbr": "UGDP",
+    "type": "state"
   },
   {
     "name": "United Naga Democratic Party",
@@ -2462,7 +2480,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.2";
+var version = "3.2.3";
 
 var meta = {
   parties_count: json.length,

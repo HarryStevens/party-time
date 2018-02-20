@@ -674,6 +674,10 @@
     "symbol": "Coconut"
   },
   {
+    "name": "Goa Su-Raj Party",
+    "abbr": "GSRP"
+  },
+  {
     "name": "Gondvana Gantantra Party",
     "abbr": "GGP",
     "type": "unrecognised"
@@ -1297,6 +1301,11 @@
     "type": "state",
     "location": "Maharashtra",
     "symbol": "Railway engine"
+  },
+  {
+    "name": "Maharashtrawadi Gomantak",
+    "abbr": "MAG",
+    "type": "state"
   },
   {
     "name": "Maharashtrawadi Gomantak Party",
@@ -2032,6 +2041,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Save Goa Front",
+    "abbr": "SGF"
+  },
+  {
     "name": "Shiromani Akali Dal",
     "abbr": "SAD",
     "founded": 1920,
@@ -2220,6 +2233,11 @@
     "type": "state",
     "location": "Meghalaya",
     "symbol": "Drum"
+  },
+  {
+    "name": "United Goans Democratic Party",
+    "abbr": "UGDP",
+    "type": "state"
   },
   {
     "name": "United Naga Democratic Party",
