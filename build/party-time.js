@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.4. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.5. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -424,7 +424,12 @@ var json = [
     "name": "Bharatiya Jankranti Party",
     "abbr": "BJNKP",
     "type": "unrecognised",
-    "location": "Gujarat"
+    "location": "Gujarat",
+    "variations": {
+      "abbr": [
+        "BJKP"
+      ]
+    }
   },
   {
     "name": "Bharatiya Krishi Udyog Sangh",
@@ -1019,14 +1024,14 @@ var json = [
     "abbr": "JD(U)",
     "founded": 1999,
     "type": "state",
-    "location": "Bihar",
     "symbol": "Arrow",
     "variations": {
       "name": [
         "Janata Dal  (United)"
       ],
       "abbr": [
-        "JD (U)"
+        "JD (U)",
+        "J D (U)"
       ]
     }
   },
@@ -2484,7 +2489,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.4";
+var version = "3.2.5";
 
 var meta = {
   parties_count: json.length,
