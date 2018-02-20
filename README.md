@@ -43,4 +43,6 @@ npm run build
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
 
-If you find a party or abbreviation not in the library, please [open up an issue](https://github.com/HindustanTimesLabs/party-time/issues).
+If you find a party or abbreviation not in the library, please [open up an issue](https://github.com/HindustanTimesLabs/party-time/issues) or add the party to [`src/data/parties.json`](https://github.com/HindustanTimesLabs/party-time/blob/master/src/data/parties.json) and submit a pull request.
+
+After adding parties, it is a good idea to check if you've added a duplicate. To do that, run `node integrity_check.js`.

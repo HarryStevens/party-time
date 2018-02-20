@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.1. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.2. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -41,8 +41,18 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Agar Jan Party",
+    "abbr": "AGRJP",
+    "type": "unrecognised"
+  },
+  {
     "name": "Ajeya Bharat Party",
     "abbr": "AJBP",
+    "type": "unrecognised"
+  },
+  {
+    "name": "Akhand Bharat Samaj Party",
+    "abbr": "ABSP",
     "type": "unrecognised"
   },
   {
@@ -99,16 +109,7 @@ var json = [
     "variations": {
       "abbr": [
         "ABRRP (P)",
-        "ABRRP( P )"
-      ]
-    }
-  },
-  {
-    "name": "Akhil Bharatiya Ram Rajya Parishad (Prem Ballabh Vyas)",
-    "abbr": "ABRRP(P)",
-    "type": "unrecognised",
-    "variations": {
-      "abbr": [
+        "ABRRP( P )",
         "ABRRP(P )"
       ]
     }
@@ -187,6 +188,16 @@ var json = [
     "type": "unrecognised",
     "location": "Uttar Pradesh, Himachal Pradesh",
     "symbol": "Road Roller"
+  },
+  {
+    "name": "All India Minorities Front",
+    "abbr": "AIMF",
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "AIMP"
+      ]
+    }
   },
   {
     "name": "All India N.R. Congress",
@@ -324,13 +335,28 @@ var json = [
     }
   },
   {
+    "name": "Bahujan Sangharsh Party (Kanshiram)",
+    "abbr": "BSP(K)",
+    "type": "unrecognised"
+  },
+  {
     "name": "Bahujan Suraksha Dal",
     "abbr": "BSDL",
     "type": "unrecognised"
   },
   {
+    "name": "Bahujan Vikas Party",
+    "abbr": "BVP",
+    "type": "unrecognised"
+  },
+  {
     "name": "Bajjikanchal Vikas Party",
     "abbr": "BJKVP",
+    "type": "unrecognised"
+  },
+  {
+    "name": "Bharat Punarnirman Dal",
+    "abbr": "BPD",
     "type": "unrecognised"
   },
   {
@@ -455,13 +481,33 @@ var json = [
     "abbr": "BPSGKD"
   },
   {
+    "name": "Bharatiya Rashtravadi Samanta Party",
+    "abbr": "BRSP",
+    "type": "unrecognised"
+  },
+  {
     "name": "Bharatiya Sadbhawna Samaj Party",
     "abbr": "BSSP"
+  },
+  {
+    "name": "Bharatiya Sarvodaya Kranti Party",
+    "abbr": "BSKP",
+    "type": "unrecognised"
   },
   {
     "name": "Bhartiya Himachal Jan Vikas Party",
     "abbr": "BHJVP",
     "symbol": "Boat with Man and Sail",
+    "type": "unrecognised"
+  },
+  {
+    "name": "Bhartiya Jan Sahyog Samanvaya Party",
+    "abbr": "BJSSP",
+    "type": "unrecognised"
+  },
+  {
+    "name": "Bhartiya Pragatisheel Congress",
+    "abbr": "BPC",
     "type": "unrecognised"
   },
   {
@@ -586,6 +632,11 @@ var json = [
   {
     "name": "Democratic Bharatiya Samaj Party",
     "abbr": "DBSP",
+    "type": "unrecognised"
+  },
+  {
+    "name": "Desh Bhakt Party",
+    "abbr": "DBP",
     "type": "unrecognised"
   },
   {
@@ -730,6 +781,11 @@ var json = [
     "location": "Himachal Pradesh"
   },
   {
+    "name": "Hind Raksha Sena",
+    "abbr": "HRS",
+    "type": "unrecognised"
+  },
+  {
     "name": "Hindu Swaraj Sanghathan",
     "abbr": "HSS",
     "type": "unrecognised"
@@ -760,6 +816,11 @@ var json = [
     "founded": 1984,
     "type": "national",
     "location": "India"
+  },
+  {
+    "name": "Indian Democratic Party",
+    "abbr": "IDP",
+    "type": "unrecognised"
   },
   {
     "name": "Indian Justice Party",
@@ -1130,6 +1191,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Labour Party of India (V.V. Prasad)",
+    "abbr": "LPI(V)"
+  },
+  {
     "name": "Lok Bharati",
     "abbr": "LB",
     "type": "unrecognised"
@@ -1158,21 +1223,18 @@ var json = [
     "type": "unrecognised"
   },
   {
-    "name": "Lok Jan Shakti Party",
-    "abbr": "LJNSP",
-    "type": "unrecognised",
-    "location": "India"
-  },
-  {
     "name": "Lok Janshakti Party",
     "abbr": "LJP",
     "founded": 2000,
     "type": "state",
-    "location": "Bihar",
     "symbol": "Bungalow",
     "variations": {
       "name": [
         "Lok Jan Shakti Party"
+      ],
+      "abbr": [
+        "LJNSP",
+        "LJSP"
       ]
     }
   },
@@ -1266,6 +1328,10 @@ var json = [
     }
   },
   {
+    "name": "Majdoor Kisan Union Party",
+    "abbr": "MKUP"
+  },
+  {
     "name": "Majlis Bachao Tahreek",
     "abbr": "MBT",
     "type": "unrecognised"
@@ -1294,6 +1360,10 @@ var json = [
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
     "abbr": "MCPI(S)",
     "type": "unrecognised"
+  },
+  {
+    "name": "Matra Bhakta Party",
+    "abbr": "MBP"
   },
   {
     "name": "Meghalaya Democratic Party",
@@ -1352,6 +1422,14 @@ var json = [
     }
   },
   {
+    "name": "National Jankranti Dal",
+    "abbr": "NJD"
+  },
+  {
+    "name": "National Lokhind Party",
+    "abbr": "NLHP"
+  },
+  {
     "name": "National Loktantrik Party",
     "abbr": "NLP",
     "type": "unrecognised"
@@ -1389,9 +1467,17 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Navbharat Nirman Party",
+    "abbr": "NBNP"
+  },
+  {
     "name": "Navin Bharat Nirman",
     "abbr": "NBN",
     "type": "unrecognised"
+  },
+  {
+    "name": "Naya Daur Party",
+    "abbr": "NADP"
   },
   {
     "name": "New Socialist Movement",
@@ -1425,6 +1511,10 @@ var json = [
     "abbr": "NJP",
     "founded": "1960",
     "location": "Gujarat"
+  },
+  {
+    "name": "Parivartan Samaj Party",
+    "abbr": "PSJP"
   },
   {
     "name": "Party for Democratic Socialism",
@@ -1611,9 +1701,26 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Rashtrawadi Labour Party",
+    "abbr": "RALP"
+  },
+  {
+    "name": "Rashtrawadi Sena",
+    "abbr": "RWS",
+    "variations": {
+      "abbr": [
+        "RS"
+      ]
+    }
+  },
+  {
     "name": "Rashtriya Azad Manch",
     "abbr": "RAM",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Bahujan Congress Party",
+    "abbr": "RBCP"
   },
   {
     "name": "Rashtriya Dharmanirpeksha Nava Bharat Party",
@@ -1640,9 +1747,17 @@ var json = [
     "abbr": "RAHS"
   },
   {
+    "name": "Rashtriya Hith Congress",
+    "abbr": "RHC"
+  },
+  {
     "name": "Rashtriya Jan-Jagram Morcha",
     "abbr": "RJJM",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Janadhikar Party",
+    "abbr": "RJAP"
   },
   {
     "name": "Rashtriya Janata Dal",
@@ -1651,6 +1766,10 @@ var json = [
     "type": "state",
     "location": "Bihar, Jharkhand",
     "symbol": "Hurricane Lamp"
+  },
+  {
+    "name": "Rashtriya Kamgar Party",
+    "abbr": "RKAP"
   },
   {
     "name": "Rashtriya Kamjor Varg Party",
@@ -1666,6 +1785,10 @@ var json = [
     "name": "Rashtriya Kranti Party",
     "abbr": "RTKP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Krantikari Janata Party",
+    "abbr": "RKJP"
   },
   {
     "name": "Rashtriya Krantikari Samajwadi Party",
@@ -1695,6 +1818,10 @@ var json = [
     "location": "Gujarat"
   },
   {
+    "name": "Rashtriya Mazdoor Ekta Party",
+    "abbr": "RMEP"
+  },
+  {
     "name": "Rashtriya Pragtisheel Morcha",
     "abbr": "RPM",
     "type": "unrecognised"
@@ -1703,6 +1830,10 @@ var json = [
     "name": "Rashtriya Praja Congress (Secular)",
     "abbr": "RPC(S)",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Raksha Dal",
+    "abbr": "RRD"
   },
   {
     "name": "Rashtriya Samaj Paksha",
@@ -1730,6 +1861,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Rashtriya Sawarn Shakti Party",
+    "abbr": "RSSHP"
+  },
+  {
     "name": "Rashtriya Sindhi Congress",
     "abbr": "RSDC",
     "type": "unrecognised"
@@ -1738,6 +1873,10 @@ var json = [
     "name": "Rashtriya Surajya Parishad",
     "abbr": "RSRP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Swabhimaan Party",
+    "abbr": "RSBP"
   },
   {
     "name": "Rastriya Gurujan Party",
@@ -1906,6 +2045,10 @@ var json = [
     "type": "state",
     "location": "Punjab",
     "symbol": "Scale"
+  },
+  {
+    "name": "Shiromani Akali Dal (Simranjit Singh Mann)",
+    "abbr": "SAD(M)"
   },
   {
     "name": "Shivsena",
@@ -2091,9 +2234,26 @@ var json = [
     "location": "Nagaland"
   },
   {
+    "name": "United National Loktantrik Party",
+    "abbr": "UNLP"
+  },
+  {
     "name": "United Women Front",
     "abbr": "UWF",
     "type": "unrecognised"
+  },
+  {
+    "name": "Uttar Pradesh United Democratic Front",
+    "abbr": "UPUDF"
+  },
+  {
+    "name": "Vanchit Jamat Party",
+    "abbr": "VAJP",
+    "variations": {
+      "abbr": [
+        "VJP"
+      ]
+    }
   },
   {
     "name": "Vanchitsamaj Insaaf Party",
@@ -2302,12 +2462,12 @@ function convert(party, options){
 
 }
 
-var version = "3.2.1";
+var version = "3.2.2";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "February 19, 2018"
+  last_updated: "February 20, 2018"
 };
 
 exports.getType = getType;
