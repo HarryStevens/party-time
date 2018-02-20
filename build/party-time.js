@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.3. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.4. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -683,6 +683,10 @@ var json = [
   {
     "name": "Goa Su-Raj Party",
     "abbr": "GSRP"
+  },
+  {
+    "name": "Goa Vikas Party",
+    "abbr": "GVP"
   },
   {
     "name": "Gondvana Gantantra Party",
@@ -2480,7 +2484,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.3";
+var version = "3.2.4";
 
 var meta = {
   parties_count: json.length,
