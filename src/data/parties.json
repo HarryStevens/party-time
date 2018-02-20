@@ -289,6 +289,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Backward Classes Democratic Party, J&K",
+    "abbr": "BCDP"
+  },
+  {
     "name": "Badavara Shramikara Raitara Congress Party",
     "abbr": "BSRC",
     "variations": {
@@ -502,6 +506,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bhartiya Chaitanya Party",
+    "abbr": "BCP"
+  },
+  {
     "name": "Bhartiya Himachal Jan Vikas Party",
     "abbr": "BHJVP",
     "symbol": "Boat with Man and Sail",
@@ -668,6 +676,10 @@
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
     "symbol": "Rising sun"
+  },
+  {
+    "name": "Forward Bloc (Socialist)",
+    "abbr": "FB(S)"
   },
   {
     "name": "Gareebjan Samaj Party",
@@ -979,12 +991,25 @@
     "abbr": "JVBP"
   },
   {
+    "name": "Jammu & Kashmir Awami National Conference",
+    "abbr": "JKANC"
+  },
+  {
+    "name": "Jammu & Kashmir Democratic Party Nationalist",
+    "abbr": "JKDPN"
+  },
+  {
     "name": "Jammu & Kashmir National Conference",
     "abbr": "JKNC",
     "founded": 1932,
     "type": "state",
     "location": "Jammu & Kashmir",
-    "symbol": "Plough"
+    "symbol": "Plough",
+    "variations": {
+      "abbr": [
+        "JKN"
+      ]
+    }
   },
   {
     "name": "Jammu & Kashmir National Panthers Party",
@@ -993,6 +1018,18 @@
     "type": "state",
     "location": "Jammu & Kashmir",
     "symbol": "Bicycle"
+  },
+  {
+    "name": "Jammu & Kashmir National United Front",
+    "abbr": "JKNUF"
+  },
+  {
+    "name": "Jammu And Kashmir Awami League",
+    "abbr": "JKAL"
+  },
+  {
+    "name": "Jammu State Morcha (Progressive)",
+    "abbr": "JSM(P)"
   },
   {
     "name": "Jammu and Kashmir People's Democratic Party",
@@ -1207,6 +1244,10 @@
     "name": "Kosi Vikas Party",
     "abbr": "KVSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Kranti Dal",
+    "abbr": "KRD"
   },
   {
     "name": "Kranti Kari Jai Hind Sena",
@@ -1584,6 +1625,16 @@
       "name": [
         "Peoples Democratic Alliance",
         "People’s Democratic Alliance"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Front",
+    "abbr": "PDF",
+    "variations": {
+      "name": [
+        "People’s Democratic Front",
+        "Peoples Democratic Front"
       ]
     }
   },
@@ -2201,6 +2252,10 @@
     }
   },
   {
+    "name": "Socialistic Democratic Party",
+    "abbr": "SDP"
+  },
+  {
     "name": "Suheldev Bhartiya Samaj Party",
     "abbr": "SBSP",
     "type": "unrecognised"
@@ -2271,6 +2326,10 @@
         "Tripura Peoples Party"
       ]
     }
+  },
+  {
+    "name": "United Citizen Party",
+    "abbr": "UCP"
   },
   {
     "name": "United Democratic Party",

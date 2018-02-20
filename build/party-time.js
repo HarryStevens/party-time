@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.6. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.7. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -296,6 +296,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Backward Classes Democratic Party, J&K",
+    "abbr": "BCDP"
+  },
+  {
     "name": "Badavara Shramikara Raitara Congress Party",
     "abbr": "BSRC",
     "variations": {
@@ -509,6 +513,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Bhartiya Chaitanya Party",
+    "abbr": "BCP"
+  },
+  {
     "name": "Bhartiya Himachal Jan Vikas Party",
     "abbr": "BHJVP",
     "symbol": "Boat with Man and Sail",
@@ -675,6 +683,10 @@ var json = [
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
     "symbol": "Rising sun"
+  },
+  {
+    "name": "Forward Bloc (Socialist)",
+    "abbr": "FB(S)"
   },
   {
     "name": "Gareebjan Samaj Party",
@@ -986,12 +998,25 @@ var json = [
     "abbr": "JVBP"
   },
   {
+    "name": "Jammu & Kashmir Awami National Conference",
+    "abbr": "JKANC"
+  },
+  {
+    "name": "Jammu & Kashmir Democratic Party Nationalist",
+    "abbr": "JKDPN"
+  },
+  {
     "name": "Jammu & Kashmir National Conference",
     "abbr": "JKNC",
     "founded": 1932,
     "type": "state",
     "location": "Jammu & Kashmir",
-    "symbol": "Plough"
+    "symbol": "Plough",
+    "variations": {
+      "abbr": [
+        "JKN"
+      ]
+    }
   },
   {
     "name": "Jammu & Kashmir National Panthers Party",
@@ -1000,6 +1025,18 @@ var json = [
     "type": "state",
     "location": "Jammu & Kashmir",
     "symbol": "Bicycle"
+  },
+  {
+    "name": "Jammu & Kashmir National United Front",
+    "abbr": "JKNUF"
+  },
+  {
+    "name": "Jammu And Kashmir Awami League",
+    "abbr": "JKAL"
+  },
+  {
+    "name": "Jammu State Morcha (Progressive)",
+    "abbr": "JSM(P)"
   },
   {
     "name": "Jammu and Kashmir People's Democratic Party",
@@ -1214,6 +1251,10 @@ var json = [
     "name": "Kosi Vikas Party",
     "abbr": "KVSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Kranti Dal",
+    "abbr": "KRD"
   },
   {
     "name": "Kranti Kari Jai Hind Sena",
@@ -1591,6 +1632,16 @@ var json = [
       "name": [
         "Peoples Democratic Alliance",
         "People’s Democratic Alliance"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Front",
+    "abbr": "PDF",
+    "variations": {
+      "name": [
+        "People’s Democratic Front",
+        "Peoples Democratic Front"
       ]
     }
   },
@@ -2208,6 +2259,10 @@ var json = [
     }
   },
   {
+    "name": "Socialistic Democratic Party",
+    "abbr": "SDP"
+  },
+  {
     "name": "Suheldev Bhartiya Samaj Party",
     "abbr": "SBSP",
     "type": "unrecognised"
@@ -2278,6 +2333,10 @@ var json = [
         "Tripura Peoples Party"
       ]
     }
+  },
+  {
+    "name": "United Citizen Party",
+    "abbr": "UCP"
   },
   {
     "name": "United Democratic Party",
@@ -2535,7 +2594,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.6";
+var version = "3.2.7";
 
 var meta = {
   parties_count: json.length,
