@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.5. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.6. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -491,6 +491,15 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Bharatiya Republican Paksha",
+    "abbr": "BRPP",
+    "variations": {
+      "abbr": [
+        "BRP"
+      ]
+    }
+  },
+  {
     "name": "Bharatiya Sadbhawna Samaj Party",
     "abbr": "BSSP"
   },
@@ -744,6 +753,18 @@ var json = [
     "variations": {
       "abbr": [
         "HJC"
+      ]
+    }
+  },
+  {
+    "name": "Haryana Swantra Party",
+    "abbr": "HASWP",
+    "variations": {
+      "name": [
+        "Haryana Swatantra Party"
+      ],
+      "abbr": [
+        "HSP"
       ]
     }
   },
@@ -1498,6 +1519,18 @@ var json = [
     "abbr": "NADP"
   },
   {
+    "name": "Nelopa (United)",
+    "abbr": "NELU",
+    "variations": {
+      "name": [
+        "Nelopa(United)"
+      ],
+      "abbr": [
+        "NELOPA(U)"
+      ]
+    }
+  },
+  {
     "name": "New Socialist Movement",
     "abbr": "NSM",
     "type": "unrecognised"
@@ -1730,6 +1763,10 @@ var json = [
         "RS"
       ]
     }
+  },
+  {
+    "name": "Rashtriya Arya Raj Sabha",
+    "abbr": "RARS"
   },
   {
     "name": "Rashtriya Azad Manch",
@@ -2270,6 +2307,15 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Upekshit Samaj Party",
+    "abbr": "UKSP",
+    "variations": {
+      "abbr": [
+        "USP"
+      ]
+    }
+  },
+  {
     "name": "Uttar Pradesh United Democratic Front",
     "abbr": "UPUDF"
   },
@@ -2489,7 +2535,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.5";
+var version = "3.2.6";
 
 var meta = {
   parties_count: json.length,

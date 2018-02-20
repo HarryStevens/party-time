@@ -484,6 +484,15 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharatiya Republican Paksha",
+    "abbr": "BRPP",
+    "variations": {
+      "abbr": [
+        "BRP"
+      ]
+    }
+  },
+  {
     "name": "Bharatiya Sadbhawna Samaj Party",
     "abbr": "BSSP"
   },
@@ -737,6 +746,18 @@
     "variations": {
       "abbr": [
         "HJC"
+      ]
+    }
+  },
+  {
+    "name": "Haryana Swantra Party",
+    "abbr": "HASWP",
+    "variations": {
+      "name": [
+        "Haryana Swatantra Party"
+      ],
+      "abbr": [
+        "HSP"
       ]
     }
   },
@@ -1491,6 +1512,18 @@
     "abbr": "NADP"
   },
   {
+    "name": "Nelopa (United)",
+    "abbr": "NELU",
+    "variations": {
+      "name": [
+        "Nelopa(United)"
+      ],
+      "abbr": [
+        "NELOPA(U)"
+      ]
+    }
+  },
+  {
     "name": "New Socialist Movement",
     "abbr": "NSM",
     "type": "unrecognised"
@@ -1723,6 +1756,10 @@
         "RS"
       ]
     }
+  },
+  {
+    "name": "Rashtriya Arya Raj Sabha",
+    "abbr": "RARS"
   },
   {
     "name": "Rashtriya Azad Manch",
@@ -2261,6 +2298,15 @@
     "name": "United Women Front",
     "abbr": "UWF",
     "type": "unrecognised"
+  },
+  {
+    "name": "Upekshit Samaj Party",
+    "abbr": "UKSP",
+    "variations": {
+      "abbr": [
+        "USP"
+      ]
+    }
   },
   {
     "name": "Uttar Pradesh United Democratic Front",
