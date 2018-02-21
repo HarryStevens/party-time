@@ -603,7 +603,10 @@
   },
   {
     "name": "Communist Marxist Party Kerala State Committee",
-    "abbr": "CMPKSC"
+    "abbr": "CMPKSC",
+    "variations": {
+      "abbr": "CMP"
+    }
   },
   {
     "name": "Communist Party of India",
@@ -622,7 +625,8 @@
     "symbol": "Hammer sickle and star",
     "variations": {
       "abbr": [
-        "CPM"
+        "CPM",
+        "CPI[M]"
       ],
       "name": [
         "Communist Party of India  (Marxist)",
@@ -1248,8 +1252,31 @@
     "type": "state"
   },
   {
+    "name": "Kerala Congress (Anti-merger Group)",
+    "abbr": "KC(AMG)",
+    "variations": {
+      "abbr": [
+        "KC(ANTI MERGER GROUP)"
+      ]
+    }
+  },
+  {
     "name": "Kerala Congress (B)",
-    "abbr": "KEC(B)"
+    "abbr": "KEC(B)",
+    "variations": {
+      "abbr": [
+        "KCB"
+      ]
+    }
+  },
+  {
+    "name": "Kerala Congress (Jacob)",
+    "abbr": "KEC(J)",
+    "variations": {
+      "abbr": [
+        "KC(J)"
+      ]
+    }
   },
   {
     "name": "Kerala Congress (M)",
@@ -1267,6 +1294,15 @@
   {
     "name": "Kerala Congress Secular",
     "abbr": "KCS"
+  },
+  {
+    "name": "Kerala Revolutionary Socialist Party (Baby John)",
+    "abbr": "KRSP",
+    "variations": {
+      "name": [
+        "Kerala Revolutionary Socialist Party(Baby John)"
+      ]
+    }
   },
   {
     "name": "Khun Hynniewtrep National Awakening Movement",
@@ -1520,7 +1556,12 @@
   {
     "name": "Muslim League Kerala State Committee",
     "abbr": "MUL",
-    "type": "state"
+    "type": "state",
+    "variations": {
+      "abbr": [
+        "ML"
+      ]
+    }
   },
   {
     "name": "Naga People's Front",
@@ -1690,6 +1731,16 @@
       "name": [
         "People’s Democratic Front",
         "Peoples Democratic Front"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Party",
+    "abbr": "PDP",
+    "variations": {
+      "name": [
+        "Peoples Democratic Party",
+        "People’s Democratic Party"
       ]
     }
   },
@@ -2271,6 +2322,15 @@
   {
     "name": "Socialist",
     "abbr": "SOC"
+  },
+  {
+    "name": "Socialist Janta (Democratic)",
+    "abbr": "SJD",
+    "variations": {
+      "name": [
+        "SOCIALIST JANTA (DEMOCRATIC)"
+      ]
+    }
   },
   {
     "name": "Socialist League of India",

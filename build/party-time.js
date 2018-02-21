@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.12. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.13. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -610,7 +610,10 @@ var json = [
   },
   {
     "name": "Communist Marxist Party Kerala State Committee",
-    "abbr": "CMPKSC"
+    "abbr": "CMPKSC",
+    "variations": {
+      "abbr": "CMP"
+    }
   },
   {
     "name": "Communist Party of India",
@@ -629,7 +632,8 @@ var json = [
     "symbol": "Hammer sickle and star",
     "variations": {
       "abbr": [
-        "CPM"
+        "CPM",
+        "CPI[M]"
       ],
       "name": [
         "Communist Party of India  (Marxist)",
@@ -1255,8 +1259,31 @@ var json = [
     "type": "state"
   },
   {
+    "name": "Kerala Congress (Anti-merger Group)",
+    "abbr": "KC(AMG)",
+    "variations": {
+      "abbr": [
+        "KC(ANTI MERGER GROUP)"
+      ]
+    }
+  },
+  {
     "name": "Kerala Congress (B)",
-    "abbr": "KEC(B)"
+    "abbr": "KEC(B)",
+    "variations": {
+      "abbr": [
+        "KCB"
+      ]
+    }
+  },
+  {
+    "name": "Kerala Congress (Jacob)",
+    "abbr": "KEC(J)",
+    "variations": {
+      "abbr": [
+        "KC(J)"
+      ]
+    }
   },
   {
     "name": "Kerala Congress (M)",
@@ -1274,6 +1301,15 @@ var json = [
   {
     "name": "Kerala Congress Secular",
     "abbr": "KCS"
+  },
+  {
+    "name": "Kerala Revolutionary Socialist Party (Baby John)",
+    "abbr": "KRSP",
+    "variations": {
+      "name": [
+        "Kerala Revolutionary Socialist Party(Baby John)"
+      ]
+    }
   },
   {
     "name": "Khun Hynniewtrep National Awakening Movement",
@@ -1527,7 +1563,12 @@ var json = [
   {
     "name": "Muslim League Kerala State Committee",
     "abbr": "MUL",
-    "type": "state"
+    "type": "state",
+    "variations": {
+      "abbr": [
+        "ML"
+      ]
+    }
   },
   {
     "name": "Naga People's Front",
@@ -1697,6 +1738,16 @@ var json = [
       "name": [
         "People’s Democratic Front",
         "Peoples Democratic Front"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Party",
+    "abbr": "PDP",
+    "variations": {
+      "name": [
+        "Peoples Democratic Party",
+        "People’s Democratic Party"
       ]
     }
   },
@@ -2280,6 +2331,15 @@ var json = [
     "abbr": "SOC"
   },
   {
+    "name": "Socialist Janta (Democratic)",
+    "abbr": "SJD",
+    "variations": {
+      "name": [
+        "SOCIALIST JANTA (DEMOCRATIC)"
+      ]
+    }
+  },
+  {
     "name": "Socialist League of India",
     "abbr": "SOLI",
     "type": "unrecognised"
@@ -2649,7 +2709,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.12";
+var version = "3.2.13";
 
 var meta = {
   parties_count: json.length,
