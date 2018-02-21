@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.9. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.10. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -650,7 +650,12 @@ var json = [
   },
   {
     "name": "Communist Party of India (Marxist-Leninist) Red Star",
-    "abbr": "CPI(ML) Red Star"
+    "abbr": "CPI(ML) Red Star",
+    "variations": {
+      "abbr": [
+        "CPI(ML) Red star"
+      ]
+    }
   },
   {
     "name": "Dalita Bahujana Party",
@@ -2604,7 +2609,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.9";
+var version = "3.2.10";
 
 var meta = {
   parties_count: json.length,
