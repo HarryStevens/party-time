@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.10. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.11. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -609,6 +609,10 @@ var json = [
     "location": "Chhattisgarh"
   },
   {
+    "name": "Communist Marxist Party Kerala State Committee",
+    "abbr": "CMPKSC"
+  },
+  {
     "name": "Communist Party of India",
     "abbr": "CPI",
     "founded": 1925,
@@ -658,6 +662,10 @@ var json = [
     }
   },
   {
+    "name": "Congress (Secular)",
+    "abbr": "C(S)"
+  },
+  {
     "name": "Dalita Bahujana Party",
     "abbr": "DABAP",
     "type": "unrecognised"
@@ -666,6 +674,10 @@ var json = [
     "name": "Democratic Bharatiya Samaj Party",
     "abbr": "DBSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Democratic Indira Congress (Karunakaran)",
+    "abbr": "DIC"
   },
   {
     "name": "Desh Bhakt Party",
@@ -1068,6 +1080,12 @@ var json = [
     "abbr": "JS"
   },
   {
+    "name": "Janadhipathya Samrakshana Samithi",
+    "abbr": "JPSS",
+    "type": "state",
+    "location": "Kerala"
+  },
+  {
     "name": "Janata Dal",
     "abbr": "JD",
     "founded": "1988",
@@ -1232,12 +1250,30 @@ var json = [
     }
   },
   {
+    "name": "Kerala Congress",
+    "abbr": "KEC",
+    "type": "state"
+  },
+  {
+    "name": "Kerala Congress (B)",
+    "abbr": "KEC(B)"
+  },
+  {
     "name": "Kerala Congress (M)",
     "abbr": "KC(M)",
     "founded": 1979,
     "type": "state",
     "location": "Kerala",
-    "symbol": "Two leaves"
+    "symbol": "Two leaves",
+    "variations": {
+      "abbr": [
+        "KEC(M)"
+      ]
+    }
+  },
+  {
+    "name": "Kerala Congress Secular",
+    "abbr": "KCS"
   },
   {
     "name": "Khun Hynniewtrep National Awakening Movement",
@@ -2609,7 +2645,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.10";
+var version = "3.2.11";
 
 var meta = {
   parties_count: json.length,

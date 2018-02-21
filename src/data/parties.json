@@ -602,6 +602,10 @@
     "location": "Chhattisgarh"
   },
   {
+    "name": "Communist Marxist Party Kerala State Committee",
+    "abbr": "CMPKSC"
+  },
+  {
     "name": "Communist Party of India",
     "abbr": "CPI",
     "founded": 1925,
@@ -651,6 +655,10 @@
     }
   },
   {
+    "name": "Congress (Secular)",
+    "abbr": "C(S)"
+  },
+  {
     "name": "Dalita Bahujana Party",
     "abbr": "DABAP",
     "type": "unrecognised"
@@ -659,6 +667,10 @@
     "name": "Democratic Bharatiya Samaj Party",
     "abbr": "DBSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Democratic Indira Congress (Karunakaran)",
+    "abbr": "DIC"
   },
   {
     "name": "Desh Bhakt Party",
@@ -1061,6 +1073,12 @@
     "abbr": "JS"
   },
   {
+    "name": "Janadhipathya Samrakshana Samithi",
+    "abbr": "JPSS",
+    "type": "state",
+    "location": "Kerala"
+  },
+  {
     "name": "Janata Dal",
     "abbr": "JD",
     "founded": "1988",
@@ -1225,12 +1243,30 @@
     }
   },
   {
+    "name": "Kerala Congress",
+    "abbr": "KEC",
+    "type": "state"
+  },
+  {
+    "name": "Kerala Congress (B)",
+    "abbr": "KEC(B)"
+  },
+  {
     "name": "Kerala Congress (M)",
     "abbr": "KC(M)",
     "founded": 1979,
     "type": "state",
     "location": "Kerala",
-    "symbol": "Two leaves"
+    "symbol": "Two leaves",
+    "variations": {
+      "abbr": [
+        "KEC(M)"
+      ]
+    }
+  },
+  {
+    "name": "Kerala Congress Secular",
+    "abbr": "KCS"
   },
   {
     "name": "Khun Hynniewtrep National Awakening Movement",
