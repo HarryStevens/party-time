@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.7. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.8. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -235,7 +235,12 @@ var json = [
     "founded": 1986,
     "type": "state",
     "location": "Jharkhand",
-    "symbol": "Banana"
+    "symbol": "Banana",
+    "variations": {
+      "abbr": [
+        "AJSU Party"
+      ]
+    }
   },
   {
     "name": "Ambedkar National Congress",
@@ -1437,6 +1442,10 @@ var json = [
     "type": "state"
   },
   {
+    "name": "Marxist Co-Ordination",
+    "abbr": "MCO"
+  },
+  {
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
     "abbr": "MCPI(S)",
     "type": "unrecognised"
@@ -2594,7 +2603,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.7";
+var version = "3.2.8";
 
 var meta = {
   parties_count: json.length,

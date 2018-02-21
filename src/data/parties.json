@@ -228,7 +228,12 @@
     "founded": 1986,
     "type": "state",
     "location": "Jharkhand",
-    "symbol": "Banana"
+    "symbol": "Banana",
+    "variations": {
+      "abbr": [
+        "AJSU Party"
+      ]
+    }
   },
   {
     "name": "Ambedkar National Congress",
@@ -1428,6 +1433,10 @@
     "name": "Marumalarchi Dravida Munnetra Kazhagam",
     "abbr": "MDMK",
     "type": "state"
+  },
+  {
+    "name": "Marxist Co-Ordination",
+    "abbr": "MCO"
   },
   {
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
