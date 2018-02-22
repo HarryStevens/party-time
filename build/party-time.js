@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.26. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.27. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -68,6 +68,9 @@ var json = [
     "variations": {
       "name": [
         "Hindu Mahasabha"
+      ],
+      "abbr": [
+        "ABHIM"
       ]
     }
   },
@@ -707,6 +710,10 @@ var json = [
     "abbr": "C(S)"
   },
   {
+    "name": "Dalit Kranti Dal",
+    "abbr": "DKD"
+  },
+  {
     "name": "Dalita Bahujana Party",
     "abbr": "DABAP",
     "type": "unrecognised"
@@ -747,6 +754,10 @@ var json = [
     "symbol": "Nagara"
   },
   {
+    "name": "Dharam Nirpeksh Dal",
+    "abbr": "DND"
+  },
+  {
     "name": "Doordarshi Party",
     "abbr": "DDP",
     "founded": 1980,
@@ -760,6 +771,10 @@ var json = [
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
     "symbol": "Rising sun"
+  },
+  {
+    "name": "Federal Congress of India",
+    "abbr": "FCI"
   },
   {
     "name": "Forward Bloc (Socialist)",
@@ -991,6 +1006,16 @@ var json = [
     "symbol": "Spectacles"
   },
   {
+    "name": "Indian People's Congress",
+    "abbr": "IPC",
+    "variations": {
+      "name": [
+        "Indian Peoples Congress",
+        "India People’s Congress"
+      ]
+    }
+  },
+  {
     "name": "Indian Peoples Front",
     "abbr": "IPF",
     "type": "unrecognised",
@@ -1045,6 +1070,10 @@ var json = [
         "INQLAB VD"
       ]
     }
+  },
+  {
+    "name": "Jago Party",
+    "abbr": "JGP"
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1746,6 +1775,16 @@ var json = [
     "abbr": "NDPP"
   },
   {
+    "name": "Nationalist People's Front",
+    "abbr": "NPSF",
+    "variations": {
+      "name": [
+        "Nationalist Peoples Front",
+        "Nationalist People’s Front"
+      ]
+    }
+  },
+  {
     "name": "Navbharat Ekta Dal",
     "abbr": "NED",
     "type": "unrecognised"
@@ -2027,6 +2066,15 @@ var json = [
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rajasthan Vikas Party",
+    "abbr": "RJVP",
+    "variations": {
+      "abbr": [
+        "RVP"
+      ]
+    }
   },
   {
     "name": "Rajyadhikara Party",
@@ -2930,7 +2978,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.26";
+var version = "3.2.27";
 
 var meta = {
   parties_count: json.length,

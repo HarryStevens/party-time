@@ -61,6 +61,9 @@
     "variations": {
       "name": [
         "Hindu Mahasabha"
+      ],
+      "abbr": [
+        "ABHIM"
       ]
     }
   },
@@ -700,6 +703,10 @@
     "abbr": "C(S)"
   },
   {
+    "name": "Dalit Kranti Dal",
+    "abbr": "DKD"
+  },
+  {
     "name": "Dalita Bahujana Party",
     "abbr": "DABAP",
     "type": "unrecognised"
@@ -740,6 +747,10 @@
     "symbol": "Nagara"
   },
   {
+    "name": "Dharam Nirpeksh Dal",
+    "abbr": "DND"
+  },
+  {
     "name": "Doordarshi Party",
     "abbr": "DDP",
     "founded": 1980,
@@ -753,6 +764,10 @@
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
     "symbol": "Rising sun"
+  },
+  {
+    "name": "Federal Congress of India",
+    "abbr": "FCI"
   },
   {
     "name": "Forward Bloc (Socialist)",
@@ -984,6 +999,16 @@
     "symbol": "Spectacles"
   },
   {
+    "name": "Indian People's Congress",
+    "abbr": "IPC",
+    "variations": {
+      "name": [
+        "Indian Peoples Congress",
+        "India People’s Congress"
+      ]
+    }
+  },
+  {
     "name": "Indian Peoples Front",
     "abbr": "IPF",
     "type": "unrecognised",
@@ -1038,6 +1063,10 @@
         "INQLAB VD"
       ]
     }
+  },
+  {
+    "name": "Jago Party",
+    "abbr": "JGP"
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1739,6 +1768,16 @@
     "abbr": "NDPP"
   },
   {
+    "name": "Nationalist People's Front",
+    "abbr": "NPSF",
+    "variations": {
+      "name": [
+        "Nationalist Peoples Front",
+        "Nationalist People’s Front"
+      ]
+    }
+  },
+  {
     "name": "Navbharat Ekta Dal",
     "abbr": "NED",
     "type": "unrecognised"
@@ -2020,6 +2059,15 @@
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rajasthan Vikas Party",
+    "abbr": "RJVP",
+    "variations": {
+      "abbr": [
+        "RVP"
+      ]
+    }
   },
   {
     "name": "Rajyadhikara Party",
