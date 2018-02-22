@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.13. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.15. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -516,6 +516,10 @@ var json = [
     "name": "Bharatiya Sarvodaya Kranti Party",
     "abbr": "BSKP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharipa Bahujan Mahasangha",
+    "abbr": "BBM"
   },
   {
     "name": "Bhartiya Chaitanya Party",
@@ -1719,6 +1723,10 @@ var json = [
     "symbol": "Mango"
   },
   {
+    "name": "Peasants And Workers Party of India",
+    "abbr": "PWPI"
+  },
+  {
     "name": "People's Democratic Alliance",
     "abbr": "PDA",
     "type": "state",
@@ -2397,6 +2405,10 @@ var json = [
     "abbr": "SUP"
   },
   {
+    "name": "Swatantra Bharat Paksha",
+    "abbr": "STBP"
+  },
+  {
     "name": "Swatantra Party",
     "abbr": "SWA",
     "founded": 1959,
@@ -2709,7 +2721,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.13";
+var version = "3.2.15";
 
 var meta = {
   parties_count: json.length,

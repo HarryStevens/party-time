@@ -511,6 +511,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharipa Bahujan Mahasangha",
+    "abbr": "BBM"
+  },
+  {
     "name": "Bhartiya Chaitanya Party",
     "abbr": "BCP"
   },
@@ -1712,6 +1716,10 @@
     "symbol": "Mango"
   },
   {
+    "name": "Peasants And Workers Party of India",
+    "abbr": "PWPI"
+  },
+  {
     "name": "People's Democratic Alliance",
     "abbr": "PDA",
     "type": "state",
@@ -2388,6 +2396,10 @@
   {
     "name": "Swarna Yuga Party",
     "abbr": "SUP"
+  },
+  {
+    "name": "Swatantra Bharat Paksha",
+    "abbr": "STBP"
   },
   {
     "name": "Swatantra Party",
