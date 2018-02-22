@@ -163,7 +163,12 @@
     "founded": 1939,
     "type": "state",
     "location": "West Bengal",
-    "symbol": "Lion"
+    "symbol": "Lion",
+    "variations": {
+      "abbr": [
+        "FBL"
+      ]
+    }
   },
   {
     "name": "All India Majlis-e-Ittehadul Muslimeen",
@@ -361,6 +366,15 @@
     }
   },
   {
+    "name": "Bahujan Sangharshh Dal",
+    "abbr": "BASD",
+    "variations": {
+      "abbr": [
+        "BA S D"
+      ]
+    }
+  },
+  {
     "name": "Bahujan Shakti",
     "abbr": "BSA"
   },
@@ -382,6 +396,10 @@
     "name": "Bajjikanchal Vikas Party",
     "abbr": "BJKVP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharat Nav Nirman Party",
+    "abbr": "BNNP"
   },
   {
     "name": "Bharat Punarnirman Dal",
@@ -537,9 +555,22 @@
     "abbr": "BSSP"
   },
   {
+    "name": "Bharatiya Sant Mat Party",
+    "abbr": "BHSMP",
+    "variations": {
+      "abbr": [
+        "BhSMP"
+      ]
+    }
+  },
+  {
     "name": "Bharatiya Sarvodaya Kranti Party",
     "abbr": "BSKP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharatiya Yuva Shakti",
+    "abbr": "BYS"
   },
   {
     "name": "Bharipa Bahujan Mahasangha",
@@ -564,6 +595,15 @@
     "name": "Bhartiya Pragatisheel Congress",
     "abbr": "BPC",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bhartiya Praja Jan Party",
+    "abbr": "BHPJP",
+    "variations": {
+      "abbr": [
+        "bhpjp"
+      ]
+    }
   },
   {
     "name": "Bhartiya Satya Sangharsh Party",
@@ -1020,6 +1060,15 @@
     }
   },
   {
+    "name": "Indian Peoples Green Party",
+    "abbr": "IPGP",
+    "variations": {
+      "abbr": [
+        "INGP"
+      ]
+    }
+  },
+  {
     "name": "Indian Union Muslim League",
     "abbr": "IUML",
     "founded": 1948,
@@ -1067,6 +1116,10 @@
   {
     "name": "Jago Party",
     "abbr": "JGP"
+  },
+  {
+    "name": "Jai Bharat Samanta Party",
+    "abbr": "JBSP"
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1410,6 +1463,10 @@
     "location": "Meghalaya"
   },
   {
+    "name": "Kisan Majdoor Praja Party",
+    "abbr": "KMPP"
+  },
+  {
     "name": "Kisan Mazdoor Lok Paksha",
     "abbr": "KLP",
     "type": "unrecognised",
@@ -1659,6 +1716,10 @@
     "abbr": "MBP"
   },
   {
+    "name": "Megh Desham Party",
+    "abbr": "MEDP"
+  },
+  {
     "name": "Meghalaya Democratic Party",
     "abbr": "MDP",
     "location": "Meghalay",
@@ -1747,6 +1808,9 @@
       "name": [
         "National Peoples Party",
         "National People’s Party"
+      ],
+      "abbr": [
+        "NPEPT"
       ]
     }
   },
@@ -1754,6 +1818,19 @@
     "name": "National Secular Party",
     "abbr": "NSCP",
     "type": "unrecognised"
+  },
+  {
+    "name": "National Unionist Zamindara Party",
+    "abbr": "NUZP",
+    "variations": {
+      "abbr": [
+        "nuzp"
+      ]
+    }
+  },
+  {
+    "name": "National Youth Party",
+    "abbr": "NYP"
   },
   {
     "name": "Nationalist Congress Party",
@@ -2177,6 +2254,10 @@
     "type": "state",
     "location": "Bihar, Jharkhand",
     "symbol": "Hurricane Lamp"
+  },
+  {
+    "name": "Rashtriya Janseva - Secular Party",
+    "abbr": "RJNSP"
   },
   {
     "name": "Rashtriya Kamgar Party",
@@ -2685,6 +2766,10 @@
     "name": "Tipraland State Party",
     "abbr": "TSP",
     "location": "Tripura"
+  },
+  {
+    "name": "Tola Party",
+    "abbr": "ToP"
   },
   {
     "name": "Trilinga Praja Pragati Party",

@@ -3,6 +3,17 @@ var io = require("indian-ocean"),
 
 var parties = io.readDataSync("src/data/parties.json");
 
+var pivot_abbr = jz.arr.pivot(parties, "abbr").filter(d => d.count > 1);
+console.log(" ");
+if (pivot_abbr.length > 0){
+	console.log("Duplicate abbr:");
+	console.log(pivot_abbr);
+} else {
+	console.log("No duplicate abbreviations.");
+}
+
+console.log(" ");
+
 var pivot = jz.arr.pivot(parties, "name").filter(d => d.count > 1);
 
 if (pivot.length > 0){
@@ -12,6 +23,8 @@ if (pivot.length > 0){
 	console.log("No duplicate parties.");
 }
 
+console.log(" ");
+
 var keys = parties.map(party => {return {name: party.name, keys: Object.keys(party)}}).filter(k => k.keys.indexOf("name") == -1 || k.keys.indexOf("abbr") == -1);
 if (keys.length > 0){
 	console.log("Missing keys:")
@@ -19,6 +32,8 @@ if (keys.length > 0){
 } else {
 	console.log("All parties have name and abbr.");
 }
+
+console.log(" ");
 
 var variations = [];
 
@@ -44,6 +59,8 @@ if (variations_not_arrays.length > 0) {
 	console.log("All variations are set in arrays.");
 }
 
+console.log(" ");
+
 var variations_pivot = jz.arr.pivot(jz.arr.flatten(variations).map(d => { return {party: d}}), "party").filter(d => d.count > 1);
 if (variations_pivot.length > 0){
 	console.log("Duplicate variations:");
@@ -51,3 +68,5 @@ if (variations_pivot.length > 0){
 } else {
 	console.log("No duplicate variations.");
 }
+
+console.log(" ");

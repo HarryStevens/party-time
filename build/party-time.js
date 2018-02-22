@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.27. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.28. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -170,7 +170,12 @@ var json = [
     "founded": 1939,
     "type": "state",
     "location": "West Bengal",
-    "symbol": "Lion"
+    "symbol": "Lion",
+    "variations": {
+      "abbr": [
+        "FBL"
+      ]
+    }
   },
   {
     "name": "All India Majlis-e-Ittehadul Muslimeen",
@@ -368,6 +373,15 @@ var json = [
     }
   },
   {
+    "name": "Bahujan Sangharshh Dal",
+    "abbr": "BASD",
+    "variations": {
+      "abbr": [
+        "BA S D"
+      ]
+    }
+  },
+  {
     "name": "Bahujan Shakti",
     "abbr": "BSA"
   },
@@ -389,6 +403,10 @@ var json = [
     "name": "Bajjikanchal Vikas Party",
     "abbr": "BJKVP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharat Nav Nirman Party",
+    "abbr": "BNNP"
   },
   {
     "name": "Bharat Punarnirman Dal",
@@ -544,9 +562,22 @@ var json = [
     "abbr": "BSSP"
   },
   {
+    "name": "Bharatiya Sant Mat Party",
+    "abbr": "BHSMP",
+    "variations": {
+      "abbr": [
+        "BhSMP"
+      ]
+    }
+  },
+  {
     "name": "Bharatiya Sarvodaya Kranti Party",
     "abbr": "BSKP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharatiya Yuva Shakti",
+    "abbr": "BYS"
   },
   {
     "name": "Bharipa Bahujan Mahasangha",
@@ -571,6 +602,15 @@ var json = [
     "name": "Bhartiya Pragatisheel Congress",
     "abbr": "BPC",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bhartiya Praja Jan Party",
+    "abbr": "BHPJP",
+    "variations": {
+      "abbr": [
+        "bhpjp"
+      ]
+    }
   },
   {
     "name": "Bhartiya Satya Sangharsh Party",
@@ -1027,6 +1067,15 @@ var json = [
     }
   },
   {
+    "name": "Indian Peoples Green Party",
+    "abbr": "IPGP",
+    "variations": {
+      "abbr": [
+        "INGP"
+      ]
+    }
+  },
+  {
     "name": "Indian Union Muslim League",
     "abbr": "IUML",
     "founded": 1948,
@@ -1074,6 +1123,10 @@ var json = [
   {
     "name": "Jago Party",
     "abbr": "JGP"
+  },
+  {
+    "name": "Jai Bharat Samanta Party",
+    "abbr": "JBSP"
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1417,6 +1470,10 @@ var json = [
     "location": "Meghalaya"
   },
   {
+    "name": "Kisan Majdoor Praja Party",
+    "abbr": "KMPP"
+  },
+  {
     "name": "Kisan Mazdoor Lok Paksha",
     "abbr": "KLP",
     "type": "unrecognised",
@@ -1666,6 +1723,10 @@ var json = [
     "abbr": "MBP"
   },
   {
+    "name": "Megh Desham Party",
+    "abbr": "MEDP"
+  },
+  {
     "name": "Meghalaya Democratic Party",
     "abbr": "MDP",
     "location": "Meghalay",
@@ -1754,6 +1815,9 @@ var json = [
       "name": [
         "National Peoples Party",
         "National People’s Party"
+      ],
+      "abbr": [
+        "NPEPT"
       ]
     }
   },
@@ -1761,6 +1825,19 @@ var json = [
     "name": "National Secular Party",
     "abbr": "NSCP",
     "type": "unrecognised"
+  },
+  {
+    "name": "National Unionist Zamindara Party",
+    "abbr": "NUZP",
+    "variations": {
+      "abbr": [
+        "nuzp"
+      ]
+    }
+  },
+  {
+    "name": "National Youth Party",
+    "abbr": "NYP"
   },
   {
     "name": "Nationalist Congress Party",
@@ -2184,6 +2261,10 @@ var json = [
     "type": "state",
     "location": "Bihar, Jharkhand",
     "symbol": "Hurricane Lamp"
+  },
+  {
+    "name": "Rashtriya Janseva - Secular Party",
+    "abbr": "RJNSP"
   },
   {
     "name": "Rashtriya Kamgar Party",
@@ -2694,6 +2775,10 @@ var json = [
     "location": "Tripura"
   },
   {
+    "name": "Tola Party",
+    "abbr": "ToP"
+  },
+  {
     "name": "Trilinga Praja Pragati Party",
     "abbr": "TPPP",
     "type": "unrecognised"
@@ -2978,7 +3063,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.27";
+var version = "3.2.28";
 
 var meta = {
   parties_count: json.length,
