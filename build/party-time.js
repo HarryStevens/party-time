@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.25. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.26. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -352,9 +352,21 @@ var json = [
     }
   },
   {
+    "name": "Bahujan Samaj Vikas Party",
+    "abbr": "BHSVP"
+  },
+  {
     "name": "Bahujan Sangharsh Party (Kanshiram)",
     "abbr": "BSP(K)",
-    "type": "unrecognised"
+    "variations": {
+      "abbr": [
+        "BSP(Kanshiram)"
+      ]
+    }
+  },
+  {
+    "name": "Bahujan Shakti",
+    "abbr": "BSA"
   },
   {
     "name": "Bahujan Suraksha Dal",
@@ -703,6 +715,10 @@ var json = [
     "name": "Democratic Bharatiya Samaj Party",
     "abbr": "DBSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Democratic Congress Party",
+    "abbr": "DCP"
   },
   {
     "name": "Democratic Indira Congress (Karunakaran)",
@@ -1865,6 +1881,16 @@ var json = [
     }
   },
   {
+    "name": "People's Party Of Punjab",
+    "abbr": "PPOP",
+    "variations": {
+      "name": [
+        "Peoples Party Of Punjab",
+        "People’s Party Of Punjab"
+      ]
+    }
+  },
+  {
     "name": "People's Party of Arunachal",
     "abbr": "PPA",
     "founded": 1987,
@@ -1981,6 +2007,16 @@ var json = [
     "abbr": "PMC",
     "type": "unrecognised",
     "location": "Puducherry"
+  },
+  {
+    "name": "Punjab People's Party",
+    "abbr": "PnPP",
+    "variations": {
+      "name": [
+        "Punjab Peoples Party",
+        "Punjab People’s Party"
+      ]
+    }
   },
   {
     "name": "Puratchi Bharatham",
@@ -2174,6 +2210,10 @@ var json = [
     "abbr": "RRD"
   },
   {
+    "name": "Rashtriya Sahara Party",
+    "abbr": "RASAP"
+  },
+  {
     "name": "Rashtriya Samaj Paksha",
     "abbr": "RSPS",
     "type": "unrecognised"
@@ -2224,6 +2264,10 @@ var json = [
   {
     "name": "Rashtriya Swabhimaan Party",
     "abbr": "RSBP"
+  },
+  {
+    "name": "Rashtriya Viklang Party",
+    "abbr": "RVLP"
   },
   {
     "name": "Rastriya Gurujan Party",
@@ -2391,6 +2435,10 @@ var json = [
         "SJPA"
       ]
     }
+  },
+  {
+    "name": "Sarvajan Samaj Party (D)",
+    "abbr": "SSPD"
   },
   {
     "name": "Sarvodaya Karnataka Paksha",
@@ -2882,7 +2930,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.25";
+var version = "3.2.26";
 
 var meta = {
   parties_count: json.length,

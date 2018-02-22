@@ -1,50 +1,5 @@
 [
   {
-    "name": "Sarvajan Samaj Party (D)",
-    "abbr": "SSPD"
-  },
-  {
-    "name": "Rashtriya Viklang Party",
-    "abbr": "RVLP"
-  },
-  {
-    "name": "Rashtriya Sahara Party",
-    "abbr": "RASAP"
-  },
-  {
-    "name": "People's Party Of Punjab",
-    "abbr": "PPOP",
-    "variations": {
-      "name": ["Peoples Party Of Punjab", "People’s Party Of Punjab"]
-    }
-  },
-  {
-    "name": "Punjab People's Party",
-    "abbr": "PnPP",
-    "variations": {
-      "name": ["Punjab Peoples Party", "Punjab People’s Party"]
-    }
-  },
-  {
-    "name": "Democratic Congress Party",
-    "abbr": "DCP"
-  },
-  {
-    "name": "Bahujan Sangharsh Party (Kanshiram)",
-    "abbr": "BSP(K)",
-    "variations": {
-      "abbr": ["BSP(Kanshiram)"]
-    }
-  },
-  {
-    "name": "Bahujan Shakti",
-    "abbr": "BSA"
-  },
-  {
-    "name": "Bahujan Samaj Vikas Party",
-    "abbr": "BHSVP"
-  },
-  {
     "name": "Aadijan Mukti Sena",
     "abbr": "AMS",
     "type": "unrecognised"
@@ -390,9 +345,21 @@
     }
   },
   {
+    "name": "Bahujan Samaj Vikas Party",
+    "abbr": "BHSVP"
+  },
+  {
     "name": "Bahujan Sangharsh Party (Kanshiram)",
     "abbr": "BSP(K)",
-    "type": "unrecognised"
+    "variations": {
+      "abbr": [
+        "BSP(Kanshiram)"
+      ]
+    }
+  },
+  {
+    "name": "Bahujan Shakti",
+    "abbr": "BSA"
   },
   {
     "name": "Bahujan Suraksha Dal",
@@ -741,6 +708,10 @@
     "name": "Democratic Bharatiya Samaj Party",
     "abbr": "DBSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Democratic Congress Party",
+    "abbr": "DCP"
   },
   {
     "name": "Democratic Indira Congress (Karunakaran)",
@@ -1903,6 +1874,16 @@
     }
   },
   {
+    "name": "People's Party Of Punjab",
+    "abbr": "PPOP",
+    "variations": {
+      "name": [
+        "Peoples Party Of Punjab",
+        "People’s Party Of Punjab"
+      ]
+    }
+  },
+  {
     "name": "People's Party of Arunachal",
     "abbr": "PPA",
     "founded": 1987,
@@ -2019,6 +2000,16 @@
     "abbr": "PMC",
     "type": "unrecognised",
     "location": "Puducherry"
+  },
+  {
+    "name": "Punjab People's Party",
+    "abbr": "PnPP",
+    "variations": {
+      "name": [
+        "Punjab Peoples Party",
+        "Punjab People’s Party"
+      ]
+    }
   },
   {
     "name": "Puratchi Bharatham",
@@ -2212,6 +2203,10 @@
     "abbr": "RRD"
   },
   {
+    "name": "Rashtriya Sahara Party",
+    "abbr": "RASAP"
+  },
+  {
     "name": "Rashtriya Samaj Paksha",
     "abbr": "RSPS",
     "type": "unrecognised"
@@ -2262,6 +2257,10 @@
   {
     "name": "Rashtriya Swabhimaan Party",
     "abbr": "RSBP"
+  },
+  {
+    "name": "Rashtriya Viklang Party",
+    "abbr": "RVLP"
   },
   {
     "name": "Rastriya Gurujan Party",
@@ -2431,6 +2430,10 @@
     }
   },
   {
+    "name": "Sarvajan Samaj Party (D)",
+    "abbr": "SSPD"
+  },
+  {
     "name": "Sarvodaya Karnataka Paksha",
     "abbr": "SKP"
   },
@@ -2456,7 +2459,7 @@
     "abbr": "SAD(M)",
     "variations": {
       "abbr": [
-        "SAD(A)(Simranjit Singh Mann)",
+        "SAD(A)(Simranjit Singh Mann)"
       ]
     }
   },
