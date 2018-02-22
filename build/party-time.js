@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.23. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.24. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -568,6 +568,10 @@ var json = [
     "symbol": "Conch"
   },
   {
+    "name": "Bira Oriya Party",
+    "abbr": "BOP"
+  },
+  {
     "name": "Bodoland People's Front",
     "abbr": "BPF",
     "founded": 1985,
@@ -1115,6 +1119,10 @@ var json = [
     "abbr": "JSS"
   },
   {
+    "name": "Jana Hitkari Party",
+    "abbr": "JHKP"
+  },
+  {
     "name": "Janadhipathya Samrakshana Samithi",
     "abbr": "JPSS",
     "type": "state",
@@ -1243,6 +1251,10 @@ var json = [
     "symbol": "Comb"
   },
   {
+    "name": "Kalinga Sena",
+    "abbr": "KS"
+  },
+  {
     "name": "Kamarajar Deseeya Congress",
     "abbr": "KDC"
   },
@@ -1360,6 +1372,10 @@ var json = [
     "type": "state",
     "location": "BIHAR",
     "symbol": "Stool"
+  },
+  {
+    "name": "Kosal Kranti Dal",
+    "abbr": "KOKD"
   },
   {
     "name": "Kosi Vikas Party",
@@ -1766,8 +1782,16 @@ var json = [
     "location": "Gujarat"
   },
   {
+    "name": "Orissa Communist Party",
+    "abbr": "OCP"
+  },
+  {
     "name": "Orissa Gana Parishad",
     "abbr": "OGP"
+  },
+  {
+    "name": "Orissa Mukti Morcha",
+    "abbr": "OMM"
   },
   {
     "name": "Parivartan Samaj Party",
@@ -2116,6 +2140,10 @@ var json = [
     "abbr": "RMEP"
   },
   {
+    "name": "Rashtriya Parivartan Dal",
+    "abbr": "RPD"
+  },
+  {
     "name": "Rashtriya Pragtisheel Morcha",
     "abbr": "RPM",
     "type": "unrecognised"
@@ -2303,6 +2331,10 @@ var json = [
     "abbr": "SAP",
     "type": "national",
     "location": "India"
+  },
+  {
+    "name": "Samruddha Odisha",
+    "abbr": "SAMO"
   },
   {
     "name": "Samyukta Socialist Party",
@@ -2829,7 +2861,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.23";
+var version = "3.2.24";
 
 var meta = {
   parties_count: json.length,
