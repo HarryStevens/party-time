@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.15. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.16. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -326,6 +326,10 @@ var json = [
     "symbol": "Air Conditioner,Cart,Cot"
   },
   {
+    "name": "Bahujan Republican Ekta Manch",
+    "abbr": "BREM"
+  },
+  {
     "name": "Bahujan Samaj Party",
     "abbr": "BSP",
     "founded": 1984,
@@ -352,6 +356,10 @@ var json = [
     "name": "Bahujan Suraksha Dal",
     "abbr": "BSDL",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bahujan Vikas Aaghadi",
+    "abbr": "BVA"
   },
   {
     "name": "Bahujan Vikas Party",
@@ -686,6 +694,15 @@ var json = [
   {
     "name": "Democratic Indira Congress (Karunakaran)",
     "abbr": "DIC"
+  },
+  {
+    "name": "Democratic Secular Party",
+    "abbr": "DESEP",
+    "variations": {
+      "abbr": [
+        "DSP"
+      ]
+    }
   },
   {
     "name": "Desh Bhakt Party",
@@ -1088,6 +1105,10 @@ var json = [
     "abbr": "JS"
   },
   {
+    "name": "Jan Surajya Shakti",
+    "abbr": "JSS"
+  },
+  {
     "name": "Janadhipathya Samrakshana Samithi",
     "abbr": "JPSS",
     "type": "state",
@@ -1345,7 +1366,12 @@ var json = [
   },
   {
     "name": "Kranti Kari Jai Hind Sena",
-    "abbr": "KKJHS"
+    "abbr": "KKJHS",
+    "variations": {
+      "abbr": [
+        "KJS"
+      ]
+    }
   },
   {
     "name": "Krantikari Samyavadi Party",
@@ -1396,7 +1422,8 @@ var json = [
       ],
       "abbr": [
         "LJNSP",
-        "LJSP"
+        "LJSP",
+        "LP"
       ]
     }
   },
@@ -1648,7 +1675,12 @@ var json = [
   },
   {
     "name": "Navbharat Nirman Party",
-    "abbr": "NBNP"
+    "abbr": "NBNP",
+    "variations": {
+      "abbr": [
+        "NNP"
+      ]
+    }
   },
   {
     "name": "Navin Bharat Nirman",
@@ -1852,7 +1884,12 @@ var json = [
   {
     "name": "Proutist Sarva Samaj Party",
     "abbr": "PTSS",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "PSS"
+      ]
+    }
   },
   {
     "name": "Pruutist Bloc India",
@@ -1928,6 +1965,10 @@ var json = [
         "RS"
       ]
     }
+  },
+  {
+    "name": "Rashtriya Aman Sena",
+    "abbr": "RAS"
   },
   {
     "name": "Rashtriya Arya Raj Sabha",
@@ -2151,6 +2192,15 @@ var json = [
         "RPI(KH)",
         "RPI(Khobragade)",
         "RPK"
+      ]
+    }
+  },
+  {
+    "name": "Republician Party of India Ektawadi",
+    "abbr": "RPIE",
+    "variations": {
+      "abbr": [
+        "RPI(E)"
       ]
     }
   },
@@ -2721,7 +2771,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.15";
+var version = "3.2.16";
 
 var meta = {
   parties_count: json.length,
