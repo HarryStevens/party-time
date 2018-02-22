@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.19. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.20. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -624,7 +624,9 @@ var json = [
     "name": "Communist Marxist Party Kerala State Committee",
     "abbr": "CMPKSC",
     "variations": {
-      "abbr": "CMP"
+      "abbr": [
+        "CMP"
+      ]
     }
   },
   {
@@ -648,7 +650,6 @@ var json = [
         "CPI[M]"
       ],
       "name": [
-        "Communist Party of India  (Marxist)",
         "Communist Party of India  (Marxist)"
       ]
     }
@@ -2819,7 +2820,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.19";
+var version = "3.2.20";
 
 var meta = {
   parties_count: json.length,

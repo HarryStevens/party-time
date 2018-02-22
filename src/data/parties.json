@@ -617,7 +617,9 @@
     "name": "Communist Marxist Party Kerala State Committee",
     "abbr": "CMPKSC",
     "variations": {
-      "abbr": "CMP"
+      "abbr": [
+        "CMP"
+      ]
     }
   },
   {
@@ -641,7 +643,6 @@
         "CPI[M]"
       ],
       "name": [
-        "Communist Party of India  (Marxist)",
         "Communist Party of India  (Marxist)"
       ]
     }
