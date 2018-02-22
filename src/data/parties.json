@@ -1539,6 +1539,10 @@
     }
   },
   {
+    "name": "Manipur State Congress Party",
+    "abbr": "MSCP"
+  },
+  {
     "name": "Marumalarchi Dravida Munnetra Kazhagam",
     "abbr": "MDMK",
     "type": "state"
@@ -1593,6 +1597,10 @@
         "ML"
       ]
     }
+  },
+  {
+    "name": "Naga National Party",
+    "abbr": "NNLP"
   },
   {
     "name": "Naga People's Front",
@@ -2203,6 +2211,9 @@
     "variations": {
       "abbr": [
         "RPI(E)"
+      ],
+      "name": [
+        "Republican Party of India Ektavadi"
       ]
     }
   },

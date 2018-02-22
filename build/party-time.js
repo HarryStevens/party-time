@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.17. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.18. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1546,6 +1546,10 @@ var json = [
     }
   },
   {
+    "name": "Manipur State Congress Party",
+    "abbr": "MSCP"
+  },
+  {
     "name": "Marumalarchi Dravida Munnetra Kazhagam",
     "abbr": "MDMK",
     "type": "state"
@@ -1600,6 +1604,10 @@ var json = [
         "ML"
       ]
     }
+  },
+  {
+    "name": "Naga National Party",
+    "abbr": "NNLP"
   },
   {
     "name": "Naga People's Front",
@@ -2210,6 +2218,9 @@ var json = [
     "variations": {
       "abbr": [
         "RPI(E)"
+      ],
+      "name": [
+        "Republican Party of India Ektavadi"
       ]
     }
   },
@@ -2793,7 +2804,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.17";
+var version = "3.2.18";
 
 var meta = {
   parties_count: json.length,
