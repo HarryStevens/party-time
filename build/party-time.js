@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.22. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.23. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1766,6 +1766,10 @@ var json = [
     "location": "Gujarat"
   },
   {
+    "name": "Orissa Gana Parishad",
+    "abbr": "OGP"
+  },
+  {
     "name": "Parivartan Samaj Party",
     "abbr": "PSJP"
   },
@@ -2825,7 +2829,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.22";
+var version = "3.2.23";
 
 var meta = {
   parties_count: json.length,
