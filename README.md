@@ -1,4 +1,6 @@
-# party-time [![Build Status](https://travis-ci.org/HindustanTimesLabs/party-time.svg?branch=master)](https://travis-ci.org/HindustanTimesLabs/party-time) [![Coverage Status](https://coveralls.io/repos/github/HindustanTimesLabs/party-time/badge.svg?branch=master)](https://coveralls.io/github/HindustanTimesLabs/party-time?branch=master)
+# party-time
+[![Build Status](https://travis-ci.org/HindustanTimesLabs/party-time.svg?branch=master)](https://travis-ci.org/HindustanTimesLabs/party-time) [![Coverage Status](https://coveralls.io/repos/github/HindustanTimesLabs/party-time/badge.svg?branch=master)](https://coveralls.io/github/HindustanTimesLabs/party-time?branch=master)
+
 Convert Indian political party abbreviations to full names and back again.
 
 ![var pt = require('party-time'); pt.convert('BJP'); // Bharatiya Janata Party](https://github.com/HindustanTimesLabs/party-time/blob/master/img/demo.gif "require('party-time')")
