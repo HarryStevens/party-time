@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.24. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.25. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -338,6 +338,10 @@ var json = [
     "symbol": "Elephant (except in Assam)"
   },
   {
+    "name": "Bahujan Samaj Party (Ambedkar)",
+    "abbr": "BSP(A)"
+  },
+  {
     "name": "Bahujan Samaj Party (Ambedkar-Phule)",
     "abbr": "BSP(AP)",
     "type": "unrecognised",
@@ -405,6 +409,10 @@ var json = [
     "name": "Bharatiya Ekta Dal",
     "abbr": "BED",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharatiya Gaon Taj Dal",
+    "abbr": "BGTD"
   },
   {
     "name": "Bharatiya Jan Shakti",
@@ -1111,6 +1119,10 @@ var json = [
     }
   },
   {
+    "name": "Jan Morcha",
+    "abbr": "JM"
+  },
+  {
     "name": "Jan Sangh",
     "abbr": "JS"
   },
@@ -1403,6 +1415,10 @@ var json = [
   {
     "name": "Labour Party of India (V.V. Prasad)",
     "abbr": "LPI(V)"
+  },
+  {
+    "name": "Lok Bhalai Party",
+    "abbr": "LBP"
   },
   {
     "name": "Lok Bharati",
@@ -2399,7 +2415,12 @@ var json = [
   },
   {
     "name": "Shiromani Akali Dal (Simranjit Singh Mann)",
-    "abbr": "SAD(M)"
+    "abbr": "SAD(M)",
+    "variations": {
+      "abbr": [
+        "SAD(A)(Simranjit Singh Mann)"
+      ]
+    }
   },
   {
     "name": "Shivrajya Party",
@@ -2861,7 +2882,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.24";
+var version = "3.2.25";
 
 var meta = {
   parties_count: json.length,

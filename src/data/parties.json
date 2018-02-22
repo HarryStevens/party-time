@@ -331,6 +331,10 @@
     "symbol": "Elephant (except in Assam)"
   },
   {
+    "name": "Bahujan Samaj Party (Ambedkar)",
+    "abbr": "BSP(A)"
+  },
+  {
     "name": "Bahujan Samaj Party (Ambedkar-Phule)",
     "abbr": "BSP(AP)",
     "type": "unrecognised",
@@ -398,6 +402,10 @@
     "name": "Bharatiya Ekta Dal",
     "abbr": "BED",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharatiya Gaon Taj Dal",
+    "abbr": "BGTD"
   },
   {
     "name": "Bharatiya Jan Shakti",
@@ -1104,6 +1112,10 @@
     }
   },
   {
+    "name": "Jan Morcha",
+    "abbr": "JM"
+  },
+  {
     "name": "Jan Sangh",
     "abbr": "JS"
   },
@@ -1396,6 +1408,10 @@
   {
     "name": "Labour Party of India (V.V. Prasad)",
     "abbr": "LPI(V)"
+  },
+  {
+    "name": "Lok Bhalai Party",
+    "abbr": "LBP"
   },
   {
     "name": "Lok Bharati",
@@ -2392,7 +2408,12 @@
   },
   {
     "name": "Shiromani Akali Dal (Simranjit Singh Mann)",
-    "abbr": "SAD(M)"
+    "abbr": "SAD(M)",
+    "variations": {
+      "abbr": [
+        "SAD(A)(Simranjit Singh Mann)"
+      ]
+    }
   },
   {
     "name": "Shivrajya Party",
