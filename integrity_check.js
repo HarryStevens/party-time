@@ -12,6 +12,14 @@ if (pivot.length > 0){
 	console.log("No duplicate parties.");
 }
 
+var keys = parties.map(party => {return {name: party.name, keys: Object.keys(party)}}).filter(k => k.keys.indexOf("name") == -1 || k.keys.indexOf("abbr") == -1);
+if (keys.length > 0){
+	console.log("Missing keys:")
+	console.log(keys);
+} else {
+	console.log("All parties have name and abbr.");
+}
+
 var variations = [];
 
 parties.forEach(party => {
