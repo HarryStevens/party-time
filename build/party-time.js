@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.16. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.17. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -2117,6 +2117,15 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Rashtriya Sant Sandesh Party",
+    "abbr": "RSSDP",
+    "variations": {
+      "abbr": [
+        "RSSP"
+      ]
+    }
+  },
+  {
     "name": "Rashtriya Sawarn Dal",
     "abbr": "RSD",
     "type": "unrecognised"
@@ -2254,7 +2263,7 @@ var json = [
     "symbol": "Bicycle"
   },
   {
-    "name": "Samata Partu",
+    "name": "Samata Party",
     "abbr": "SAP",
     "type": "national",
     "location": "India"
@@ -2323,6 +2332,10 @@ var json = [
   {
     "name": "Shiromani Akali Dal (Simranjit Singh Mann)",
     "abbr": "SAD(M)"
+  },
+  {
+    "name": "Shivrajya Party",
+    "abbr": "SVRP"
   },
   {
     "name": "Shivsena",
@@ -2456,7 +2469,12 @@ var json = [
   },
   {
     "name": "Swatantra Bharat Paksha",
-    "abbr": "STBP"
+    "abbr": "STBP",
+    "variations": {
+      "abbr": [
+        "SBP"
+      ]
+    }
   },
   {
     "name": "Swatantra Party",
@@ -2536,6 +2554,10 @@ var json = [
   {
     "name": "United National Loktantrik Party",
     "abbr": "UNLP"
+  },
+  {
+    "name": "United Secular Congress Party of India",
+    "abbr": "USCPI"
   },
   {
     "name": "United Women Front",
@@ -2771,7 +2793,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.16";
+var version = "3.2.17";
 
 var meta = {
   parties_count: json.length,
