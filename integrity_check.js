@@ -35,11 +35,13 @@ parties.forEach(party => {
 	
 });
 
-if (variations.every(d => jz.arr.is(d))) {
-	console.log("All variations are set in arrays.");
-} else {
+var variations_not_arrays = variations.filter(d => !jz.arr.is(d))
+
+if (variations_not_arrays.length > 0) {
 	console.log("Variations not set in arrays:");
-	console.log(variations.filter(d => !jz.arr.is(d)));
+	console.log(variations_not_arrays);
+} else {
+	console.log("All variations are set in arrays.");
 }
 
 var variations_pivot = jz.arr.pivot(jz.arr.flatten(variations).map(d => { return {party: d}}), "party").filter(d => d.count > 1);
