@@ -1,5 +1,50 @@
 [
   {
+    "name": "Sarvajan Samaj Party (D)",
+    "abbr": "SSPD"
+  },
+  {
+    "name": "Rashtriya Viklang Party",
+    "abbr": "RVLP"
+  },
+  {
+    "name": "Rashtriya Sahara Party",
+    "abbr": "RASAP"
+  },
+  {
+    "name": "People's Party Of Punjab",
+    "abbr": "PPOP",
+    "variations": {
+      "name": ["Peoples Party Of Punjab", "People’s Party Of Punjab"]
+    }
+  },
+  {
+    "name": "Punjab People's Party",
+    "abbr": "PnPP",
+    "variations": {
+      "name": ["Punjab Peoples Party", "Punjab People’s Party"]
+    }
+  },
+  {
+    "name": "Democratic Congress Party",
+    "abbr": "DCP"
+  },
+  {
+    "name": "Bahujan Sangharsh Party (Kanshiram)",
+    "abbr": "BSP(K)",
+    "variations": {
+      "abbr": ["BSP(Kanshiram)"]
+    }
+  },
+  {
+    "name": "Bahujan Shakti",
+    "abbr": "BSA"
+  },
+  {
+    "name": "Bahujan Samaj Vikas Party",
+    "abbr": "BHSVP"
+  },
+  {
     "name": "Aadijan Mukti Sena",
     "abbr": "AMS",
     "type": "unrecognised"
@@ -2411,7 +2456,7 @@
     "abbr": "SAD(M)",
     "variations": {
       "abbr": [
-        "SAD(A)(Simranjit Singh Mann)"
+        "SAD(A)(Simranjit Singh Mann)",
       ]
     }
   },
