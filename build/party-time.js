@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.18. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.19. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1010,7 +1010,12 @@ var json = [
   {
     "name": "Inqalab Vikas Dal",
     "abbr": "IVD",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "INQLAB VD"
+      ]
+    }
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1542,6 +1547,16 @@ var json = [
     "variations": {
       "abbr": [
         "MAJP"
+      ]
+    }
+  },
+  {
+    "name": "Manipur Democratic People's Front",
+    "variations": {
+      "name": [
+        "Manipur Democratic Peoples's Front",
+        "Manipur Democratic Peoples Front",
+        "Manipur Democratic People’s Front"
       ]
     }
   },
@@ -2804,7 +2819,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.18";
+var version = "3.2.19";
 
 var meta = {
   parties_count: json.length,

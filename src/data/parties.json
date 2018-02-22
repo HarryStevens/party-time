@@ -1003,7 +1003,12 @@
   {
     "name": "Inqalab Vikas Dal",
     "abbr": "IVD",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "INQLAB VD"
+      ]
+    }
   },
   {
     "name": "Jai Chhattisgarh Party",
@@ -1535,6 +1540,16 @@
     "variations": {
       "abbr": [
         "MAJP"
+      ]
+    }
+  },
+  {
+    "name": "Manipur Democratic People's Front",
+    "variations": {
+      "name": [
+        "Manipur Democratic Peoples's Front",
+        "Manipur Democratic Peoples Front",
+        "Manipur Democratic People’s Front"
       ]
     }
   },
