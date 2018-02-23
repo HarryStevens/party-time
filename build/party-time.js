@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.29. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.30. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -417,6 +417,10 @@ var json = [
     "name": "Bharatheeya Sadharma Samsthapana Party",
     "abbr": "BHSASP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharathiya Dravida Makkal Katchi",
+    "abbr": "BDMK"
   },
   {
     "name": "Bharatiya Backward Party",
@@ -1087,6 +1091,10 @@ var json = [
     "name": "Indians Front",
     "abbr": "IF",
     "type": "unrecognised"
+  },
+  {
+    "name": "Indians Victory Party",
+    "abbr": "IVP"
   },
   {
     "name": "Indigenous Nationalist Party of Twipra",
@@ -2140,6 +2148,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Puthiya Needhi Katchi",
+    "abbr": "PNK"
+  },
+  {
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
@@ -2475,6 +2487,10 @@ var json = [
     "symbol": "Spade and stoker"
   },
   {
+    "name": "Sakhthi Baratha Desam",
+    "abbr": "SBD"
+  },
+  {
     "name": "Samaj Adhikar Kalyan Party",
     "abbr": "SAKP",
     "type": "unrecognised"
@@ -2762,6 +2778,14 @@ var json = [
     "location": "India"
   },
   {
+    "name": "Tamil Nadu Jananayaka Congress",
+    "abbr": "TNJC"
+  },
+  {
+    "name": "Tamil Nadu Makkal Congress",
+    "abbr": "TNMC"
+  },
+  {
     "name": "Telangana Rashtra Samithi",
     "abbr": "TRS",
     "founded": 2001,
@@ -2814,6 +2838,10 @@ var json = [
   {
     "name": "United Citizen Party",
     "abbr": "UCP"
+  },
+  {
+    "name": "United Communist Party of India",
+    "abbr": "UCPI"
   },
   {
     "name": "United Democratic Party",
@@ -2878,9 +2906,17 @@ var json = [
     "abbr": "VJCP"
   },
   {
+    "name": "Viduthalai Chiruthaigal Katch",
+    "abbr": "VCK"
+  },
+  {
     "name": "Vishva Hindustani Sangathan",
     "abbr": "VHS",
     "type": "unrecognised"
+  },
+  {
+    "name": "Vivasayi Anbhu Katchi",
+    "abbr": "VAK"
   },
   {
     "name": "Welfare Party of India",
@@ -3075,7 +3111,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.29";
+var version = "3.2.30";
 
 var meta = {
   parties_count: json.length,

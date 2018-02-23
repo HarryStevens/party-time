@@ -412,6 +412,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharathiya Dravida Makkal Katchi",
+    "abbr": "BDMK"
+  },
+  {
     "name": "Bharatiya Backward Party",
     "abbr": "BBP"
   },
@@ -1080,6 +1084,10 @@
     "name": "Indians Front",
     "abbr": "IF",
     "type": "unrecognised"
+  },
+  {
+    "name": "Indians Victory Party",
+    "abbr": "IVP"
   },
   {
     "name": "Indigenous Nationalist Party of Twipra",
@@ -2133,6 +2141,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Puthiya Needhi Katchi",
+    "abbr": "PNK"
+  },
+  {
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
@@ -2468,6 +2480,10 @@
     "symbol": "Spade and stoker"
   },
   {
+    "name": "Sakhthi Baratha Desam",
+    "abbr": "SBD"
+  },
+  {
     "name": "Samaj Adhikar Kalyan Party",
     "abbr": "SAKP",
     "type": "unrecognised"
@@ -2755,6 +2771,14 @@
     "location": "India"
   },
   {
+    "name": "Tamil Nadu Jananayaka Congress",
+    "abbr": "TNJC"
+  },
+  {
+    "name": "Tamil Nadu Makkal Congress",
+    "abbr": "TNMC"
+  },
+  {
     "name": "Telangana Rashtra Samithi",
     "abbr": "TRS",
     "founded": 2001,
@@ -2807,6 +2831,10 @@
   {
     "name": "United Citizen Party",
     "abbr": "UCP"
+  },
+  {
+    "name": "United Communist Party of India",
+    "abbr": "UCPI"
   },
   {
     "name": "United Democratic Party",
@@ -2871,9 +2899,17 @@
     "abbr": "VJCP"
   },
   {
+    "name": "Viduthalai Chiruthaigal Katch",
+    "abbr": "VCK"
+  },
+  {
     "name": "Vishva Hindustani Sangathan",
     "abbr": "VHS",
     "type": "unrecognised"
+  },
+  {
+    "name": "Vivasayi Anbhu Katchi",
+    "abbr": "VAK"
   },
   {
     "name": "Welfare Party of India",
