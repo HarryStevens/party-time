@@ -871,6 +871,10 @@
     }
   },
   {
+    "name": "Democratic Socialist Party (Prabodh Chandra)",
+    "abbr": "DSP(P)"
+  },
+  {
     "name": "Desh Bachao Jan Morcha",
     "abbr": "DBJ"
   },
@@ -960,6 +964,10 @@
   {
     "name": "Gondwana Mukti Sena",
     "abbr": "GMS"
+  },
+  {
+    "name": "Gorakha National Liberation Front",
+    "abbr": "GNLF"
   },
   {
     "name": "Gorkha Democratic Front",
@@ -1180,6 +1188,10 @@
         "India People’s Congress"
       ]
     }
+  },
+  {
+    "name": "Indian Peoples Forward Block",
+    "abbr": "IPFB"
   },
   {
     "name": "Indian Peoples Front",
@@ -1526,6 +1538,10 @@
     "name": "Jharkhand Mukti Morcha (Ulgulan)",
     "abbr": "JMM(U)",
     "type": "unrecognised"
+  },
+  {
+    "name": "Jharkhand Party (Naren)",
+    "abbr": "JKP(N)"
   },
   {
     "name": "Jharkhand Vikas Morcha (Prajatantrik)",
@@ -3400,6 +3416,10 @@
         "WPOI"
       ]
     }
+  },
+  {
+    "name": "West Bengal Socialist Party",
+    "abbr": "WBSP"
   },
   {
     "name": "YSR Bahujana Party",

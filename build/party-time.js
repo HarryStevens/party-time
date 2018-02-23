@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.35. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.36. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -878,6 +878,10 @@ var json = [
     }
   },
   {
+    "name": "Democratic Socialist Party (Prabodh Chandra)",
+    "abbr": "DSP(P)"
+  },
+  {
     "name": "Desh Bachao Jan Morcha",
     "abbr": "DBJ"
   },
@@ -967,6 +971,10 @@ var json = [
   {
     "name": "Gondwana Mukti Sena",
     "abbr": "GMS"
+  },
+  {
+    "name": "Gorakha National Liberation Front",
+    "abbr": "GNLF"
   },
   {
     "name": "Gorkha Democratic Front",
@@ -1187,6 +1195,10 @@ var json = [
         "India People’s Congress"
       ]
     }
+  },
+  {
+    "name": "Indian Peoples Forward Block",
+    "abbr": "IPFB"
   },
   {
     "name": "Indian Peoples Front",
@@ -1533,6 +1545,10 @@ var json = [
     "name": "Jharkhand Mukti Morcha (Ulgulan)",
     "abbr": "JMM(U)",
     "type": "unrecognised"
+  },
+  {
+    "name": "Jharkhand Party (Naren)",
+    "abbr": "JKP(N)"
   },
   {
     "name": "Jharkhand Vikas Morcha (Prajatantrik)",
@@ -3409,6 +3425,10 @@ var json = [
     }
   },
   {
+    "name": "West Bengal Socialist Party",
+    "abbr": "WBSP"
+  },
+  {
     "name": "YSR Bahujana Party",
     "abbr": "YBP"
   },
@@ -3589,7 +3609,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.35";
+var version = "3.2.36";
 
 var meta = {
   parties_count: json.length,
