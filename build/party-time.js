@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.33. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.34. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1152,6 +1152,10 @@ var json = [
         "INQLAB VD"
       ]
     }
+  },
+  {
+    "name": "Ittehad-E-Millait Council",
+    "abbr": "IEMC"
   },
   {
     "name": "Jago Party",
@@ -2357,7 +2361,12 @@ var json = [
   {
     "name": "Rashtriya Kranti Party",
     "abbr": "RTKP",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "RKP"
+      ]
+    }
   },
   {
     "name": "Rashtriya Krantikari Janata Party",
@@ -3233,7 +3242,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.33";
+var version = "3.2.34";
 
 var meta = {
   parties_count: json.length,

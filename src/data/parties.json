@@ -1147,6 +1147,10 @@
     }
   },
   {
+    "name": "Ittehad-E-Millait Council",
+    "abbr": "IEMC"
+  },
+  {
     "name": "Jago Party",
     "abbr": "JGP"
   },
@@ -2350,7 +2354,12 @@
   {
     "name": "Rashtriya Kranti Party",
     "abbr": "RTKP",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "RKP"
+      ]
+    }
   },
   {
     "name": "Rashtriya Krantikari Janata Party",
