@@ -1,6 +1,6 @@
 {
   "name": "party-time",
-  "version": "3.2.35",
+  "version": "3.2.36",
   "description": "Convert party abbreviations to full names and back again.",
   "main": "build/party-time.js",
   "scripts": {
