@@ -874,6 +874,10 @@
     "abbr": "GMS"
   },
   {
+    "name": "Gorkha Democratic Front",
+    "abbr": "GDP"
+  },
+  {
     "name": "Great India Party",
     "abbr": "GRIP",
     "type": "unrecognised"
@@ -1237,6 +1241,10 @@
         "Jammu and Kashmir People’s Democratic Party"
       ]
     }
+  },
+  {
+    "name": "Jan Lok Kalyan Party",
+    "abbr": "JLKP"
   },
   {
     "name": "Jan Morcha",
@@ -1701,6 +1709,10 @@
     }
   },
   {
+    "name": "Maidani Kranti Dal",
+    "abbr": "MKD"
+  },
+  {
     "name": "Majdoor Kisan Union Party",
     "abbr": "MKUP"
   },
@@ -1796,6 +1808,10 @@
         "Mizoram People’s Conference"
       ]
     }
+  },
+  {
+    "name": "Moolniwasi Samaj Party",
+    "abbr": "MOSP"
   },
   {
     "name": "Muslim League Kerala State Committee",
@@ -2293,6 +2309,10 @@
     "abbr": "RHC"
   },
   {
+    "name": "Rashtriya Jan Sahay Dal",
+    "abbr": "RJSD"
+  },
+  {
     "name": "Rashtriya Jan-Jagram Morcha",
     "abbr": "RJJM",
     "type": "unrecognised"
@@ -2348,6 +2368,10 @@
     "type": "state",
     "location": "Uttar Pradesh",
     "symbol": "Hand pump"
+  },
+  {
+    "name": "Rashtriya Lok Nirman Party",
+    "abbr": "RLNP"
   },
   {
     "name": "Rashtriya Lok Samta Party",
@@ -2532,6 +2556,10 @@
         "RSP(M)"
       ]
     }
+  },
+  {
+    "name": "Sainik Samaj Party",
+    "abbr": "SaSP"
   },
   {
     "name": "Sakhthi Baratha Desam",
@@ -2937,6 +2965,42 @@
   {
     "name": "Uttar Pradesh United Democratic Front",
     "abbr": "UPUDF"
+  },
+  {
+    "name": "Uttarakhand Kranti Dal",
+    "abbr": "UKKD",
+    "type": "state",
+    "variations": {
+      "abbr": [
+        "UKD"
+      ]
+    }
+  },
+  {
+    "name": "Uttarakhand Kranti Dal (P)",
+    "abbr": "UKDP",
+    "type": "state",
+    "variations": {
+      "name": [
+        "Uttarakhand Kranti Dal(P)"
+      ]
+    }
+  },
+  {
+    "name": "Uttarakhand Pragatisheel Party",
+    "abbr": "UtPP"
+  },
+  {
+    "name": "Uttarakhand Raksha Morcha",
+    "abbr": "UtRM"
+  },
+  {
+    "name": "Uttarkhand Janwadi Party",
+    "abbr": "UJP"
+  },
+  {
+    "name": "Uttarkhand Parivartan Party",
+    "abbr": "UPP"
   },
   {
     "name": "Vanchit Jamat Party",

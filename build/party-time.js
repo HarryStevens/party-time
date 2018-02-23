@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.32. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.33. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -881,6 +881,10 @@ var json = [
     "abbr": "GMS"
   },
   {
+    "name": "Gorkha Democratic Front",
+    "abbr": "GDP"
+  },
+  {
     "name": "Great India Party",
     "abbr": "GRIP",
     "type": "unrecognised"
@@ -1244,6 +1248,10 @@ var json = [
         "Jammu and Kashmir People’s Democratic Party"
       ]
     }
+  },
+  {
+    "name": "Jan Lok Kalyan Party",
+    "abbr": "JLKP"
   },
   {
     "name": "Jan Morcha",
@@ -1708,6 +1716,10 @@ var json = [
     }
   },
   {
+    "name": "Maidani Kranti Dal",
+    "abbr": "MKD"
+  },
+  {
     "name": "Majdoor Kisan Union Party",
     "abbr": "MKUP"
   },
@@ -1803,6 +1815,10 @@ var json = [
         "Mizoram People’s Conference"
       ]
     }
+  },
+  {
+    "name": "Moolniwasi Samaj Party",
+    "abbr": "MOSP"
   },
   {
     "name": "Muslim League Kerala State Committee",
@@ -2300,6 +2316,10 @@ var json = [
     "abbr": "RHC"
   },
   {
+    "name": "Rashtriya Jan Sahay Dal",
+    "abbr": "RJSD"
+  },
+  {
     "name": "Rashtriya Jan-Jagram Morcha",
     "abbr": "RJJM",
     "type": "unrecognised"
@@ -2355,6 +2375,10 @@ var json = [
     "type": "state",
     "location": "Uttar Pradesh",
     "symbol": "Hand pump"
+  },
+  {
+    "name": "Rashtriya Lok Nirman Party",
+    "abbr": "RLNP"
   },
   {
     "name": "Rashtriya Lok Samta Party",
@@ -2539,6 +2563,10 @@ var json = [
         "RSP(M)"
       ]
     }
+  },
+  {
+    "name": "Sainik Samaj Party",
+    "abbr": "SaSP"
   },
   {
     "name": "Sakhthi Baratha Desam",
@@ -2946,6 +2974,42 @@ var json = [
     "abbr": "UPUDF"
   },
   {
+    "name": "Uttarakhand Kranti Dal",
+    "abbr": "UKKD",
+    "type": "state",
+    "variations": {
+      "abbr": [
+        "UKD"
+      ]
+    }
+  },
+  {
+    "name": "Uttarakhand Kranti Dal (P)",
+    "abbr": "UKDP",
+    "type": "state",
+    "variations": {
+      "name": [
+        "Uttarakhand Kranti Dal(P)"
+      ]
+    }
+  },
+  {
+    "name": "Uttarakhand Pragatisheel Party",
+    "abbr": "UtPP"
+  },
+  {
+    "name": "Uttarakhand Raksha Morcha",
+    "abbr": "UtRM"
+  },
+  {
+    "name": "Uttarkhand Janwadi Party",
+    "abbr": "UJP"
+  },
+  {
+    "name": "Uttarkhand Parivartan Party",
+    "abbr": "UPP"
+  },
+  {
     "name": "Vanchit Jamat Party",
     "abbr": "VAJP",
     "variations": {
@@ -3169,7 +3233,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.32";
+var version = "3.2.33";
 
 var meta = {
   parties_count: json.length,
