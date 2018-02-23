@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.28. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.29. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -2637,6 +2637,18 @@ var json = [
     "symbol": "Umbrella"
   },
   {
+    "name": "Sikkim Gorkha Prajatantric Party",
+    "abbr": "SGPP"
+  },
+  {
+    "name": "Sikkim Himali Rajya Parishad Party",
+    "abbr": "SHRP"
+  },
+  {
+    "name": "Sikkim Jan-Ekta Party",
+    "abbr": "SJEP"
+  },
+  {
     "name": "Sikkim Krantikari Morcha",
     "abbr": "SKM",
     "founded": 2013,
@@ -3063,7 +3075,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.28";
+var version = "3.2.29";
 
 var meta = {
   parties_count: json.length,
