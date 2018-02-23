@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.30. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.31. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -142,6 +142,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Akhila India Jananayaka Makkal Katchi (Dr. Issac)",
+    "abbr": "AIJMK"
+  },
+  {
     "name": "All India Anna Dravida Munnetra Kazhagam",
     "abbr": "AIADMK",
     "founded": 1972,
@@ -216,6 +220,10 @@ var json = [
     "symbol": "Jug"
   },
   {
+    "name": "All India Party for the Protection of Civil Rights",
+    "abbr": "AIPPMR"
+  },
+  {
     "name": "All India Rashtriya Janata Party",
     "abbr": "AIRJP",
     "type": "state",
@@ -268,6 +276,10 @@ var json = [
         "Amra Bangalee"
       ]
     }
+  },
+  {
+    "name": "Anaithinthiya Thamizhaga Munnetra Kazhagam",
+    "abbr": "ATMK"
   },
   {
     "name": "Apna Dal",
@@ -1343,6 +1355,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Jebamani Janata",
+    "abbr": "JJ"
+  },
+  {
     "name": "Jharkhand Disom Party",
     "abbr": "JDP",
     "type": "unrecognised"
@@ -1496,6 +1512,15 @@ var json = [
     "symbol": "Stool"
   },
   {
+    "name": "Kongu Nadu Munnetra Kazhagam",
+    "abbr": "KNMK",
+    "variations": {
+      "abbr": [
+        "KMK"
+      ]
+    }
+  },
+  {
     "name": "Kosal Kranti Dal",
     "abbr": "KOKD"
   },
@@ -1635,6 +1660,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "MGR Thonderkal Katchi",
+    "abbr": "MGRTK"
+  },
+  {
     "name": "Maharashtra Navnirman Sena",
     "abbr": "MNS",
     "founded": 2006,
@@ -1677,6 +1706,10 @@ var json = [
     "name": "Majlis Bachao Tahreek",
     "abbr": "MBT",
     "type": "unrecognised"
+  },
+  {
+    "name": "Makkal Sakthi Katchi",
+    "abbr": "MSK"
   },
   {
     "name": "Mana Party",
@@ -2836,6 +2869,10 @@ var json = [
     }
   },
   {
+    "name": "Ulzaipali Makkal Katchy",
+    "abbr": "UMK"
+  },
+  {
     "name": "United Citizen Party",
     "abbr": "UCP"
   },
@@ -3111,7 +3148,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.30";
+var version = "3.2.31";
 
 var meta = {
   parties_count: json.length,

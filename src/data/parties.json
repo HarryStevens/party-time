@@ -135,6 +135,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Akhila India Jananayaka Makkal Katchi (Dr. Issac)",
+    "abbr": "AIJMK"
+  },
+  {
     "name": "All India Anna Dravida Munnetra Kazhagam",
     "abbr": "AIADMK",
     "founded": 1972,
@@ -209,6 +213,10 @@
     "symbol": "Jug"
   },
   {
+    "name": "All India Party for the Protection of Civil Rights",
+    "abbr": "AIPPMR"
+  },
+  {
     "name": "All India Rashtriya Janata Party",
     "abbr": "AIRJP",
     "type": "state",
@@ -261,6 +269,10 @@
         "Amra Bangalee"
       ]
     }
+  },
+  {
+    "name": "Anaithinthiya Thamizhaga Munnetra Kazhagam",
+    "abbr": "ATMK"
   },
   {
     "name": "Apna Dal",
@@ -1336,6 +1348,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Jebamani Janata",
+    "abbr": "JJ"
+  },
+  {
     "name": "Jharkhand Disom Party",
     "abbr": "JDP",
     "type": "unrecognised"
@@ -1489,6 +1505,15 @@
     "symbol": "Stool"
   },
   {
+    "name": "Kongu Nadu Munnetra Kazhagam",
+    "abbr": "KNMK",
+    "variations": {
+      "abbr": [
+        "KMK"
+      ]
+    }
+  },
+  {
     "name": "Kosal Kranti Dal",
     "abbr": "KOKD"
   },
@@ -1628,6 +1653,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "MGR Thonderkal Katchi",
+    "abbr": "MGRTK"
+  },
+  {
     "name": "Maharashtra Navnirman Sena",
     "abbr": "MNS",
     "founded": 2006,
@@ -1670,6 +1699,10 @@
     "name": "Majlis Bachao Tahreek",
     "abbr": "MBT",
     "type": "unrecognised"
+  },
+  {
+    "name": "Makkal Sakthi Katchi",
+    "abbr": "MSK"
   },
   {
     "name": "Mana Party",
@@ -2827,6 +2860,10 @@
         "Tripura Peoples Party"
       ]
     }
+  },
+  {
+    "name": "Ulzaipali Makkal Katchy",
+    "abbr": "UMK"
   },
   {
     "name": "United Citizen Party",
