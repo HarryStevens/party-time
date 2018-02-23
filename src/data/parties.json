@@ -175,6 +175,15 @@
     }
   },
   {
+    "name": "All India Forward Bloc (Subhasist)",
+    "abbr": "AIFB(S)",
+    "variations": {
+      "abbr": [
+        "AIFB(Subhasist)"
+      ]
+    }
+  },
+  {
     "name": "All India Majlis-e-Ittehadul Muslimeen",
     "abbr": "AIMIM",
     "founded": 1927,
@@ -2511,6 +2520,18 @@
     "type": "state",
     "location": "Kerala, West Bengal",
     "symbol": "Spade and stoker"
+  },
+  {
+    "name": "Revolutionary Socialist Party of India (Marxist)",
+    "abbr": "RSPI",
+    "variations": {
+      "name": [
+        "Revolutionary Socialist Party of India(Marxist)"
+      ],
+      "abbr": [
+        "RSP(M)"
+      ]
+    }
   },
   {
     "name": "Sakhthi Baratha Desam",

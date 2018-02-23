@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.31. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.32. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -178,6 +178,15 @@ var json = [
     "variations": {
       "abbr": [
         "FBL"
+      ]
+    }
+  },
+  {
+    "name": "All India Forward Bloc (Subhasist)",
+    "abbr": "AIFB(S)",
+    "variations": {
+      "abbr": [
+        "AIFB(Subhasist)"
       ]
     }
   },
@@ -2520,6 +2529,18 @@ var json = [
     "symbol": "Spade and stoker"
   },
   {
+    "name": "Revolutionary Socialist Party of India (Marxist)",
+    "abbr": "RSPI",
+    "variations": {
+      "name": [
+        "Revolutionary Socialist Party of India(Marxist)"
+      ],
+      "abbr": [
+        "RSP(M)"
+      ]
+    }
+  },
+  {
     "name": "Sakhthi Baratha Desam",
     "abbr": "SBD"
   },
@@ -3148,7 +3169,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.31";
+var version = "3.2.32";
 
 var meta = {
   parties_count: json.length,
