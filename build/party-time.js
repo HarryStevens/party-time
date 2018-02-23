@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.36. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.37. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -287,6 +287,9 @@ var json = [
     "variations": {
       "name": [
         "Amra Bangalee"
+      ],
+      "abbr": [
+        "AB"
       ]
     }
   },
@@ -879,7 +882,12 @@ var json = [
   },
   {
     "name": "Democratic Socialist Party (Prabodh Chandra)",
-    "abbr": "DSP(P)"
+    "abbr": "DSP(P)",
+    "variations": {
+      "abbr": [
+        "DSP(PC)"
+      ]
+    }
   },
   {
     "name": "Desh Bachao Jan Morcha",
@@ -979,6 +987,15 @@ var json = [
   {
     "name": "Gorkha Democratic Front",
     "abbr": "GDP"
+  },
+  {
+    "name": "Gorkha Janmukti Morcha",
+    "abbr": "GOJAM",
+    "variations": {
+      "abbr": [
+        "GJM"
+      ]
+    }
   },
   {
     "name": "Great India Party",
@@ -1229,6 +1246,10 @@ var json = [
     "symbol": "Ladder"
   },
   {
+    "name": "Indian Unity Centre",
+    "abbr": "IUC"
+  },
+  {
     "name": "Indians Front",
     "abbr": "IF",
     "type": "unrecognised"
@@ -1415,6 +1436,10 @@ var json = [
     "abbr": "JHKP"
   },
   {
+    "name": "Janabadi Forward Block",
+    "abbr": "JFB"
+  },
+  {
     "name": "Janadhipathya Samrakshana Samithi",
     "abbr": "JPSS",
     "type": "state",
@@ -1529,6 +1554,15 @@ var json = [
     "abbr": "JJ"
   },
   {
+    "name": "Jharkhand Anushilan Party",
+    "abbr": "JHAP",
+    "variations": {
+      "abbr": [
+        "JAP"
+      ]
+    }
+  },
+  {
     "name": "Jharkhand Disom Party",
     "abbr": "JDP",
     "type": "unrecognised"
@@ -1555,8 +1589,13 @@ var json = [
     "abbr": "JVM(P)",
     "founded": 2006,
     "type": "state",
-    "location": "Jharkhand",
-    "symbol": "Comb"
+    "location": "Jharkhand, West Bengal",
+    "symbol": "Comb",
+    "variations": {
+      "abbr": [
+        "JVM"
+      ]
+    }
   },
   {
     "name": "Kalinga Sena",
@@ -1565,6 +1604,10 @@ var json = [
   {
     "name": "Kamarajar Deseeya Congress",
     "abbr": "KDC"
+  },
+  {
+    "name": "Kamtapur Progressive Party",
+    "abbr": "KPP"
   },
   {
     "name": "Kannada Chalavali Vatal Paksha",
@@ -1974,6 +2017,10 @@ var json = [
     "abbr": "MBP"
   },
   {
+    "name": "Mazdur Kranti Parishad",
+    "abbr": "MKP"
+  },
+  {
     "name": "Megh Desham Party",
     "abbr": "MEDP"
   },
@@ -2198,6 +2245,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Nirjatita Samaj Biplabi Party",
+    "abbr": "NSBP"
+  },
+  {
     "name": "North East India Development Party",
     "abbr": "NEIDP",
     "founded": 2015,
@@ -2243,6 +2294,15 @@ var json = [
     "location": "West Bengal, Tripura"
   },
   {
+    "name": "Paschim Banga Rajya Muslim League",
+    "abbr": "PBRML",
+    "variations": {
+      "abbr": [
+        "PBRSL"
+      ]
+    }
+  },
+  {
     "name": "Pattali Makkal Katchi",
     "abbr": "PMK",
     "founded": 1989,
@@ -2268,6 +2328,16 @@ var json = [
       "name": [
         "Peoples Democratic Alliance",
         "People’s Democratic Alliance"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Conference of India",
+    "abbr": "PDCI",
+    "variations": {
+      "name": [
+        "Peoples Democratic Conference of India",
+        "People’s Democratic Conference of India"
       ]
     }
   },
@@ -2566,6 +2636,15 @@ var json = [
     "abbr": "RBCP"
   },
   {
+    "name": "Rashtriya Deshaj Party",
+    "abbr": "RADP",
+    "variations": {
+      "abbr": [
+        "RDP"
+      ]
+    }
+  },
+  {
     "name": "Rashtriya Dharmanirpeksha Nava Bharat Party",
     "abbr": "RDNBP",
     "type": "unrecognised"
@@ -2609,6 +2688,10 @@ var json = [
   {
     "name": "Rashtriya Janadhikar Party",
     "abbr": "RJAP"
+  },
+  {
+    "name": "Rashtriya Janasachetan Party",
+    "abbr": "RJNP"
   },
   {
     "name": "Rashtriya Janata Dal",
@@ -2876,6 +2959,15 @@ var json = [
     }
   },
   {
+    "name": "Revolutionary Communist Party of India (Rasik Bhatt)",
+    "abbr": "RCPI(R)",
+    "variations": {
+      "abbr": [
+        "RCPI(RB)"
+      ]
+    }
+  },
+  {
     "name": "Revolutionary Socialist Party",
     "abbr": "RSP",
     "founded": 1940,
@@ -2916,6 +3008,10 @@ var json = [
   {
     "name": "Samajik Nyaya Party",
     "abbr": "SNP"
+  },
+  {
+    "name": "Samajtantric Party of India",
+    "abbr": "STPI"
   },
   {
     "name": "Samajwadi Jan Parishad",
@@ -3246,6 +3342,10 @@ var json = [
     "type": "state",
     "location": "Andhra Pradesh, Telangana",
     "symbol": "Bicycle"
+  },
+  {
+    "name": "The Religion of Man Revolving Political Party of India",
+    "abbr": "TRMRPPI"
   },
   {
     "name": "Tippu Sultan National Republic Party",
@@ -3609,7 +3709,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.36";
+var version = "3.2.37";
 
 var meta = {
   parties_count: json.length,
