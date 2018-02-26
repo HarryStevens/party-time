@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.37. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.38. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -3513,6 +3513,10 @@ var json = [
     "abbr": "VAK"
   },
   {
+    "name": "Vyavastha Parivartan Party",
+    "abbr": "VPP"
+  },
+  {
     "name": "Welfare Party of India",
     "abbr": "WPI",
     "variations": {
@@ -3709,7 +3713,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.37";
+var version = "3.2.38";
 
 var meta = {
   parties_count: json.length,
