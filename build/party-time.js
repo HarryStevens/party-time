@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.38. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.39. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1271,7 +1271,8 @@ var json = [
     "variations": {
       "name": [
         "Indigenous People’s Front of Tripura",
-        "Indigenous Peoples Front of Tripura"
+        "Indigenous Peoples Front of Tripura",
+        "Indigenousn People's Front Of Tripura"
       ]
     }
   },
@@ -3713,7 +3714,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.38";
+var version = "3.2.39";
 
 var meta = {
   parties_count: json.length,
