@@ -45,7 +45,7 @@ export default function getInfo(party, type){
   type = type ? type : getType(party);
 
   var out = json.filter(function(d){
-    return (d[type] == party || d[type] == party.toUpperCase()) || (d.variations && d.variations[type] && (d.variations[type].indexOf(party) != -1 || d.variations[type].indexOf(party.toUpperCase()) != -1));
+    return (d[type] == party || d[type] == party.toUpperCase()) || (d.variations && d.variations[type] && (d.variations[type].indexOf(party) !== -1 || d.variations[type].indexOf(party.toUpperCase()) != -1));
   });
 
   if (out.length > 0){

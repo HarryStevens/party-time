@@ -6,13 +6,17 @@
 <body>
 	<script src="../build/party-time.js"></script>
 	<script>
-		document.write(JSON.stringify(pt.getInfo("NARP")))
+		// document.write(JSON.stringify(pt.getInfo("NARP")))
 
-		var g = pt.getInfo("narp");
-		var h = pt.getInfo("narp", "abbr");
+		// var g = pt.getInfo("narp");
+		// var h = pt.getInfo("narp", "abbr");
 
-		document.write(JSON.stringify(g))
-		document.write(JSON.stringify(h))
+		// document.write(JSON.stringify(g))
+		// document.write(JSON.stringify(h))
+		var g = pt.getInfo("Communist Party Of India  (Marxist)");
+		var g = pt.getType("Communist Party Of India  (Marxist)");
+		var h = pt.convert("Communist Party Of India  (Marxist)");
+		console.log(g, h)
 
 	</script>
 </body>

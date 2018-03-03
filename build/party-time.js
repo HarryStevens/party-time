@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.42. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.43. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -817,7 +817,9 @@ var json = [
         "CPI[M]"
       ],
       "name": [
-        "Communist Party of India  (Marxist)"
+        "Communist Party Of India (Marxist)",
+        "Communist Party of India  (Marxist)",
+        "Communist Party Of India  (Marxist)"
       ]
     }
   },
@@ -832,7 +834,9 @@ var json = [
         "CPI(M)(L)(L)"
       ],
       "name": [
-        "Communist Party of India  (Marxist-Leninist)  (Liberation)"
+        "Communist Party Of India (Marxist-Leninist) (Liberation)",
+        "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "Communist Party Of India  (Marxist-Leninist)  (Liberation)"
       ]
     }
   },
@@ -3658,7 +3662,7 @@ function getInfo(party, type){
   type = type ? type : getType(party);
 
   var out = json.filter(function(d){
-    return (d[type] == party || d[type] == party.toUpperCase()) || (d.variations && d.variations[type] && (d.variations[type].indexOf(party) != -1 || d.variations[type].indexOf(party.toUpperCase()) != -1));
+    return (d[type] == party || d[type] == party.toUpperCase()) || (d.variations && d.variations[type] && (d.variations[type].indexOf(party) !== -1 || d.variations[type].indexOf(party.toUpperCase()) != -1));
   });
 
   if (out.length > 0){
@@ -3726,7 +3730,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.42";
+var version = "3.2.43";
 
 var meta = {
   parties_count: json.length,
