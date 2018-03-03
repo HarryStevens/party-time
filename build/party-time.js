@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.41. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.42. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -2097,8 +2097,8 @@ var json = [
     "symbol": "Cock",
     "variations": {
       "name": [
-        "Nagaland Peoples Front",
-        "Nagaland People’s Front"
+        "Naga Peoples Front",
+        "Naga People’s Front"
       ]
     }
   },
@@ -3726,7 +3726,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.41";
+var version = "3.2.42";
 
 var meta = {
   parties_count: json.length,
