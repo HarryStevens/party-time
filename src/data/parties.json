@@ -795,7 +795,12 @@
     "founded": 1925,
     "type": "national",
     "location": "India",
-    "symbol": "Ears of corn and sickle"
+    "symbol": "Ears of corn and sickle",
+    "variations": {
+      "name": [
+        "Communist Party Of India"
+      ]
+    }
   },
   {
     "name": "Communist Party of India (Marxist)",
@@ -829,7 +834,8 @@
       "name": [
         "Communist Party Of India (Marxist-Leninist) (Liberation)",
         "Communist Party of India  (Marxist-Leninist)  (Liberation)",
-        "Communist Party Of India  (Marxist-Leninist)  (Liberation)"
+        "Communist Party Of India  (Marxist-Leninist)  (Liberation)",
+        "Communist Party Of India  (Marxist-leninist)  (Liberation)"
       ]
     }
   },
@@ -1259,7 +1265,12 @@
     "name": "Indigenous Nationalist Party of Twipra",
     "abbr": "INPT",
     "founded": 2002,
-    "location": "Tripura"
+    "location": "Tripura",
+    "variations": {
+      "name": [
+        "Indigenous Nationalist Party Of Twipra"
+      ]
+    }
   },
   {
     "name": "Indigenous People's Front of Tripura",
@@ -2927,7 +2938,12 @@
   {
     "name": "Republican Party of India",
     "abbr": "RPI",
-    "founded": 1956
+    "founded": 1956,
+    "variations": {
+      "name": [
+        "Republican Party Of India"
+      ]
+    }
   },
   {
     "name": "Republican Party of India (A)",

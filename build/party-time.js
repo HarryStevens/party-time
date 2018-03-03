@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.43. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.44. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -802,7 +802,12 @@ var json = [
     "founded": 1925,
     "type": "national",
     "location": "India",
-    "symbol": "Ears of corn and sickle"
+    "symbol": "Ears of corn and sickle",
+    "variations": {
+      "name": [
+        "Communist Party Of India"
+      ]
+    }
   },
   {
     "name": "Communist Party of India (Marxist)",
@@ -836,7 +841,8 @@ var json = [
       "name": [
         "Communist Party Of India (Marxist-Leninist) (Liberation)",
         "Communist Party of India  (Marxist-Leninist)  (Liberation)",
-        "Communist Party Of India  (Marxist-Leninist)  (Liberation)"
+        "Communist Party Of India  (Marxist-Leninist)  (Liberation)",
+        "Communist Party Of India  (Marxist-leninist)  (Liberation)"
       ]
     }
   },
@@ -1266,7 +1272,12 @@ var json = [
     "name": "Indigenous Nationalist Party of Twipra",
     "abbr": "INPT",
     "founded": 2002,
-    "location": "Tripura"
+    "location": "Tripura",
+    "variations": {
+      "name": [
+        "Indigenous Nationalist Party Of Twipra"
+      ]
+    }
   },
   {
     "name": "Indigenous People's Front of Tripura",
@@ -2934,7 +2945,12 @@ var json = [
   {
     "name": "Republican Party of India",
     "abbr": "RPI",
-    "founded": 1956
+    "founded": 1956,
+    "variations": {
+      "name": [
+        "Republican Party Of India"
+      ]
+    }
   },
   {
     "name": "Republican Party of India (A)",
@@ -3730,7 +3746,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.43";
+var version = "3.2.44";
 
 var meta = {
   parties_count: json.length,
