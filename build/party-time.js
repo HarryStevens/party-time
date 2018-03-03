@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.40. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.41. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -2251,6 +2251,17 @@ var json = [
     "abbr": "NSBP"
   },
   {
+    "name": "None of the Above",
+    "abbr": "NOTA",
+    "variations": {
+      "name": [
+        "None Of The Above",
+        "Nove of The Above",
+        "None Of the Above"
+      ]
+    }
+  },
+  {
     "name": "North East India Development Party",
     "abbr": "NEIDP",
     "founded": 2015,
@@ -3715,7 +3726,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.40";
+var version = "3.2.41";
 
 var meta = {
   parties_count: json.length,

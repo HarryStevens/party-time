@@ -2244,6 +2244,17 @@
     "abbr": "NSBP"
   },
   {
+    "name": "None of the Above",
+    "abbr": "NOTA",
+    "variations": {
+      "name": [
+        "None Of The Above",
+        "Nove of The Above",
+        "None Of the Above"
+      ]
+    }
+  },
+  {
     "name": "North East India Development Party",
     "abbr": "NEIDP",
     "founded": 2015,
