@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.46. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.47. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1491,6 +1491,10 @@ var json = [
   {
     "name": "Jagrat Bharat Party",
     "abbr": "JaBhP"
+  },
+  {
+    "name": "Jai Bharat Party",
+    "abbr": "JBP"
   },
   {
     "name": "Jai Bharat Samanta Party",
@@ -4238,7 +4242,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.46";
+var version = "3.2.47";
 
 var meta = {
   parties_count: json.length,
