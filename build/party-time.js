@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.44. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.45. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -562,6 +562,10 @@ var json = [
     "location": "India"
   },
   {
+    "name": "Bharatiya Manavata Vikas Party",
+    "abbr": "BMVP"
+  },
+  {
     "name": "Bharatiya Minorities Suraksha Mahasangh",
     "abbr": "BMSM",
     "type": "unrecognised"
@@ -602,6 +606,10 @@ var json = [
   {
     "name": "Bharatiya Prajatantra Nirman Party",
     "abbr": "BPNP"
+  },
+  {
+    "name": "Bharatiya Prajatantra Party",
+    "abbr": "BPTP"
   },
   {
     "name": "Bharatiya Prajatantrik Shudh Gandhiwadi Krishak Dal",
@@ -654,6 +662,10 @@ var json = [
   {
     "name": "Bharatiya Subhash Sena",
     "abbr": "BSRD"
+  },
+  {
+    "name": "Bharatiya Surajya Manch",
+    "abbr": "BSJM"
   },
   {
     "name": "Bharatiya Vanchitsamaj Party",
@@ -709,6 +721,16 @@ var json = [
     "name": "Bhartiya Vikas Party",
     "abbr": "BRVP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bihar People's Party",
+    "abbr": "BPSP",
+    "variations": {
+      "name": [
+        "Bihar Peoples Party",
+        "Bihar People’s Party"
+      ]
+    }
   },
   {
     "name": "Biju Janata Dal",
@@ -940,8 +962,22 @@ var json = [
     "abbr": "EKSP"
   },
   {
+    "name": "Ekta Shakti",
+    "abbr": "ES"
+  },
+  {
+    "name": "Ephraim Union",
+    "abbr": "EU"
+  },
+  {
     "name": "Federal Congress of India",
     "abbr": "FCI"
+  },
+  {
+    "name": "Federal Party of Manipur",
+    "abbr": "FPM",
+    "location": "Manipur",
+    "type": "state"
   },
   {
     "name": "Forward Bloc (Socialist)",
@@ -1073,6 +1109,10 @@ var json = [
     }
   },
   {
+    "name": "Haryana Vikas Party",
+    "abbr": "HVP"
+  },
+  {
     "name": "Hill State People's Democratic Party",
     "abbr": "HSPDP",
     "founded": 1968,
@@ -1124,6 +1164,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Hindu Ekta Andolan Party",
+    "abbr": "HEAP"
+  },
+  {
     "name": "Hindu Swaraj Sanghathan",
     "abbr": "HSS",
     "type": "unrecognised"
@@ -1159,6 +1203,10 @@ var json = [
     "name": "Indian Democratic Party",
     "abbr": "IDP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Indian Federal Democratic Party",
+    "abbr": "IFDP"
   },
   {
     "name": "Indian Justice Party",
@@ -1412,6 +1460,10 @@ var json = [
     }
   },
   {
+    "name": "Jan Chetna Party",
+    "abbr": "JCP"
+  },
+  {
     "name": "Jan Kranti Party (Rashtrawadi)",
     "abbr": "JKP",
     "variations": {
@@ -1451,6 +1503,10 @@ var json = [
   {
     "name": "Jana Hitkari Party",
     "abbr": "JHKP"
+  },
+  {
+    "name": "Jana Unnayan Mancha",
+    "abbr": "JUM"
   },
   {
     "name": "Janabadi Forward Block",
@@ -1520,6 +1576,10 @@ var json = [
   {
     "name": "Janhit Kisan Party",
     "abbr": "JKiP"
+  },
+  {
+    "name": "Janhit Samaj Party",
+    "abbr": "JHSP"
   },
   {
     "name": "Janmangal Paksh",
@@ -1634,6 +1694,10 @@ var json = [
         "KCP"
       ]
     }
+  },
+  {
+    "name": "Kannada Nadu Party",
+    "abbr": "KNDP"
   },
   {
     "name": "Kannada Paksha",
@@ -1930,6 +1994,10 @@ var json = [
     "symbol": "Railway engine"
   },
   {
+    "name": "Maharashtra Rajiv Congress",
+    "abbr": "MRRC"
+  },
+  {
     "name": "Maharashtrawadi Gomantak",
     "abbr": "MAG",
     "type": "state"
@@ -2086,6 +2154,10 @@ var json = [
     "abbr": "MADP"
   },
   {
+    "name": "Mudiraj Rashtriya Samithi",
+    "abbr": "MRS"
+  },
+  {
     "name": "Muslim League Kerala State Committee",
     "abbr": "MUL",
     "type": "state",
@@ -2098,6 +2170,14 @@ var json = [
   {
     "name": "Muslim Majlis Uttar Pradesh",
     "abbr": "MMUP"
+  },
+  {
+    "name": "NTR Telugu Desam Party (Lakshmi Parvathi)",
+    "abbr": "NTRTDP(LP)"
+  },
+  {
+    "name": "Naari Shakti Party",
+    "abbr": "NSTP"
   },
   {
     "name": "Naga National Party",
@@ -2264,6 +2344,10 @@ var json = [
   {
     "name": "Nirjatita Samaj Biplabi Party",
     "abbr": "NSBP"
+  },
+  {
+    "name": "Niswarth Sewa Party",
+    "abbr": "NSSP"
   },
   {
     "name": "None of the Above",
@@ -2441,6 +2525,10 @@ var json = [
   {
     "name": "Pichhra Samaj Party",
     "abbr": "PHSP"
+  },
+  {
+    "name": "Prabuddha Republican Party",
+    "abbr": "PRCP"
   },
   {
     "name": "Pragatisheel Manav Samaj Party",
@@ -2693,6 +2781,10 @@ var json = [
     "abbr": "RGOP"
   },
   {
+    "name": "Rashtriya Hamara Dal",
+    "abbr": "RHD"
+  },
+  {
     "name": "Rashtriya Hindustan Sena Karnataka",
     "abbr": "RAHS"
   },
@@ -2803,6 +2895,10 @@ var json = [
     "symbol": "Ceiling fan"
   },
   {
+    "name": "Rashtriya Lok Seva Morcha",
+    "abbr": "RLSM"
+  },
+  {
     "name": "Rashtriya Lokmanch",
     "abbr": "RLM"
   },
@@ -2851,9 +2947,17 @@ var json = [
     "abbr": "RASAP"
   },
   {
+    "name": "Rashtriya Sakar Party",
+    "abbr": "RSKP"
+  },
+  {
     "name": "Rashtriya Samaj Paksha",
     "abbr": "RSPS",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Samajik Nayak Paksha",
+    "abbr": "RSNP"
   },
   {
     "name": "Rashtriya Samajwadi Party (Secular)",
@@ -3084,6 +3188,14 @@ var json = [
     "location": "India"
   },
   {
+    "name": "Samata Samaj Party",
+    "abbr": "SMSP"
+  },
+  {
+    "name": "Sampurna Vikas Dal",
+    "abbr": "SPVD"
+  },
+  {
     "name": "Samruddha Odisha",
     "abbr": "SAMO"
   },
@@ -3155,6 +3267,10 @@ var json = [
   {
     "name": "Save Goa Front",
     "abbr": "SGF"
+  },
+  {
+    "name": "Secular Party of India",
+    "abbr": "SPI"
   },
   {
     "name": "Shiromani Akali Dal",
@@ -3240,6 +3356,10 @@ var json = [
     "type": "unrecognised"
   },
   {
+    "name": "Social Action Party",
+    "abbr": "SLAP"
+  },
+  {
     "name": "Social Democratic Party of India",
     "abbr": "SDPI",
     "variations": {
@@ -3320,6 +3440,10 @@ var json = [
     "warning": "Unofficial abbreviation"
   },
   {
+    "name": "Swaraj Dal",
+    "abbr": "SWD"
+  },
+  {
     "name": "Swaraj Party - Yes (Subhash Chandra Bosh)",
     "abbr": "SPYSCB",
     "variations": {
@@ -3351,6 +3475,10 @@ var json = [
     "founded": 1959,
     "type": "national",
     "location": "India"
+  },
+  {
+    "name": "Tamil Desiyak Katchi",
+    "abbr": "TDK"
   },
   {
     "name": "Tamil Nadu Jananayaka Congress",
@@ -3440,6 +3568,10 @@ var json = [
     "type": "state"
   },
   {
+    "name": "United Minorities Front, Assam",
+    "abbr": "UMFA"
+  },
+  {
     "name": "United Naga Democratic Party",
     "abbr": "UNDP",
     "location": "Nagaland"
@@ -3465,6 +3597,10 @@ var json = [
         "USP"
       ]
     }
+  },
+  {
+    "name": "Urs Samyuktha Paksha",
+    "abbr": "USYP"
   },
   {
     "name": "Uttar Pradesh Republican Party",
@@ -3533,6 +3669,14 @@ var json = [
     "abbr": "VJCP"
   },
   {
+    "name": "Vidharbha Janata Congress",
+    "abbr": "VJC"
+  },
+  {
+    "name": "Vidharbha Rajya Party",
+    "abbr": "VRP"
+  },
+  {
     "name": "Viduthalai Chiruthaigal Katch",
     "abbr": "VCK"
   },
@@ -3568,6 +3712,10 @@ var json = [
   {
     "name": "YSR Bahujana Party",
     "abbr": "YBP"
+  },
+  {
+    "name": "Yuva Gantantra Party",
+    "abbr": "YGP"
   },
   {
     "name": "Yuva Sarkar",
@@ -3746,7 +3894,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.44";
+var version = "3.2.45";
 
 var meta = {
   parties_count: json.length,

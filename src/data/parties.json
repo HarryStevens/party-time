@@ -555,6 +555,10 @@
     "location": "India"
   },
   {
+    "name": "Bharatiya Manavata Vikas Party",
+    "abbr": "BMVP"
+  },
+  {
     "name": "Bharatiya Minorities Suraksha Mahasangh",
     "abbr": "BMSM",
     "type": "unrecognised"
@@ -595,6 +599,10 @@
   {
     "name": "Bharatiya Prajatantra Nirman Party",
     "abbr": "BPNP"
+  },
+  {
+    "name": "Bharatiya Prajatantra Party",
+    "abbr": "BPTP"
   },
   {
     "name": "Bharatiya Prajatantrik Shudh Gandhiwadi Krishak Dal",
@@ -647,6 +655,10 @@
   {
     "name": "Bharatiya Subhash Sena",
     "abbr": "BSRD"
+  },
+  {
+    "name": "Bharatiya Surajya Manch",
+    "abbr": "BSJM"
   },
   {
     "name": "Bharatiya Vanchitsamaj Party",
@@ -702,6 +714,16 @@
     "name": "Bhartiya Vikas Party",
     "abbr": "BRVP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bihar People's Party",
+    "abbr": "BPSP",
+    "variations": {
+      "name": [
+        "Bihar Peoples Party",
+        "Bihar People’s Party"
+      ]
+    }
   },
   {
     "name": "Biju Janata Dal",
@@ -933,8 +955,22 @@
     "abbr": "EKSP"
   },
   {
+    "name": "Ekta Shakti",
+    "abbr": "ES"
+  },
+  {
+    "name": "Ephraim Union",
+    "abbr": "EU"
+  },
+  {
     "name": "Federal Congress of India",
     "abbr": "FCI"
+  },
+  {
+    "name": "Federal Party of Manipur",
+    "abbr": "FPM",
+    "location": "Manipur",
+    "type": "state"
   },
   {
     "name": "Forward Bloc (Socialist)",
@@ -1066,6 +1102,10 @@
     }
   },
   {
+    "name": "Haryana Vikas Party",
+    "abbr": "HVP"
+  },
+  {
     "name": "Hill State People's Democratic Party",
     "abbr": "HSPDP",
     "founded": 1968,
@@ -1117,6 +1157,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Hindu Ekta Andolan Party",
+    "abbr": "HEAP"
+  },
+  {
     "name": "Hindu Swaraj Sanghathan",
     "abbr": "HSS",
     "type": "unrecognised"
@@ -1152,6 +1196,10 @@
     "name": "Indian Democratic Party",
     "abbr": "IDP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Indian Federal Democratic Party",
+    "abbr": "IFDP"
   },
   {
     "name": "Indian Justice Party",
@@ -1405,6 +1453,10 @@
     }
   },
   {
+    "name": "Jan Chetna Party",
+    "abbr": "JCP"
+  },
+  {
     "name": "Jan Kranti Party (Rashtrawadi)",
     "abbr": "JKP",
     "variations": {
@@ -1444,6 +1496,10 @@
   {
     "name": "Jana Hitkari Party",
     "abbr": "JHKP"
+  },
+  {
+    "name": "Jana Unnayan Mancha",
+    "abbr": "JUM"
   },
   {
     "name": "Janabadi Forward Block",
@@ -1513,6 +1569,10 @@
   {
     "name": "Janhit Kisan Party",
     "abbr": "JKiP"
+  },
+  {
+    "name": "Janhit Samaj Party",
+    "abbr": "JHSP"
   },
   {
     "name": "Janmangal Paksh",
@@ -1627,6 +1687,10 @@
         "KCP"
       ]
     }
+  },
+  {
+    "name": "Kannada Nadu Party",
+    "abbr": "KNDP"
   },
   {
     "name": "Kannada Paksha",
@@ -1923,6 +1987,10 @@
     "symbol": "Railway engine"
   },
   {
+    "name": "Maharashtra Rajiv Congress",
+    "abbr": "MRRC"
+  },
+  {
     "name": "Maharashtrawadi Gomantak",
     "abbr": "MAG",
     "type": "state"
@@ -2079,6 +2147,10 @@
     "abbr": "MADP"
   },
   {
+    "name": "Mudiraj Rashtriya Samithi",
+    "abbr": "MRS"
+  },
+  {
     "name": "Muslim League Kerala State Committee",
     "abbr": "MUL",
     "type": "state",
@@ -2091,6 +2163,14 @@
   {
     "name": "Muslim Majlis Uttar Pradesh",
     "abbr": "MMUP"
+  },
+  {
+    "name": "NTR Telugu Desam Party (Lakshmi Parvathi)",
+    "abbr": "NTRTDP(LP)"
+  },
+  {
+    "name": "Naari Shakti Party",
+    "abbr": "NSTP"
   },
   {
     "name": "Naga National Party",
@@ -2257,6 +2337,10 @@
   {
     "name": "Nirjatita Samaj Biplabi Party",
     "abbr": "NSBP"
+  },
+  {
+    "name": "Niswarth Sewa Party",
+    "abbr": "NSSP"
   },
   {
     "name": "None of the Above",
@@ -2434,6 +2518,10 @@
   {
     "name": "Pichhra Samaj Party",
     "abbr": "PHSP"
+  },
+  {
+    "name": "Prabuddha Republican Party",
+    "abbr": "PRCP"
   },
   {
     "name": "Pragatisheel Manav Samaj Party",
@@ -2686,6 +2774,10 @@
     "abbr": "RGOP"
   },
   {
+    "name": "Rashtriya Hamara Dal",
+    "abbr": "RHD"
+  },
+  {
     "name": "Rashtriya Hindustan Sena Karnataka",
     "abbr": "RAHS"
   },
@@ -2796,6 +2888,10 @@
     "symbol": "Ceiling fan"
   },
   {
+    "name": "Rashtriya Lok Seva Morcha",
+    "abbr": "RLSM"
+  },
+  {
     "name": "Rashtriya Lokmanch",
     "abbr": "RLM"
   },
@@ -2844,9 +2940,17 @@
     "abbr": "RASAP"
   },
   {
+    "name": "Rashtriya Sakar Party",
+    "abbr": "RSKP"
+  },
+  {
     "name": "Rashtriya Samaj Paksha",
     "abbr": "RSPS",
     "type": "unrecognised"
+  },
+  {
+    "name": "Rashtriya Samajik Nayak Paksha",
+    "abbr": "RSNP"
   },
   {
     "name": "Rashtriya Samajwadi Party (Secular)",
@@ -3077,6 +3181,14 @@
     "location": "India"
   },
   {
+    "name": "Samata Samaj Party",
+    "abbr": "SMSP"
+  },
+  {
+    "name": "Sampurna Vikas Dal",
+    "abbr": "SPVD"
+  },
+  {
     "name": "Samruddha Odisha",
     "abbr": "SAMO"
   },
@@ -3148,6 +3260,10 @@
   {
     "name": "Save Goa Front",
     "abbr": "SGF"
+  },
+  {
+    "name": "Secular Party of India",
+    "abbr": "SPI"
   },
   {
     "name": "Shiromani Akali Dal",
@@ -3233,6 +3349,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Social Action Party",
+    "abbr": "SLAP"
+  },
+  {
     "name": "Social Democratic Party of India",
     "abbr": "SDPI",
     "variations": {
@@ -3313,6 +3433,10 @@
     "warning": "Unofficial abbreviation"
   },
   {
+    "name": "Swaraj Dal",
+    "abbr": "SWD"
+  },
+  {
     "name": "Swaraj Party - Yes (Subhash Chandra Bosh)",
     "abbr": "SPYSCB",
     "variations": {
@@ -3344,6 +3468,10 @@
     "founded": 1959,
     "type": "national",
     "location": "India"
+  },
+  {
+    "name": "Tamil Desiyak Katchi",
+    "abbr": "TDK"
   },
   {
     "name": "Tamil Nadu Jananayaka Congress",
@@ -3433,6 +3561,10 @@
     "type": "state"
   },
   {
+    "name": "United Minorities Front, Assam",
+    "abbr": "UMFA"
+  },
+  {
     "name": "United Naga Democratic Party",
     "abbr": "UNDP",
     "location": "Nagaland"
@@ -3458,6 +3590,10 @@
         "USP"
       ]
     }
+  },
+  {
+    "name": "Urs Samyuktha Paksha",
+    "abbr": "USYP"
   },
   {
     "name": "Uttar Pradesh Republican Party",
@@ -3526,6 +3662,14 @@
     "abbr": "VJCP"
   },
   {
+    "name": "Vidharbha Janata Congress",
+    "abbr": "VJC"
+  },
+  {
+    "name": "Vidharbha Rajya Party",
+    "abbr": "VRP"
+  },
+  {
     "name": "Viduthalai Chiruthaigal Katch",
     "abbr": "VCK"
   },
@@ -3561,6 +3705,10 @@
   {
     "name": "YSR Bahujana Party",
     "abbr": "YBP"
+  },
+  {
+    "name": "Yuva Gantantra Party",
+    "abbr": "YGP"
   },
   {
     "name": "Yuva Sarkar",
