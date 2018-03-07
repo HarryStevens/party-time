@@ -434,6 +434,14 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharat Dal",
+    "abbr": "BD"
+  },
+  {
+    "name": "Bharat Ki Lok Jimmedar Party",
+    "abbr": "BKLJP"
+  },
+  {
     "name": "Bharat Kranti Rakshak Party",
     "abbr": "BKRP"
   },
@@ -447,6 +455,14 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharat Uday Mission",
+    "abbr": "BUDM"
+  },
+  {
+    "name": "Bharat Vikas Morcha",
+    "abbr": "BVM"
+  },
+  {
     "name": "Bharatheeya Sadharma Samsthapana Party",
     "abbr": "BHSASP",
     "type": "unrecognised"
@@ -454,6 +470,10 @@
   {
     "name": "Bharathiya Dravida Makkal Katchi",
     "abbr": "BDMK"
+  },
+  {
+    "name": "Bharathiya Sahayog Congress",
+    "abbr": "BSC"
   },
   {
     "name": "Bharatiya Backward Party",
@@ -491,6 +511,18 @@
   {
     "name": "Bharatiya Gaon Taj Dal",
     "abbr": "BGTD"
+  },
+  {
+    "name": "Bharatiya Grameen Dal",
+    "abbr": "BGD"
+  },
+  {
+    "name": "Bharatiya Jai Bheem Party",
+    "abbr": "BJBP"
+  },
+  {
+    "name": "Bharatiya Jan Berojgar Chhatra Dal",
+    "abbr": "BJBCD"
   },
   {
     "name": "Bharatiya Jan Kranti Dal (Democratic)",
@@ -539,6 +571,14 @@
     }
   },
   {
+    "name": "Bharatiya Jantantrik Janta Dal",
+    "abbr": "BJJD"
+  },
+  {
+    "name": "Bharatiya Jantantrik Parishad",
+    "abbr": "BJTP"
+  },
+  {
     "name": "Bharatiya Kisan Parivartan Party",
     "abbr": "BKPP"
   },
@@ -555,6 +595,19 @@
     "location": "India"
   },
   {
+    "name": "Bharatiya Lok Kalyan Dal",
+    "abbr": "BLKD"
+  },
+  {
+    "name": "Bharatiya Loktantrik Party (Gandhi-Lohiawadi)",
+    "abbr": "BLPGL",
+    "variations": {
+      "name": [
+        "Bharatiya Loktantrik Party(Gandhi-Lohiawadi)"
+      ]
+    }
+  },
+  {
     "name": "Bharatiya Manavata Vikas Party",
     "abbr": "BMVP"
   },
@@ -567,6 +620,10 @@
     "name": "Bharatiya Momin Front",
     "abbr": "BMF",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bharatiya Nagrik Party",
+    "abbr": "BNRP"
   },
   {
     "name": "Bharatiya National Janata Dal",
@@ -593,6 +650,10 @@
     }
   },
   {
+    "name": "Bharatiya Pichhra Dal",
+    "abbr": "BHPD"
+  },
+  {
     "name": "Bharatiya Praja Paksha",
     "abbr": "BPJP"
   },
@@ -614,6 +675,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Bharatiya Rashtriya Morcha",
+    "abbr": "BRM"
+  },
+  {
     "name": "Bharatiya Republican Paksha",
     "abbr": "BRPP",
     "variations": {
@@ -631,8 +696,20 @@
     "abbr": "BSD"
   },
   {
+    "name": "Bharatiya Samaj Kalyan Party Bharat",
+    "abbr": "BSKPB"
+  },
+  {
     "name": "Bharatiya Samajik Kranti Dal",
     "abbr": "BSKD"
+  },
+  {
+    "name": "Bharatiya Sampuran Krantikari Party",
+    "abbr": "BSKRP"
+  },
+  {
+    "name": "Bharatiya Samta Samaj Party",
+    "abbr": "BSSPA"
   },
   {
     "name": "Bharatiya Sant Mat Party",
@@ -646,6 +723,10 @@
   {
     "name": "Bharatiya Sarvajan Party",
     "abbr": "BhSaPa"
+  },
+  {
+    "name": "Bharatiya Sarvkalayan Kranti Dal",
+    "abbr": "BSK"
   },
   {
     "name": "Bharatiya Sarvodaya Kranti Party",
@@ -677,10 +758,22 @@
     "abbr": "BCP"
   },
   {
+    "name": "Bhartiya Congress (M)",
+    "abbr": "BHC"
+  },
+  {
+    "name": "Bhartiya Deshbhakt Party",
+    "abbr": "BDBP"
+  },
+  {
     "name": "Bhartiya Himachal Jan Vikas Party",
     "abbr": "BHJVP",
     "symbol": "Boat with Man and Sail",
     "type": "unrecognised"
+  },
+  {
+    "name": "Bhartiya Jagran Party",
+    "abbr": "BHJAP"
   },
   {
     "name": "Bhartiya Jan Sahyog Samanvaya Party",
@@ -803,6 +896,10 @@
     "location": "Chhattisgarh"
   },
   {
+    "name": "Christian Democratic Front",
+    "abbr": "CDF"
+  },
+  {
     "name": "Communist Marxist Party Kerala State Committee",
     "abbr": "CMPKSC",
     "variations": {
@@ -897,6 +994,10 @@
     "abbr": "DIC"
   },
   {
+    "name": "Democratic Party of India",
+    "abbr": "DPI"
+  },
+  {
     "name": "Democratic Secular Party",
     "abbr": "DESEP",
     "variations": {
@@ -924,6 +1025,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Desia Pathukappu Kazhagam",
+    "abbr": "DPK"
+  },
+  {
     "name": "Desiya Murpokku Dravida Kazhagam",
     "abbr": "DMDK",
     "founded": 2005,
@@ -949,6 +1054,10 @@
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
     "symbol": "Rising sun"
+  },
+  {
+    "name": "Duggar Pradesh Party",
+    "abbr": "DGPP"
   },
   {
     "name": "Eklavya Samaj Party",
@@ -1090,6 +1199,10 @@
     }
   },
   {
+    "name": "Haryana Raksha Party",
+    "abbr": "HYRP"
+  },
+  {
     "name": "Haryana Swantra Party",
     "abbr": "HASWP",
     "variations": {
@@ -1157,6 +1270,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Hind Vikas Party",
+    "abbr": "HDVP"
+  },
+  {
     "name": "Hindu Ekta Andolan Party",
     "abbr": "HEAP"
   },
@@ -1178,6 +1295,10 @@
   {
     "name": "Independent",
     "abbr": "IND"
+  },
+  {
+    "name": "Indian Bahujan Samajwadi Party",
+    "abbr": "IBSP"
   },
   {
     "name": "Indian Congress (Socialist)",
@@ -1353,6 +1474,10 @@
     "abbr": "IEMC"
   },
   {
+    "name": "Jaganmay Nari Sangathan",
+    "abbr": "JANS"
+  },
+  {
     "name": "Jago Party",
     "abbr": "JGP"
   },
@@ -1431,6 +1556,10 @@
     "abbr": "JKNUF"
   },
   {
+    "name": "Jammu & Kashmir People Conference",
+    "abbr": "JPC"
+  },
+  {
     "name": "Jammu And Kashmir Awami League",
     "abbr": "JKAL"
   },
@@ -1455,6 +1584,10 @@
   {
     "name": "Jan Chetna Party",
     "abbr": "JCP"
+  },
+  {
+    "name": "Jan Ekta Dal",
+    "abbr": "JKD"
   },
   {
     "name": "Jan Kranti Party (Rashtrawadi)",
@@ -1567,6 +1700,10 @@
     "location": "india"
   },
   {
+    "name": "Janata Uday Party",
+    "abbr": "JUP"
+  },
+  {
     "name": "Janhit Kisan Party",
     "abbr": "JKiP"
   },
@@ -1638,6 +1775,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Jharkhand Janadikhar Manch",
+    "abbr": "JHJAM"
+  },
+  {
     "name": "Jharkhand Mukti Morcha",
     "abbr": "JMM",
     "founded": 1972,
@@ -1653,6 +1794,10 @@
   {
     "name": "Jharkhand Party (Naren)",
     "abbr": "JKP(N)"
+  },
+  {
+    "name": "Jharkhand Vikas Dal",
+    "abbr": "JVD"
   },
   {
     "name": "Jharkhand Vikas Morcha (Prajatantrik)",
@@ -1720,6 +1865,10 @@
         "KaSP"
       ]
     }
+  },
+  {
+    "name": "Karnataka Thamizhar Munnetra Kazhagam",
+    "abbr": "KTMK"
   },
   {
     "name": "Kerala Congress",
@@ -1855,12 +2004,24 @@
     "type": "unrecognised"
   },
   {
+    "name": "Krantisena Maharashtra",
+    "abbr": "KM"
+  },
+  {
     "name": "Labour Party (Secular)",
     "abbr": "LP(S)"
   },
   {
     "name": "Labour Party of India (V.V. Prasad)",
     "abbr": "LPI(V)"
+  },
+  {
+    "name": "Laghujan Samaj Vikas Party",
+    "abbr": "LSVP"
+  },
+  {
+    "name": "Lal Morcha",
+    "abbr": "LM"
   },
   {
     "name": "Lok Bhalai Party",
@@ -1893,6 +2054,10 @@
     "name": "Lok Gathbandhan Party",
     "abbr": "LGP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Lok Jan Vikas Morcha",
+    "abbr": "LJVM"
   },
   {
     "name": "Lok Janshakti Party",
@@ -1932,6 +2097,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Lok Vikas Party",
+    "abbr": "LVKP"
+  },
+  {
     "name": "Loko Sanmilon",
     "abbr": "LKS",
     "type": "unrecognised",
@@ -1945,6 +2114,18 @@
     "name": "Lokpriya Samaj Party",
     "abbr": "LPSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Loksangram",
+    "abbr": "LKSGM"
+  },
+  {
+    "name": "Loktanrik Janata Party (Secular)",
+    "abbr": "LKJP"
+  },
+  {
+    "name": "Loktanrik Sarkar Party",
+    "abbr": "LKSP"
   },
   {
     "name": "Loktantrik Morcha Himachal Pradesh",
@@ -1971,8 +2152,16 @@
     "type": "unrecognised"
   },
   {
+    "name": "Loktantrik Samata Dal",
+    "abbr": "LTSD"
+  },
+  {
     "name": "MGR Thonderkal Katchi",
     "abbr": "MGRTK"
+  },
+  {
+    "name": "Mahagujarat Janta Party",
+    "abbr": "MJP"
   },
   {
     "name": "Mahan Dal",
@@ -2009,6 +2198,10 @@
     }
   },
   {
+    "name": "Mahila Adhikar Party",
+    "abbr": "MAP"
+  },
+  {
     "name": "Mahila Pradhana Paksha",
     "abbr": "MPP",
     "variations": {
@@ -2031,6 +2224,10 @@
     "type": "unrecognised"
   },
   {
+    "name": "Makkal Manadu Katchi",
+    "abbr": "MMKA"
+  },
+  {
     "name": "Makkal Sakthi Katchi",
     "abbr": "MSK"
   },
@@ -2038,6 +2235,10 @@
     "name": "Mana Party",
     "abbr": "MANP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Manav Mukti Morcha",
+    "abbr": "MMM"
   },
   {
     "name": "Manav Samaj Party",
@@ -2071,6 +2272,10 @@
   {
     "name": "Manipur State Congress Party",
     "abbr": "MSCP"
+  },
+  {
+    "name": "Manithaneya Makkal Katchi",
+    "abbr": "MAMAK"
   },
   {
     "name": "Maraland Democratic Front",
@@ -2135,6 +2340,14 @@
     "abbr": "MOP"
   },
   {
+    "name": "Momin Conference",
+    "abbr": "MC"
+  },
+  {
+    "name": "Mool Bharati (S) Party",
+    "abbr": "MB(S)P"
+  },
+  {
     "name": "Moolniwasi Samaj Party",
     "abbr": "MOSP"
   },
@@ -2197,6 +2410,10 @@
   {
     "name": "Naki Bharatiya Ekta Party",
     "abbr": "NBEP"
+  },
+  {
+    "name": "Namadhu Makkal Katchi",
+    "abbr": "NMK"
   },
   {
     "name": "Narayani Sena",
@@ -2389,6 +2606,10 @@
     "abbr": "OMM"
   },
   {
+    "name": "Pachai Kudi Makkal Katchi",
+    "abbr": "PKMK"
+  },
+  {
     "name": "Parivartan Samaj Party",
     "abbr": "PSJP"
   },
@@ -2443,6 +2664,16 @@
       "name": [
         "Peoples Democratic Conference of India",
         "People’s Democratic Conference of India"
+      ]
+    }
+  },
+  {
+    "name": "People's Democratic Forum",
+    "abbr": "PDFO",
+    "variations": {
+      "name": [
+        "People’s Democratic Forum",
+        "Peoples Democratic Forum"
       ]
     }
   },
@@ -2503,6 +2734,10 @@
         "PPI(S)"
       ]
     }
+  },
+  {
+    "name": "Peoples Guardian",
+    "abbr": "PG"
   },
   {
     "name": "Peoples Republican Party",
@@ -2579,6 +2814,10 @@
     "abbr": "PBRP"
   },
   {
+    "name": "Professionals Party of India",
+    "abbr": "PRPI"
+  },
+  {
     "name": "Progressive Democratic Party",
     "abbr": "PrDP"
   },
@@ -2611,6 +2850,10 @@
     "location": "Puducherry"
   },
   {
+    "name": "Punjab Labour Party",
+    "abbr": "PLP"
+  },
+  {
     "name": "Punjab People's Party",
     "abbr": "PnPP",
     "variations": {
@@ -2634,6 +2877,10 @@
     "abbr": "PNK"
   },
   {
+    "name": "Puthiya Tamilagam",
+    "abbr": "PT"
+  },
+  {
     "name": "Pyramid Party of India",
     "abbr": "PPOI",
     "type": "unrecognised"
@@ -2641,6 +2888,10 @@
   {
     "name": "Quami Ekta Dal",
     "abbr": "QED"
+  },
+  {
+    "name": "Rajasthan Dev Sena Dal",
+    "abbr": "RDSD"
   },
   {
     "name": "Rajasthan Vikas Party",
@@ -2654,6 +2905,10 @@
   {
     "name": "Rajlok Party",
     "abbr": "RAJP"
+  },
+  {
+    "name": "Rajya Nojawan Shakti Party",
+    "abbr": "RNSP"
   },
   {
     "name": "Rajyadhikara Party",
@@ -2675,6 +2930,10 @@
     }
   },
   {
+    "name": "Rashtra Bhakt Dal",
+    "abbr": "RBD"
+  },
+  {
     "name": "Rashtra Nirman Party",
     "abbr": "RaNP",
     "variations": {
@@ -2686,7 +2945,16 @@
   {
     "name": "Rashtra Sewa Dal",
     "abbr": "RASED",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "variations": {
+      "abbr": [
+        "RSWD"
+      ]
+    }
+  },
+  {
+    "name": "Rashtravadi Aarthik Swatantrata Dal",
+    "abbr": "RASD"
   },
   {
     "name": "Rashtravadi Janata Party",
@@ -2716,6 +2984,10 @@
     }
   },
   {
+    "name": "Rashtriya Agraniye Dal",
+    "abbr": "RAD"
+  },
+  {
     "name": "Rashtriya Aman Sena",
     "abbr": "RAS"
   },
@@ -2743,6 +3015,10 @@
   {
     "name": "Rashtriya Bahujan Congress Party",
     "abbr": "RBCP"
+  },
+  {
+    "name": "Rashtriya Dehat Morcha Party",
+    "abbr": "RDMP"
   },
   {
     "name": "Rashtriya Deshaj Party",
@@ -2813,6 +3089,10 @@
     "type": "state",
     "location": "Bihar, Jharkhand",
     "symbol": "Hurricane Lamp"
+  },
+  {
+    "name": "Rashtriya Janhit Party",
+    "abbr": "RASJP"
   },
   {
     "name": "Rashtriya Janpriya Party",
@@ -2892,8 +3172,20 @@
     "abbr": "RLSM"
   },
   {
+    "name": "Rashtriya Lokhit Party",
+    "abbr": "RLP"
+  },
+  {
     "name": "Rashtriya Lokmanch",
     "abbr": "RLM"
+  },
+  {
+    "name": "Rashtriya Lokwadi Party",
+    "abbr": "RALOP"
+  },
+  {
+    "name": "Rashtriya Machhua Samaj Party",
+    "abbr": "RMSP"
   },
   {
     "name": "Rashtriya Mahan Dal",
@@ -2914,12 +3206,24 @@
     "abbr": "RaMSP"
   },
   {
+    "name": "Rashtriya Mangalam Party",
+    "abbr": "RMGLMP"
+  },
+  {
     "name": "Rashtriya Mazdoor Ekta Party",
     "abbr": "RMEP"
   },
   {
+    "name": "Rashtriya Naujawan Dal",
+    "abbr": "RND"
+  },
+  {
     "name": "Rashtriya Parivartan Dal",
     "abbr": "RPD"
+  },
+  {
+    "name": "Rashtriya Pragati Party",
+    "abbr": "RPP"
   },
   {
     "name": "Rashtriya Pragtisheel Morcha",
@@ -3012,6 +3316,10 @@
     "abbr": "RVLP"
   },
   {
+    "name": "Rashtriya Yuva Sangh",
+    "abbr": "RYS"
+  },
+  {
     "name": "Rastriya Gurujan Party",
     "abbr": "RGJP",
     "type": "unrecognised"
@@ -3075,6 +3383,10 @@
         "RPK"
       ]
     }
+  },
+  {
+    "name": "Republican Presidium Party of India",
+    "abbr": "RPPI"
   },
   {
     "name": "Republician Party of India Ektawadi",
@@ -3266,6 +3578,10 @@
     "abbr": "SPI"
   },
   {
+    "name": "Shakti Sena (Bharat Desh)",
+    "abbr": "SSBD"
+  },
+  {
     "name": "Shiromani Akali Dal",
     "abbr": "SAD",
     "founded": 1920,
@@ -3433,6 +3749,10 @@
     "warning": "Unofficial abbreviation"
   },
   {
+    "name": "Swabhimani Paksha",
+    "abbr": "SWP"
+  },
+  {
     "name": "Swaraj Dal",
     "abbr": "SWD"
   },
@@ -3482,6 +3802,10 @@
     "abbr": "TNMC"
   },
   {
+    "name": "Tamil Nadu Peoples Party",
+    "abbr": "TNPP"
+  },
+  {
     "name": "Telangana Rashtra Samithi",
     "abbr": "TRS",
     "founded": 2001,
@@ -3496,6 +3820,10 @@
     "type": "state",
     "location": "Andhra Pradesh, Telangana",
     "symbol": "Bicycle"
+  },
+  {
+    "name": "The Humanist Party of India",
+    "abbr": "THPI"
   },
   {
     "name": "The Religion of Man Revolving Political Party of India",
@@ -3674,9 +4002,17 @@
     "abbr": "VCK"
   },
   {
+    "name": "Vikas Party",
+    "abbr": "VP"
+  },
+  {
     "name": "Vishva Hindustani Sangathan",
     "abbr": "VHS",
     "type": "unrecognised"
+  },
+  {
+    "name": "Vishwa Vikas Sangh",
+    "abbr": "VVS"
   },
   {
     "name": "Vivasayi Anbhu Katchi",
@@ -3705,6 +4041,14 @@
   {
     "name": "YSR Bahujana Party",
     "abbr": "YBP"
+  },
+  {
+    "name": "Youth And Students Party",
+    "abbr": "YSP"
+  },
+  {
+    "name": "Youth For Equality",
+    "abbr": "YFE"
   },
   {
     "name": "Yuva Gantantra Party",

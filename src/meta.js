@@ -4,5 +4,5 @@ import {version} from "../package.json";
 export default {
   parties_count: json.length,
   version: version,
-  last_updated: "February 20, 2018"
+  last_updated: "March 7, 2018"
 }
