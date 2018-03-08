@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.47. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.48. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -955,7 +955,8 @@ var json = [
       "abbr": [
         "CPI(ML)( L)",
         "CPI(ML)",
-        "CPI(M)(L)(L)"
+        "CPI(M)(L)(L)",
+        "CPI(ML)L"
       ],
       "name": [
         "Communist Party Of India (Marxist-Leninist) (Liberation)",
@@ -1579,6 +1580,15 @@ var json = [
     "abbr": "JSM(P)"
   },
   {
+    "name": "Jammu and Kashmir Panchayat Conference",
+    "abbr": "JKPC",
+    "variations": {
+      "name": [
+        "Jammu & Kashmir Panchayat Conference"
+      ]
+    }
+  },
+  {
     "name": "Jammu and Kashmir People's Democratic Party",
     "abbr": "JKPDP",
     "founded": 1998,
@@ -1589,6 +1599,15 @@ var json = [
       "name": [
         "Jammu and Kashmir Peoples Democratic Party",
         "Jammu and Kashmir People’s Democratic Party"
+      ]
+    }
+  },
+  {
+    "name": "Jan Adhikar Party (Loktantrik)",
+    "abbr": "JAP(L)",
+    "variations": {
+      "name": [
+        "Jan Adhikar Party Loktantrik"
       ]
     }
   },
@@ -2819,6 +2838,11 @@ var json = [
     "name": "Prajatantrik Samadhan Party",
     "abbr": "PRSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Prism",
+    "abbr": "PRISM",
+    "symbol": "Basket containing fruits"
   },
   {
     "name": "Prithak Bastar Rajya Party",
@@ -4242,12 +4266,12 @@ function convert(party, options){
 
 }
 
-var version = "3.2.47";
+var version = "3.2.48";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "March 7, 2018"
+  last_updated: "March 8, 2018"
 };
 
 exports.getType = getType;

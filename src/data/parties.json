@@ -948,7 +948,8 @@
       "abbr": [
         "CPI(ML)( L)",
         "CPI(ML)",
-        "CPI(M)(L)(L)"
+        "CPI(M)(L)(L)",
+        "CPI(ML)L"
       ],
       "name": [
         "Communist Party Of India (Marxist-Leninist) (Liberation)",
@@ -1572,6 +1573,15 @@
     "abbr": "JSM(P)"
   },
   {
+    "name": "Jammu and Kashmir Panchayat Conference",
+    "abbr": "JKPC",
+    "variations": {
+      "name": [
+        "Jammu & Kashmir Panchayat Conference"
+      ]
+    }
+  },
+  {
     "name": "Jammu and Kashmir People's Democratic Party",
     "abbr": "JKPDP",
     "founded": 1998,
@@ -1582,6 +1592,15 @@
       "name": [
         "Jammu and Kashmir Peoples Democratic Party",
         "Jammu and Kashmir People’s Democratic Party"
+      ]
+    }
+  },
+  {
+    "name": "Jan Adhikar Party (Loktantrik)",
+    "abbr": "JAP(L)",
+    "variations": {
+      "name": [
+        "Jan Adhikar Party Loktantrik"
       ]
     }
   },
@@ -2812,6 +2831,11 @@
     "name": "Prajatantrik Samadhan Party",
     "abbr": "PRSP",
     "type": "unrecognised"
+  },
+  {
+    "name": "Prism",
+    "abbr": "PRISM",
+    "symbol": "Basket containing fruits"
   },
   {
     "name": "Prithak Bastar Rajya Party",
