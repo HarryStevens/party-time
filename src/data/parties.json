@@ -241,7 +241,12 @@
     "founded": 1998,
     "type": "national",
     "location": "India",
-    "symbol": "Flowers & grass"
+    "symbol": "Flowers & grass",
+    "variations": {
+      "abbr": [
+        "TMC"
+      ]
+    }
   },
   {
     "name": "All India United Democratic Front",
@@ -1685,6 +1690,9 @@
     "variations": {
       "name": [
         "Janata Dal  (Secular)"
+      ],
+      "abbr": [
+        "JDS"
       ]
     }
   },

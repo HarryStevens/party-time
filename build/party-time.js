@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.48. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.49. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -248,7 +248,12 @@ var json = [
     "founded": 1998,
     "type": "national",
     "location": "India",
-    "symbol": "Flowers & grass"
+    "symbol": "Flowers & grass",
+    "variations": {
+      "abbr": [
+        "TMC"
+      ]
+    }
   },
   {
     "name": "All India United Democratic Front",
@@ -1692,6 +1697,9 @@ var json = [
     "variations": {
       "name": [
         "Janata Dal  (Secular)"
+      ],
+      "abbr": [
+        "JDS"
       ]
     }
   },
@@ -4266,12 +4274,12 @@ function convert(party, options){
 
 }
 
-var version = "3.2.48";
+var version = "3.2.49";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "March 8, 2018"
+  last_updated: "March 15, 2018"
 };
 
 exports.getType = getType;
