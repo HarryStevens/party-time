@@ -1708,7 +1708,8 @@
       ],
       "abbr": [
         "JD (U)",
-        "J D (U)"
+        "J D (U)",
+        "JDU"
       ]
     }
   },
@@ -4116,6 +4117,9 @@
     "variations": {
       "name": [
         "YSR Congress Party"
+      ],
+      "abbr": [
+        "YSRC"
       ]
     }
   },

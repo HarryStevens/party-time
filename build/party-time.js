@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.49. Copyright 2018 Hindustan Times.
+// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.50. Copyright 2018 Hindustan Times.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -1715,7 +1715,8 @@ var json = [
       ],
       "abbr": [
         "JD (U)",
-        "J D (U)"
+        "J D (U)",
+        "JDU"
       ]
     }
   },
@@ -4123,6 +4124,9 @@ var json = [
     "variations": {
       "name": [
         "YSR Congress Party"
+      ],
+      "abbr": [
+        "YSRC"
       ]
     }
   },
@@ -4274,7 +4278,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.49";
+var version = "3.2.50";
 
 var meta = {
   parties_count: json.length,
