@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HindustanTimesLabs/party-time.git"
+    "url": "git+https://github.com/HarryStevens/party-time.git"
   },
   "keywords": [
     "India",
@@ -23,14 +23,14 @@
     "parties"
   ],
   "author": {
-    "name": "Hindustan Times",
-    "url": "https://github.com/HindustanTimesLabs/"
+    "name": "Harry Stevens",
+    "url": "https://github.com/HarryStevens/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HindustanTimesLabs/party-time/issues"
+    "url": "https://github.com/HarryStevens/party-time/issues"
   },
-  "homepage": "https://github.com/HindustanTimesLabs/party-time#readme",
+  "homepage": "https://github.com/HarryStevens/party-time#readme",
   "engines": {
     "node": ">=4.2.4"
   },

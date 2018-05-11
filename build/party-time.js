@@ -1,4 +1,4 @@
-// https://github.com/HindustanTimesLabs/party-time#readme Version 3.2.50. Copyright 2018 Hindustan Times.
+// https://github.com/HarryStevens/party-time#readme Version 3.2.51. Copyright 2018 Harry Stevens.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -976,7 +976,8 @@ var json = [
     "abbr": "CPI(ML) Red Star",
     "variations": {
       "abbr": [
-        "CPI(ML) Red star"
+        "CPI(ML) Red star",
+        "CPI(ML)Red Star"
       ]
     }
   },
@@ -4278,7 +4279,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.50";
+var version = "3.2.51";
 
 var meta = {
   parties_count: json.length,
