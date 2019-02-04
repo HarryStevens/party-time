@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/party-time#readme Version 3.2.51. Copyright 2018 Harry Stevens.
+// https://github.com/HarryStevens/party-time#readme Version 3.2.52. Copyright 2019 Harry Stevens.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -22,7 +22,8 @@ var json = [
     "founded": 2012,
     "type": "state",
     "location": "Delhi, Punjab",
-    "symbol": "Broom"
+    "symbol": "Broom",
+    "color": "#5bb30e"
   },
   {
     "name": "Adarsh Political Party",
@@ -160,7 +161,8 @@ var json = [
       "abbr": [
         "ADMK"
       ]
-    }
+    },
+    "color": "#009900"
   },
   {
     "name": "All India Babu Jagjivan Ram Saheb National Congress",
@@ -230,7 +232,8 @@ var json = [
     "founded": 2011,
     "type": "state",
     "location": "Puducherry",
-    "symbol": "Jug"
+    "symbol": "Jug",
+    "color": "#ffaa4f"
   },
   {
     "name": "All India Party for the Protection of Civil Rights",
@@ -253,7 +256,8 @@ var json = [
       "abbr": [
         "TMC"
       ]
-    }
+    },
+    "color": "#1bea29"
   },
   {
     "name": "All India United Democratic Front",
@@ -261,7 +265,8 @@ var json = [
     "founded": 2004,
     "type": "state",
     "location": "Assam",
-    "symbol": "Lock and key"
+    "symbol": "Lock and key",
+    "color": "#bf9719"
   },
   {
     "name": "All Jharkhand Students Union",
@@ -307,7 +312,8 @@ var json = [
     "abbr": "AD",
     "founded": 1995,
     "type": "state",
-    "symbol": "Cup and Saucer"
+    "symbol": "Cup and Saucer",
+    "color": "#6b00c9"
   },
   {
     "name": "Arunachal Congress",
@@ -380,7 +386,8 @@ var json = [
     "founded": 1984,
     "type": "national",
     "location": "India",
-    "symbol": "Elephant (except in Assam)"
+    "symbol": "Elephant (except in Assam)",
+    "color": "#0000FF"
   },
   {
     "name": "Bahujan Samaj Party (Ambedkar)",
@@ -569,7 +576,8 @@ var json = [
     "founded": 1980,
     "type": "national",
     "location": "India",
-    "symbol": "Lotus"
+    "symbol": "Lotus",
+    "color": "#ff9933"
   },
   {
     "name": "Bharatiya Jankranti Party",
@@ -604,7 +612,8 @@ var json = [
     "abbr": "BLD",
     "founded": "1974",
     "type": "national",
-    "location": "India"
+    "location": "India",
+    "color": "#F2F5A9"
   },
   {
     "name": "Bharatiya Lok Kalyan Dal",
@@ -836,7 +845,8 @@ var json = [
     "founded": 1997,
     "type": "state",
     "location": "Odisha",
-    "symbol": "Conch"
+    "symbol": "Conch",
+    "color": "#005f00"
   },
   {
     "name": "Bira Oriya Party",
@@ -918,7 +928,8 @@ var json = [
       "abbr": [
         "CMP"
       ]
-    }
+    },
+    "color": "#FF0000"
   },
   {
     "name": "Communist Party of India",
@@ -931,7 +942,8 @@ var json = [
       "name": [
         "Communist Party Of India"
       ]
-    }
+    },
+    "color": "#FF0000"
   },
   {
     "name": "Communist Party of India (Marxist)",
@@ -943,14 +955,16 @@ var json = [
     "variations": {
       "abbr": [
         "CPM",
-        "CPI[M]"
+        "CPI[M]",
+        "CPIM"
       ],
       "name": [
         "Communist Party Of India (Marxist)",
         "Communist Party of India  (Marxist)",
         "Communist Party Of India  (Marxist)"
       ]
-    }
+    },
+    "color": "#ff0000"
   },
   {
     "name": "Communist Party of India (Marxist-Leninist) (Liberation)",
@@ -1067,7 +1081,8 @@ var json = [
     "founded": 1949,
     "type": "state",
     "location": "Tamil Nadu, Puducherry",
-    "symbol": "Rising sun"
+    "symbol": "Rising sun",
+    "color": "#DD1100"
   },
   {
     "name": "Duggar Pradesh Party",
@@ -1308,7 +1323,8 @@ var json = [
   },
   {
     "name": "Independent",
-    "abbr": "IND"
+    "abbr": "IND",
+    "color": "#9c9c9c"
   },
   {
     "name": "Indian Bahujan Samajwadi Party",
@@ -1318,7 +1334,8 @@ var json = [
     "name": "Indian Congress (Socialist)",
     "abbr": "ICS",
     "type": "unrecognised",
-    "location": "India"
+    "location": "India",
+    "color": "#00FF00"
   },
   {
     "name": "Indian Congress (Socialist-Sarat Chandra Sinha)",
@@ -1348,13 +1365,15 @@ var json = [
     "founded": 1885,
     "type": "national",
     "location": "India",
-    "symbol": "Hand"
+    "symbol": "Hand",
+    "color": "#00BFFF"
   },
   {
     "name": "Indian National Congress (I)",
     "abbr": "INC(I)",
     "type": "national",
-    "location": "India"
+    "location": "India",
+    "color": "#0EF4E1"
   },
   {
     "name": "Indian National Congress (Organisation)",
@@ -1379,7 +1398,8 @@ var json = [
     "founded": 1999,
     "type": "state",
     "location": "Haryana",
-    "symbol": "Spectacles"
+    "symbol": "Spectacles",
+    "color": "#004a00"
   },
   {
     "name": "Indian Oceanic Party",
@@ -1429,7 +1449,8 @@ var json = [
     "founded": 1948,
     "type": "state",
     "location": "Kerala",
-    "symbol": "Ladder"
+    "symbol": "Ladder",
+    "color": "#006c00"
   },
   {
     "name": "Indian Unity Centre",
@@ -1559,7 +1580,8 @@ var json = [
       "abbr": [
         "JKN"
       ]
-    }
+    },
+    "color": "#FF3D3D"
   },
   {
     "name": "Jammu & Kashmir National Panthers Party",
@@ -1606,7 +1628,8 @@ var json = [
         "Jammu and Kashmir Peoples Democratic Party",
         "Jammu and Kashmir People’s Democratic Party"
       ]
-    }
+    },
+    "color": "#008970"
   },
   {
     "name": "Jan Adhikar Party (Loktantrik)",
@@ -1702,7 +1725,8 @@ var json = [
       "abbr": [
         "JDS"
       ]
-    }
+    },
+    "color": "#138808"
   },
   {
     "name": "Janata Dal (United)",
@@ -1719,7 +1743,8 @@ var json = [
         "J D (U)",
         "JDU"
       ]
-    }
+    },
+    "color": "#003366"
   },
   {
     "name": "Janata Party (JP)",
@@ -1824,7 +1849,8 @@ var json = [
     "founded": 1972,
     "type": "state",
     "location": "Jharkhand",
-    "symbol": "Bow and arrow"
+    "symbol": "Bow and arrow",
+    "color": "#ff6f67"
   },
   {
     "name": "Jharkhand Mukti Morcha (Ulgulan)",
@@ -2082,7 +2108,8 @@ var json = [
       "abbr": [
         "LD"
       ]
-    }
+    },
+    "color": "#00FF66"
   },
   {
     "name": "Lok Dal (B)",
@@ -2114,7 +2141,8 @@ var json = [
         "LJSP",
         "LP"
       ]
-    }
+    },
+    "color": "#41007a"
   },
   {
     "name": "Lok Paritran",
@@ -2213,7 +2241,8 @@ var json = [
     "founded": 2006,
     "type": "state",
     "location": "Maharashtra",
-    "symbol": "Railway engine"
+    "symbol": "Railway engine",
+    "color": "#FF9933"
   },
   {
     "name": "Maharashtra Rajiv Congress",
@@ -2333,7 +2362,8 @@ var json = [
   {
     "name": "Marxist Communist Party of India (S.S. Srivastava)",
     "abbr": "MCPI(S)",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "color": "#990099"
   },
   {
     "name": "Matra Bhakta Party",
@@ -2441,7 +2471,8 @@ var json = [
         "Naga Peoples Front",
         "Naga People’s Front"
       ]
-    }
+    },
+    "color": "#990066"
   },
   {
     "name": "Naitik Party",
@@ -2509,7 +2540,8 @@ var json = [
   {
     "name": "National Secular Party",
     "abbr": "NSCP",
-    "type": "unrecognised"
+    "type": "unrecognised",
+    "color": "#F78181"
   },
   {
     "name": "National Unionist Zamindara Party",
@@ -2530,11 +2562,13 @@ var json = [
     "founded": 1999,
     "type": "national",
     "location": "India",
-    "symbol": "Clock"
+    "symbol": "Clock",
+    "color": "#00B2B2"
   },
   {
     "name": "Nationalist Democratic Progressive Party",
-    "abbr": "NDPP"
+    "abbr": "NDPP",
+    "color": "#fd4242"
   },
   {
     "name": "Nationalist People's Front",
@@ -2608,7 +2642,8 @@ var json = [
         "Nove of The Above",
         "None Of the Above"
       ]
-    }
+    },
+    "color": "#013220"
   },
   {
     "name": "North East India Development Party",
@@ -2674,7 +2709,8 @@ var json = [
     "founded": 1989,
     "type": "state",
     "location": "Puducherry",
-    "symbol": "Mango"
+    "symbol": "Mango",
+    "color": "#0000b5"
   },
   {
     "name": "Peace Party",
@@ -3133,7 +3169,8 @@ var json = [
     "founded": 1997,
     "type": "state",
     "location": "Bihar, Jharkhand",
-    "symbol": "Hurricane Lamp"
+    "symbol": "Hurricane Lamp",
+    "color": "#009200"
   },
   {
     "name": "Rashtriya Janhit Party",
@@ -3198,7 +3235,8 @@ var json = [
     "founded": 1996,
     "type": "state",
     "location": "Uttar Pradesh",
-    "symbol": "Hand pump"
+    "symbol": "Hand pump",
+    "color": "#330066"
   },
   {
     "name": "Rashtriya Lok Nirman Party",
@@ -3210,7 +3248,8 @@ var json = [
     "founded": 2013,
     "type": "state",
     "location": "Bihar",
-    "symbol": "Ceiling fan"
+    "symbol": "Ceiling fan",
+    "color": "#cd0000"
   },
   {
     "name": "Rashtriya Lok Seva Morcha",
@@ -3460,7 +3499,8 @@ var json = [
     "founded": 1940,
     "type": "state",
     "location": "Kerala, West Bengal",
-    "symbol": "Spade and stoker"
+    "symbol": "Spade and stoker",
+    "color": "#ff0000"
   },
   {
     "name": "Revolutionary Socialist Party of India (Marxist)",
@@ -3529,7 +3569,8 @@ var json = [
     "founded": 1992,
     "type": "state",
     "location": "Uttar Pradesh",
-    "symbol": "Bicycle"
+    "symbol": "Bicycle",
+    "color": "#841e00"
   },
   {
     "name": "Samata Party",
@@ -3632,7 +3673,8 @@ var json = [
     "founded": 1920,
     "type": "state",
     "location": "Punjab",
-    "symbol": "Scale"
+    "symbol": "Scale",
+    "color": "#ffa500"
   },
   {
     "name": "Shiromani Akali Dal (Simranjit Singh Mann)",
@@ -3661,7 +3703,8 @@ var json = [
       "abbr": [
         "SHS"
       ]
-    }
+    },
+    "color": "#E3882D"
   },
   {
     "name": "Shoshit Samaj Dal",
@@ -3682,7 +3725,8 @@ var json = [
     "founded": 1993,
     "type": "state",
     "location": "Sikkim",
-    "symbol": "Umbrella"
+    "symbol": "Umbrella",
+    "color": "#ff0000"
   },
   {
     "name": "Sikkim Gorkha Prajatantric Party",
@@ -3795,7 +3839,8 @@ var json = [
   },
   {
     "name": "Swabhimani Paksha",
-    "abbr": "SWP"
+    "abbr": "SWP",
+    "color": "#c900a5"
   },
   {
     "name": "Swaraj Dal",
@@ -3856,7 +3901,8 @@ var json = [
     "founded": 2001,
     "type": "state",
     "location": "Telangana,Andhra Pradesh",
-    "symbol": "Car"
+    "symbol": "Car",
+    "color": "#ff89ce"
   },
   {
     "name": "Telugu Desam Party",
@@ -3864,7 +3910,8 @@ var json = [
     "founded": 1982,
     "type": "state",
     "location": "Andhra Pradesh, Telangana",
-    "symbol": "Bicycle"
+    "symbol": "Bicycle",
+    "color": "#ffff00"
   },
   {
     "name": "The Humanist Party of India",
@@ -4129,7 +4176,8 @@ var json = [
       "abbr": [
         "YSRC"
       ]
-    }
+    },
+    "color": "#0062ff"
   },
   {
     "name": "Zoram Nationalist Party",
@@ -4279,7 +4327,7 @@ function convert(party, options){
 
 }
 
-var version = "3.2.51";
+var version = "3.2.52";
 
 var meta = {
   parties_count: json.length,
