@@ -38,7 +38,7 @@
     "documentation": "^5.2.1",
     "eslint": "^5.13.0",
     "indian-ocean": "^3.0.2",
-    "jeezy": "^1.12.14",
+    "jeezy": "^1.13.0",
     "package-preamble": "^0.1.0",
     "rollup": "^0.50.0",
     "rollup-plugin-json": "^2.3.0",
