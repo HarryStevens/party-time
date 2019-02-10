@@ -6,7 +6,7 @@ Convert Indian political party abbreviations to full names and back again.
 ![var pt = require('party-time'); pt.convert('BJP'); // Bharatiya Janata Party](https://github.com/HindustanTimesLabs/party-time/blob/master/img/demo.gif "require('party-time')")
 
 ## Resources
-* [API Reference](https://github.com/HindustanTimesLabs/party-time/blob/master/API.md)
+* [API Reference](https://github.com/HarryStevens/party-time/blob/master/API.md)
 * [Introduction](https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca)
 
 ## Installation
@@ -15,8 +15,8 @@ Convert Indian political party abbreviations to full names and back again.
 
 You can use the latest release from the unpkg CDN.
 ```html
-<script src="https://unpkg.com/party-time@3.2.55/build/party-time.js"></script>
-<script src="https://unpkg.com/party-time@3.2.55/build/party-time.min.js"></script>
+<script src="https://unpkg.com/party-time@3.2.56/build/party-time.js"></script>
+<script src="https://unpkg.com/party-time@3.2.56/build/party-time.min.js"></script>
 ```
 If you prefer to host the file yourself, download it from the [`build` directory](https://github.com/HindustanTimesLabs/party-time/tree/master/build).
 ```html
