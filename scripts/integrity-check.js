@@ -1,5 +1,5 @@
 var io = require("indian-ocean"),
-	jz = require("jeezy");
+		jz = require("jeezy");
 
 var parties = io.readDataSync("src/data/parties.json");
 
