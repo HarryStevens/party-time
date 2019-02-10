@@ -1,5 +1,5 @@
 # party-time
-[![Build Status](https://travis-ci.org/HindustanTimesLabs/party-time.svg?branch=master)](https://travis-ci.org/HindustanTimesLabs/party-time) [![Coverage Status](https://coveralls.io/repos/github/HindustanTimesLabs/party-time/badge.svg?branch=master)](https://coveralls.io/github/HindustanTimesLabs/party-time?branch=master)
+[![Build Status](https://travis-ci.org/HarryStevens/party-time.svg?branch=master)](https://travis-ci.org/HarryStevens/party-time) [![Coverage Status](https://coveralls.io/repos/github/HindustanTimesLabs/party-time/badge.svg?branch=master)](https://coveralls.io/github/HindustanTimesLabs/party-time?branch=master)
 
 Convert Indian political party abbreviations to full names and back again.
 
@@ -15,8 +15,8 @@ Convert Indian political party abbreviations to full names and back again.
 
 You can use the latest release from the unpkg CDN.
 ```html
-<script src="https://unpkg.com/party-time@3.2.54/build/party-time.js"></script>
-<script src="https://unpkg.com/party-time@3.2.54/build/party-time.min.js"></script>
+<script src="https://unpkg.com/party-time@3.2.55/build/party-time.js"></script>
+<script src="https://unpkg.com/party-time@3.2.55/build/party-time.min.js"></script>
 ```
 If you prefer to host the file yourself, download it from the [`build` directory](https://github.com/HindustanTimesLabs/party-time/tree/master/build).
 ```html
