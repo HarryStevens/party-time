@@ -1,7 +1,6 @@
 # party-time
-[![Build Status](https://travis-ci.org/HarryStevens/party-time.svg?branch=master)](https://travis-ci.org/HarryStevens/party-time)
 
-Convert Indian political party abbreviations to full names and back again.
+Convert Indian political party abbreviations to full names and back again. [![Build Status](https://travis-ci.org/HarryStevens/party-time.svg?branch=master)](https://travis-ci.org/HarryStevens/party-time)
 
 ![var pt = require('party-time'); pt.convert('BJP'); // Bharatiya Janata Party](https://github.com/HindustanTimesLabs/party-time/blob/master/img/demo.gif "require('party-time')")
 
