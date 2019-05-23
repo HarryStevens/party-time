@@ -14,8 +14,8 @@ Convert Indian political party abbreviations to full names and back again. [![Bu
 
 You can use the latest release from the unpkg CDN.
 ```html
-<script src="https://unpkg.com/party-time@3.2.57/build/party-time.js"></script>
-<script src="https://unpkg.com/party-time@3.2.57/build/party-time.min.js"></script>
+<script src="https://unpkg.com/party-time@3.2.58/build/party-time.js"></script>
+<script src="https://unpkg.com/party-time@3.2.58/build/party-time.min.js"></script>
 ```
 If you prefer to host the file yourself, download it from the [`build` directory](https://github.com/HindustanTimesLabs/party-time/tree/master/build).
 ```html
