@@ -303,6 +303,21 @@
     "symbol": "Cup and Saucer"
   },
   {
+    "name": "Apna Dal (Sonelal)",
+    "abbr": "ADS",
+    "founded": 2016,
+    "type": "state",
+    "location": "Uttar Pradesh",
+    "variations": {
+      "name": [
+        "Apna Dal (Soneylal)"
+      ],
+      "abbr": [
+        "ADAL"
+      ]
+    }
+  },
+  {
     "name": "Arunachal Congress",
     "abbr": "AC",
     "founded": 1996,
@@ -1944,7 +1959,8 @@
     "symbol": "Two leaves",
     "variations": {
       "abbr": [
-        "KEC(M)"
+        "KEC(M)",
+        "KCM"
       ]
     }
   },
@@ -3210,12 +3226,16 @@
     "abbr": "RLSM"
   },
   {
-    "name": "Rashtriya Lokhit Party",
-    "abbr": "RLP"
-  },
-  {
     "name": "Rashtriya Lokmanch",
     "abbr": "RLM"
+  },
+  {
+    "name": "Rashtriya Loktantrik Party",
+    "abbr": "RLP",
+    "founded": 2018,
+    "type": "state",
+    "location": "Rajasthan",
+    "symoble": "Tyre"
   },
   {
     "name": "Rashtriya Lokwadi Party",
@@ -3840,8 +3860,14 @@
     "abbr": "TNMC"
   },
   {
-    "name": "Tamil Nadu Peoples Party",
-    "abbr": "TNPP"
+    "name": "Tamil Nadu People's Party",
+    "abbr": "TNPP",
+    "variations": {
+      "name": [
+        "Tamil Nadu Peoples Party",
+        "Tamil Nadu People’s Party"
+      ]
+    }
   },
   {
     "name": "Telangana Rashtra Samithi",
@@ -3857,7 +3883,12 @@
     "founded": 1982,
     "type": "state",
     "location": "Andhra Pradesh, Telangana",
-    "symbol": "Bicycle"
+    "symbol": "Bicycle",
+    "variations": {
+      "name": [
+        "Telugu Desam"
+      ]
+    }
   },
   {
     "name": "The Humanist Party of India",
@@ -4036,8 +4067,13 @@
     "abbr": "VRP"
   },
   {
-    "name": "Viduthalai Chiruthaigal Katch",
-    "abbr": "VCK"
+    "name": "Viduthalai Chiruthaigal Katchi",
+    "abbr": "VCK",
+    "variations": {
+      "name": [
+        "Viduthalai Chiruthaigal Katch"
+      ]
+    }
   },
   {
     "name": "Vikas Party",

@@ -310,6 +310,21 @@ var json = [
     "symbol": "Cup and Saucer"
   },
   {
+    "name": "Apna Dal (Sonelal)",
+    "abbr": "ADS",
+    "founded": 2016,
+    "type": "state",
+    "location": "Uttar Pradesh",
+    "variations": {
+      "name": [
+        "Apna Dal (Soneylal)"
+      ],
+      "abbr": [
+        "ADAL"
+      ]
+    }
+  },
+  {
     "name": "Arunachal Congress",
     "abbr": "AC",
     "founded": 1996,
@@ -1951,7 +1966,8 @@ var json = [
     "symbol": "Two leaves",
     "variations": {
       "abbr": [
-        "KEC(M)"
+        "KEC(M)",
+        "KCM"
       ]
     }
   },
@@ -3217,12 +3233,16 @@ var json = [
     "abbr": "RLSM"
   },
   {
-    "name": "Rashtriya Lokhit Party",
-    "abbr": "RLP"
-  },
-  {
     "name": "Rashtriya Lokmanch",
     "abbr": "RLM"
+  },
+  {
+    "name": "Rashtriya Loktantrik Party",
+    "abbr": "RLP",
+    "founded": 2018,
+    "type": "state",
+    "location": "Rajasthan",
+    "symoble": "Tyre"
   },
   {
     "name": "Rashtriya Lokwadi Party",
@@ -3847,8 +3867,14 @@ var json = [
     "abbr": "TNMC"
   },
   {
-    "name": "Tamil Nadu Peoples Party",
-    "abbr": "TNPP"
+    "name": "Tamil Nadu People's Party",
+    "abbr": "TNPP",
+    "variations": {
+      "name": [
+        "Tamil Nadu Peoples Party",
+        "Tamil Nadu People’s Party"
+      ]
+    }
   },
   {
     "name": "Telangana Rashtra Samithi",
@@ -3864,7 +3890,12 @@ var json = [
     "founded": 1982,
     "type": "state",
     "location": "Andhra Pradesh, Telangana",
-    "symbol": "Bicycle"
+    "symbol": "Bicycle",
+    "variations": {
+      "name": [
+        "Telugu Desam"
+      ]
+    }
   },
   {
     "name": "The Humanist Party of India",
@@ -4043,8 +4074,13 @@ var json = [
     "abbr": "VRP"
   },
   {
-    "name": "Viduthalai Chiruthaigal Katch",
-    "abbr": "VCK"
+    "name": "Viduthalai Chiruthaigal Katchi",
+    "abbr": "VCK",
+    "variations": {
+      "name": [
+        "Viduthalai Chiruthaigal Katch"
+      ]
+    }
   },
   {
     "name": "Vikas Party",
@@ -4202,7 +4238,7 @@ function getType(party){
 * //  location: "India",
 * //  symbol: "Hammer sickle and star",
 * //  variations: { abbr: [ "CPM" ] } 
-* // }
+* //}
 * 
 * pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match in library' }
 */  

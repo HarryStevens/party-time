@@ -6,7 +6,7 @@ Convert Indian political party abbreviations to full names and back again. [![Bu
 
 ## Resources
 * [API Reference](https://github.com/HarryStevens/party-time/blob/master/API.md)
-* [Introduction](https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca)
+* [Introduction](http://harryjstevens.com/blog/introducing-party-time-an-npm-package-for-converting-indian-political-party-names/)
 
 ## Installation
 
@@ -14,8 +14,8 @@ Convert Indian political party abbreviations to full names and back again. [![Bu
 
 You can use the latest release from the unpkg CDN.
 ```html
-<script src="https://unpkg.com/party-time@3.2.56/build/party-time.js"></script>
-<script src="https://unpkg.com/party-time@3.2.56/build/party-time.min.js"></script>
+<script src="https://unpkg.com/party-time@3.2.57/build/party-time.js"></script>
+<script src="https://unpkg.com/party-time@3.2.57/build/party-time.min.js"></script>
 ```
 If you prefer to host the file yourself, download it from the [`build` directory](https://github.com/HindustanTimesLabs/party-time/tree/master/build).
 ```html

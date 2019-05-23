@@ -8,7 +8,7 @@
 
 ## getType
 
-[build/party-time.js:4159-4168](https://github.com/HarryStevens/party-time/blob/2bde9ea4b8d95d10eb0352239ac3fb7ae489ec77/build/party-time.js#L4159-L4168 "Source code on GitHub")
+[build/party-time.js:4195-4204](https://github.com/HarryStevens/party-time/blob/7ceca3da57223768c538559b16fe438919de6384/build/party-time.js#L4195-L4204 "Source code on GitHub")
 
 Guesses whether the party string entered is an abbreviation or the full name.
 
@@ -20,7 +20,7 @@ Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## getInfo
 
-[build/party-time.js:4209-4226](https://github.com/HarryStevens/party-time/blob/2bde9ea4b8d95d10eb0352239ac3fb7ae489ec77/build/party-time.js#L4209-L4226 "Source code on GitHub")
+[build/party-time.js:4245-4262](https://github.com/HarryStevens/party-time/blob/7ceca3da57223768c538559b16fe438919de6384/build/party-time.js#L4245-L4262 "Source code on GitHub")
 
 Gets information about the party. If you do not specify a type in the second argument, it will guess the type.
 
@@ -61,7 +61,7 @@ pt.getInfo("cpm");
 //  location: "India",
 //  symbol: "Hammer sickle and star",
 //  variations: { abbr: [ "CPM" ] } 
-// }
+//}
 
 pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match in library' }
 ```
@@ -70,7 +70,7 @@ Returns **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## convert
 
-[build/party-time.js:4247-4280](https://github.com/HarryStevens/party-time/blob/2bde9ea4b8d95d10eb0352239ac3fb7ae489ec77/build/party-time.js#L4247-L4280 "Source code on GitHub")
+[build/party-time.js:4283-4316](https://github.com/HarryStevens/party-time/blob/7ceca3da57223768c538559b16fe438919de6384/build/party-time.js#L4283-L4316 "Source code on GitHub")
 
 Converts a party abbreviation to its full name or vice versa. If the party entered is not found in the library, returns the party entered.
 

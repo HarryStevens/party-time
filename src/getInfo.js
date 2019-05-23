@@ -36,7 +36,7 @@ import getType from "./getType"
 * //  location: "India",
 * //  symbol: "Hammer sickle and star",
 * //  variations: { abbr: [ "CPM" ] } 
-* // }
+* //}
 * 
 * pt.getInfo("Not a real party") // { name: 'Not a real party', warning: 'No match in library' }
 */  
