@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/party-time#readme Version 3.2.57. Copyright 2019 Harry Stevens.
+// https://github.com/HarryStevens/party-time#readme Version 3.2.58. Copyright 2019 Harry Stevens.
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -4315,12 +4315,12 @@ function convert(party, options){
 
 }
 
-var version = "3.2.57";
+var version = "3.2.58";
 
 var meta = {
   parties_count: json.length,
   version: version,
-  last_updated: "March 15, 2018"
+  last_updated: "May 23, 2019"
 };
 
 exports.getType = getType;
