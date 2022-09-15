@@ -35,7 +35,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "documentation": "^5.2.1",
+    "documentation": "^14.0.0",
     "eslint": "^5.13.0",
     "indian-ocean": "^3.0.2",
     "jeezy": "^1.13.0",
